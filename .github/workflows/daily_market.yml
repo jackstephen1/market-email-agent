@@ -1,0 +1,43 @@
+name: Daily Market Email
+
+on:
+schedule:
+# Runs every weekday (Mon-Fri) at 8:00 AM Eastern Time (12:00 UTC)
+# To change the time, adjust the UTC hour. ET = UTC-5 (or UTC-4 in summer)
+- cron: ‘0 12 * * 1-5’
+
+# This allows you to also trigger it manually from GitHub for testing
+
+workflow_dispatch:
+
+jobs:
+send-market-email:
+runs-on: ubuntu-latest
+
+```
+steps:
+  # Step 1: Download your code from GitHub
+  - name: Checkout repository
+    uses: actions/checkout@v4
+
+  # Step 2: Set up Python
+  - name: Set up Python
+    uses: actions/setup-python@v5
+    with:
+      python-version: '3.11'
+
+  # Step 3: Install required Python libraries
+  - name: Install dependencies
+    run: pip install -r requirements.txt
+
+  # Step 4: Run the market email script
+  - name: Run market email agent
+    env:
+      NEWS_API_KEY:        ${{ secrets.NEWS_API_KEY }}
+      FRED_API_KEY:        ${{ secrets.FRED_API_KEY }}
+      ANTHROPIC_API_KEY:   ${{ secrets.ANTHROPIC_API_KEY }}
+      GMAIL_ADDRESS:       ${{ secrets.GMAIL_ADDRESS }}
+      GMAIL_APP_PASSWORD:  ${{ secrets.GMAIL_APP_PASSWORD }}
+      RECIPIENT_EMAIL:     ${{ secrets.RECIPIENT_EMAIL }}
+    run: python market_email.py
+```

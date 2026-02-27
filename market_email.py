@@ -19,7 +19,7 @@ import anthropic
 
 # ============================================================
 
-WATCHLIST = [“AAPL”, “MSFT”, “GOOGL”, “NVDA”, “SPY”, “QQQ”, “BTC-USD”]
+WATCHLIST = [“AAPL”, “MSFT”, “GOOGL”, “NVDA”, “SPY”, “QQQ”, “BTC-USD”, "SLV"]
 
 # ============================================================
 

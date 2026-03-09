@@ -8,7 +8,7 @@ from email.mime.multipart import MIMEMultipart
 from datetime import datetime
 import anthropic
 
-WATCHLIST = ["AAPL", "MSFT", "GOOGL", "NVDA", "SPY", "QQQ", "BTC-USD"]
+WATCHLIST = ["AAPL", "MSFT", "GOOGL", "NVDA", "SPY", "QQQ", "BTC-USD", "ETH-USD", "SLV", "SQQQ", "UVIX"]
 
 NEWS_API_KEY = os.environ["NEWS_API_KEY"]
 FRED_API_KEY = os.environ["FRED_API_KEY"]

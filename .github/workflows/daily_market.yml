@@ -28,4 +28,5 @@ jobs:
           GMAIL_ADDRESS:      ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           RECIPIENT_EMAIL:    ${{ secrets.RECIPIENT_EMAIL }}
+          ALPHA_VANTAGE_KEY:  ${{ secrets.ALPHA_VANTAGE_KEY }}
         run: python market_email.py

@@ -29,4 +29,5 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           RECIPIENT_EMAIL:    ${{ secrets.RECIPIENT_EMAIL }}
           ALPHA_VANTAGE_KEY:  ${{ secrets.ALPHA_VANTAGE_KEY }}
+          FMP_API_KEY:        ${{ secrets.FMP_API_KEY }}
         run: python market_email.py

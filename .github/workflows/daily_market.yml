@@ -2,7 +2,7 @@ name: Daily Market Email
 
 on:
   schedule:
-    - cron: '0 12 * * 1-5'
+   - cron: '30 21 * * 1-5'
   workflow_dispatch:
 
 jobs:

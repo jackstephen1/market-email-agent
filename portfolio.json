@@ -1,0 +1,40 @@
+{
+  "start_date": "2026-07-03",
+  "open_positions": [
+    {
+      "ticker": "AEIS",
+      "entry_date": "2026-07-03",
+      "entry_price": 310.0,
+      "price_target": 335.0,
+      "invalidation_price": 295.0,
+      "bias": "Bullish",
+      "thesis": "AEIS is trading well above its 200SMA at $274.40 confirming the longer-term uptrend, but RSI at 41.9 and price 9.7% below the 50SMA at $344.73 suggest a mean-reversion bounce setup. The stock is in a pullback within an uptrend, offering a favorable risk/reward for a swing back toward the 50SMA.",
+      "source": "technicals"
+    },
+    {
+      "ticker": "JOBY",
+      "entry_date": "2026-07-03",
+      "entry_price": 8.4,
+      "price_target": 9.6,
+      "invalidation_price": 7.8,
+      "bias": "Bullish",
+      "thesis": "JOBY has RSI at 37.5 approaching oversold territory with price well below both the 50SMA ($9.89) and 200SMA ($12.29), indicating heavy selling. At extreme fear levels, beaten-down speculative names often see sharp relief rallies. A bounce toward the 50SMA represents a 16% move with a tight stop.",
+      "source": "technicals"
+    },
+    {
+      "ticker": "RXRX",
+      "entry_date": "2026-07-03",
+      "entry_price": 3.83,
+      "price_target": 3.4,
+      "invalidation_price": 4.15,
+      "bias": "Bearish",
+      "thesis": "RXRX has rallied to RSI 64.6 approaching overbought while still trading below its 200SMA at $4.10, which should act as resistance. The stock is 14.5% above its 50SMA at $3.32, suggesting the recent run is extended. A fade toward the 50SMA is likely as the rally meets overhead resistance.",
+      "source": "technicals"
+    }
+  ],
+  "closed_trades": [],
+  "total_trades": 0,
+  "wins": 0,
+  "losses": 0,
+  "total_pnl_pct": 0.0
+}

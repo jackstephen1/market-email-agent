@@ -30,6 +30,36 @@
       "bias": "Bearish",
       "thesis": "RXRX has rallied to RSI 64.6 approaching overbought while still trading below its 200SMA at $4.10, which should act as resistance. The stock is 14.5% above its 50SMA at $3.32, suggesting the recent run is extended. A fade toward the 50SMA is likely as the rally meets overhead resistance.",
       "source": "technicals"
+    },
+    {
+      "ticker": "PLUG",
+      "entry_date": "2026-07-06",
+      "entry_price": 2.62,
+      "price_target": 3.1,
+      "invalidation_price": 2.45,
+      "bias": "Bullish",
+      "thesis": "PLUG is sitting right on its 200SMA at $2.63 which is acting as support, with RSI at 38.7 approaching oversold territory. Price is deeply discounted from the 50SMA at $3.22, creating a mean-reversion setup toward $3.00+ if support holds. Extreme Fear sentiment adds contrarian tailwind.",
+      "source": "technicals"
+    },
+    {
+      "ticker": "CELH",
+      "entry_date": "2026-07-06",
+      "entry_price": 32.5,
+      "price_target": 36.5,
+      "invalidation_price": 30.0,
+      "bias": "Bullish",
+      "thesis": "CELH has been trending above its 50SMA ($30.66) with RSI at 62.2 showing momentum without being overbought. The stock has room to run toward the $36-37 zone before hitting resistance, and consumer staples names tend to outperform in fearful markets. Clean trend structure above the 50-day moving average.",
+      "source": "technicals"
+    },
+    {
+      "ticker": "AVAV",
+      "entry_date": "2026-07-06",
+      "entry_price": 175.5,
+      "price_target": 190.0,
+      "invalidation_price": 170.0,
+      "bias": "Bullish",
+      "thesis": "AVAV is consolidating right at its 50SMA ($175.01) with a neutral RSI of 53.4, setting up a potential breakout from this base. Defense stocks carry secular tailwinds and the stock is deeply undervalued relative to its 200SMA at $253.88, suggesting significant upside recovery potential on any catalyst.",
+      "source": "technicals"
     }
   ],
   "closed_trades": [],

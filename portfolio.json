@@ -60,6 +60,36 @@
       "bias": "Bullish",
       "thesis": "AVAV is consolidating right at its 50SMA ($175.01) with a neutral RSI of 53.4, setting up a potential breakout from this base. Defense stocks carry secular tailwinds and the stock is deeply undervalued relative to its 200SMA at $253.88, suggesting significant upside recovery potential on any catalyst.",
       "source": "technicals"
+    },
+    {
+      "ticker": "CAVA",
+      "entry_date": "2026-07-07",
+      "entry_price": 68.75,
+      "price_target": 77.5,
+      "invalidation_price": 66.5,
+      "bias": "Bullish",
+      "thesis": "CAVA is approaching oversold territory with RSI at 34.9 and price sitting right at its 200SMA of $70.40, a critical long-term support level. A bounce from this confluence zone toward the 50SMA at $81.68 offers strong risk/reward. The stock has been compressed 14.6% below its 50SMA, creating mean-reversion potential.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "MRVL",
+      "entry_date": "2026-07-07",
+      "entry_price": 228.0,
+      "price_target": 245.0,
+      "invalidation_price": 222.0,
+      "bias": "Bullish",
+      "thesis": "MRVL is holding above its 50SMA at $226.77 with RSI at 43.5, suggesting neutral-to-mildly-oversold conditions with room to run. Price is well above the 200SMA at $124.27, confirming a strong long-term uptrend. A pullback to the 50SMA area offers a high-probability swing entry targeting recent momentum resumption.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "SQQQ",
+      "entry_date": "2026-07-07",
+      "entry_price": 39.75,
+      "price_target": 44.0,
+      "invalidation_price": 37.5,
+      "bias": "Bullish",
+      "thesis": "With QQQ dropping 1.85% today and broad tech selling accelerating, SQQQ offers a tactical hedge or short-term momentum play. Fear sentiment at 27 and Microsoft layoffs signal continued tech weakness in the near term. Momentum is clearly with sellers in the Nasdaq, favoring further upside in this inverse vehicle.",
+      "source": "Technicals"
     }
   ],
   "closed_trades": [],

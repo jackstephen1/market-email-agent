@@ -90,6 +90,46 @@
       "bias": "Bullish",
       "thesis": "With QQQ dropping 1.85% today and broad tech selling accelerating, SQQQ offers a tactical hedge or short-term momentum play. Fear sentiment at 27 and Microsoft layoffs signal continued tech weakness in the near term. Momentum is clearly with sellers in the Nasdaq, favoring further upside in this inverse vehicle.",
       "source": "Technicals"
+    },
+    {
+      "ticker": "NVAX",
+      "entry_date": "2026-07-08",
+      "entry_price": 9.22,
+      "price_target": 10.5,
+      "invalidation_price": 8.5,
+      "bias": "Bullish",
+      "thesis": "NVAX is sitting right at its 50SMA ($9.23) with a neutral RSI of 51, well above its 200SMA ($8.54). In an Extreme Fear environment, biotech names with stable technicals and no earnings imminent can see mean-reversion bounces. The setup targets a push toward the $10.50 level as a measured move off the 200SMA support base.",
+      "source": "technicals"
+    },
+    {
+      "ticker": "CRSP",
+      "entry_date": "2026-07-08",
+      "entry_price": 58.35,
+      "price_target": 64.0,
+      "invalidation_price": 55.5,
+      "bias": "Bullish",
+      "thesis": "CRSP is trading above both its 50SMA ($53.16) and 200SMA ($55.56) with RSI at 60.6 \u2014 strong but not overbought. The stock has shown relative strength versus the broad market selloff. A continuation toward $64 is the measured target as the uptrend from the 50SMA base remains intact.",
+      "source": "technicals"
+    },
+    {
+      "ticker": "SOFI",
+      "entry_date": "2026-07-08",
+      "entry_price": 17.9,
+      "price_target": 16.5,
+      "invalidation_price": 18.75,
+      "bias": "Bearish",
+      "thesis": "SOFI is trading well below its 200SMA ($22.19) which acts as heavy overhead resistance, while the RSI at 52.5 shows no oversold bounce catalyst. In an Extreme Fear environment with financials under pressure from rising rates, a fade toward the 50SMA at $16.84 is the higher probability move. Short entry near current levels with a target of $16.50.",
+      "source": "technicals"
+    },
+    {
+      "ticker": "SLV",
+      "entry_date": "2026-07-08",
+      "entry_price": 52.16,
+      "price_target": 55.0,
+      "invalidation_price": 50.8,
+      "bias": "Bullish",
+      "thesis": "SLV dropped 2.99% today in a sharp pullback that likely represents profit-taking rather than a trend reversal given the inflationary oil spike and Extreme Fear environment. Precious metals tend to find bids during fear-driven selloffs. A bounce back toward $55 is the near-term target on a mean-reversion play.",
+      "source": "technicals"
     }
   ],
   "closed_trades": [],

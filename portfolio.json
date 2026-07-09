@@ -52,16 +52,6 @@
       "source": "technicals"
     },
     {
-      "ticker": "AVAV",
-      "entry_date": "2026-07-06",
-      "entry_price": 175.5,
-      "price_target": 190.0,
-      "invalidation_price": 170.0,
-      "bias": "Bullish",
-      "thesis": "AVAV is consolidating right at its 50SMA ($175.01) with a neutral RSI of 53.4, setting up a potential breakout from this base. Defense stocks carry secular tailwinds and the stock is deeply undervalued relative to its 200SMA at $253.88, suggesting significant upside recovery potential on any catalyst.",
-      "source": "technicals"
-    },
-    {
       "ticker": "CAVA",
       "entry_date": "2026-07-07",
       "entry_price": 68.75,
@@ -130,11 +120,57 @@
       "bias": "Bullish",
       "thesis": "SLV dropped 2.99% today in a sharp pullback that likely represents profit-taking rather than a trend reversal given the inflationary oil spike and Extreme Fear environment. Precious metals tend to find bids during fear-driven selloffs. A bounce back toward $55 is the near-term target on a mean-reversion play.",
       "source": "technicals"
+    },
+    {
+      "ticker": "FSLR",
+      "entry_date": "2026-07-09",
+      "entry_price": 225.0,
+      "price_target": 238.0,
+      "invalidation_price": 215.0,
+      "bias": "Bullish",
+      "thesis": "FSLR is trading below both its 50SMA ($247.75) and 200SMA ($235.39) with RSI at 40.8, approaching oversold territory. Price is finding support near the $220 level and a mean-reversion bounce toward the 200SMA at $235 is likely in a relief rally. Extreme Fear sentiment creates contrarian bounce potential in beaten-down names.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "AVAV",
+      "entry_date": "2026-07-09",
+      "entry_price": 146.0,
+      "price_target": 163.0,
+      "invalidation_price": 138.0,
+      "bias": "Bullish",
+      "thesis": "AVAV has RSI at 42.2 and is deeply discounted versus its 50SMA ($172.51) and 200SMA ($252.06), trading nearly 41% below the 200SMA. With geopolitical tensions escalating (Iran situation), defense names could see renewed flows. A tactical bounce toward the $160-165 zone is plausible as oversold conditions and defense catalysts align.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "HOOD",
+      "entry_date": "2026-07-09",
+      "entry_price": 116.5,
+      "price_target": 106.0,
+      "invalidation_price": 122.0,
+      "bias": "Bearish",
+      "thesis": "HOOD is extended with RSI at 65.6, approaching overbought, and trading 29% above its 50SMA ($88.95) and 12.5% above its 200SMA ($102.26). In an Extreme Fear environment, extended momentum names are vulnerable to mean-reversion pullbacks. A fade toward the $105-108 zone aligns with reversion to the 200SMA area.",
+      "source": "Technicals"
     }
   ],
-  "closed_trades": [],
-  "total_trades": 0,
+  "closed_trades": [
+    {
+      "ticker": "AVAV",
+      "entry_date": "2026-07-06",
+      "entry_price": 175.5,
+      "price_target": 190.0,
+      "invalidation_price": 170.0,
+      "bias": "Bullish",
+      "thesis": "AVAV is consolidating right at its 50SMA ($175.01) with a neutral RSI of 53.4, setting up a potential breakout from this base. Defense stocks carry secular tailwinds and the stock is deeply undervalued relative to its 200SMA at $253.88, suggesting significant upside recovery potential on any catalyst.",
+      "source": "technicals",
+      "outcome": "LOSS",
+      "exit_price": 148.4,
+      "pnl_pct": -15.44,
+      "exit_date": "2026-07-09",
+      "reason": "Invalidated"
+    }
+  ],
+  "total_trades": 1,
   "wins": 0,
-  "losses": 0,
-  "total_pnl_pct": 0.0
+  "losses": 1,
+  "total_pnl_pct": -15.44
 }

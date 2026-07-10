@@ -150,6 +150,26 @@
       "bias": "Bearish",
       "thesis": "HOOD is extended with RSI at 65.6, approaching overbought, and trading 29% above its 50SMA ($88.95) and 12.5% above its 200SMA ($102.26). In an Extreme Fear environment, extended momentum names are vulnerable to mean-reversion pullbacks. A fade toward the $105-108 zone aligns with reversion to the 200SMA area.",
       "source": "Technicals"
+    },
+    {
+      "ticker": "RUN",
+      "entry_date": "2026-07-10",
+      "entry_price": 12.9,
+      "price_target": 11.5,
+      "invalidation_price": 13.7,
+      "bias": "Bearish",
+      "thesis": "RUN is trading well below both its 50SMA ($13.60) and 200SMA ($16.35) with RSI at 44.1, showing persistent weakness. High interest rates at 4.54% on the 10-year continue to pressure solar financing economics. A fade toward the $11.50 area on any relief bounce to the $12.80-$13.00 zone is the play.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date": "2026-07-10",
+      "entry_price": 355.5,
+      "price_target": 375.0,
+      "invalidation_price": 347.0,
+      "bias": "Bullish",
+      "thesis": "GOOGL underperformed peers today dropping 0.84% despite broad market strength, creating a relative-value entry. In Extreme Fear environments, high-quality mega-caps tend to lead recoveries. A catch-up trade toward $375 is realistic if tech sentiment stabilizes.",
+      "source": "Technicals"
     }
   ],
   "closed_trades": [

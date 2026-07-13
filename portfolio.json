@@ -170,6 +170,16 @@
       "bias": "Bullish",
       "thesis": "GOOGL underperformed peers today dropping 0.84% despite broad market strength, creating a relative-value entry. In Extreme Fear environments, high-quality mega-caps tend to lead recoveries. A catch-up trade toward $375 is realistic if tech sentiment stabilizes.",
       "source": "Technicals"
+    },
+    {
+      "ticker": "DKNG",
+      "entry_date": "2026-07-13",
+      "entry_price": 26.05,
+      "price_target": 28.4,
+      "invalidation_price": 24.8,
+      "bias": "Bullish",
+      "thesis": "DKNG is consolidating near its 50SMA ($25.63) with RSI at a neutral 52.5, sitting below the 200SMA at $28.53. Price is coiling in a range that could resolve upward toward the 200SMA. The risk/reward is favorable with a defined floor at the 50SMA.",
+      "source": "Technicals"
     }
   ],
   "closed_trades": [

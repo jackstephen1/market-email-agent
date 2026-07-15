@@ -12,16 +12,6 @@
       "source": "technicals"
     },
     {
-      "ticker": "JOBY",
-      "entry_date": "2026-07-03",
-      "entry_price": 8.4,
-      "price_target": 9.6,
-      "invalidation_price": 7.8,
-      "bias": "Bullish",
-      "thesis": "JOBY has RSI at 37.5 approaching oversold territory with price well below both the 50SMA ($9.89) and 200SMA ($12.29), indicating heavy selling. At extreme fear levels, beaten-down speculative names often see sharp relief rallies. A bounce toward the 50SMA represents a 16% move with a tight stop.",
-      "source": "technicals"
-    },
-    {
       "ticker": "PLUG",
       "entry_date": "2026-07-06",
       "entry_price": 2.62,
@@ -200,6 +190,26 @@
       "bias": "Bullish",
       "thesis": "AFRM is trading well above its 50SMA ($71.93) and 200SMA ($66.19) with RSI at 63.1, showing strong trend momentum without overbought conditions. BNPL sector benefits from consumer spending resilience and fintech rotation in a fearful market looking for growth.",
       "source": "Technicals"
+    },
+    {
+      "ticker": "RKLB",
+      "entry_date": "2026-07-15",
+      "entry_price": 75.0,
+      "price_target": 88.0,
+      "invalidation_price": 72.5,
+      "bias": "Bullish",
+      "thesis": "RSI at 35.5 is approaching oversold territory and price is sitting right on the 200SMA ($77.21), a critical long-term support level. A bounce from this confluence zone toward the gap fill to the 50SMA area is the play. Extreme Fear sentiment adds contrarian support for a mean-reversion bounce.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "JOBY",
+      "entry_date": "2026-07-15",
+      "entry_price": 7.9,
+      "price_target": 6.8,
+      "invalidation_price": 8.5,
+      "bias": "Bearish",
+      "thesis": "RSI at 37 trending toward oversold but price is deeply below both the 50SMA ($9.74) and 200SMA ($11.99), confirming strong downtrend. In an Extreme Fear environment with rising rates, speculative pre-revenue names face continued selling pressure. Short on any bounce toward $8.00-$8.10 resistance.",
+      "source": "Technicals"
     }
   ],
   "closed_trades": [
@@ -232,10 +242,25 @@
       "pnl_pct": 12.79,
       "exit_date": "2026-07-14",
       "reason": "Target hit"
+    },
+    {
+      "ticker": "JOBY",
+      "entry_date": "2026-07-03",
+      "entry_price": 8.4,
+      "price_target": 9.6,
+      "invalidation_price": 7.8,
+      "bias": "Bullish",
+      "thesis": "JOBY has RSI at 37.5 approaching oversold territory with price well below both the 50SMA ($9.89) and 200SMA ($12.29), indicating heavy selling. At extreme fear levels, beaten-down speculative names often see sharp relief rallies. A bounce toward the 50SMA represents a 16% move with a tight stop.",
+      "source": "technicals",
+      "outcome": "LOSS",
+      "exit_price": 7.76,
+      "pnl_pct": -7.62,
+      "exit_date": "2026-07-15",
+      "reason": "Invalidated"
     }
   ],
-  "total_trades": 2,
+  "total_trades": 3,
   "wins": 1,
-  "losses": 1,
-  "total_pnl_pct": -2.65
+  "losses": 2,
+  "total_pnl_pct": -10.27
 }

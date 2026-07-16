@@ -4,7 +4,7 @@ from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 import anthropic
 
-WATCHLIST = ["AAPL","MSFT","GOOGL","NVDA","SPY","QQQ","BTC-USD","ETH-USD","SLV","SQQQ","UVIX"]
+WATCHLIST = ["AAPL","MSFT","GOOGL","NVDA","SPY","QQQ","BTC-USD","ETH-USD","SLV","USAR","SQQQ","UVIX"]
 
 GROWTH_UNIVERSE = [
     "SOFI","AFRM","UPST","NU","HOOD","SOUN","BBAI","IONQ","RKLB","JOBY",

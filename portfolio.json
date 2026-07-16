@@ -92,16 +92,6 @@
       "source": "technicals"
     },
     {
-      "ticker": "SLV",
-      "entry_date": "2026-07-08",
-      "entry_price": 52.16,
-      "price_target": 55.0,
-      "invalidation_price": 50.8,
-      "bias": "Bullish",
-      "thesis": "SLV dropped 2.99% today in a sharp pullback that likely represents profit-taking rather than a trend reversal given the inflationary oil spike and Extreme Fear environment. Precious metals tend to find bids during fear-driven selloffs. A bounce back toward $55 is the near-term target on a mean-reversion play.",
-      "source": "technicals"
-    },
-    {
       "ticker": "FSLR",
       "entry_date": "2026-07-09",
       "entry_price": 225.0,
@@ -162,16 +152,6 @@
       "source": "Technicals"
     },
     {
-      "ticker": "RXRX",
-      "entry_date": "2026-07-14",
-      "entry_price": 3.3,
-      "price_target": 3.85,
-      "invalidation_price": 3.05,
-      "bias": "Bullish",
-      "thesis": "RXRX is sitting exactly on its 50SMA at $3.34 with RSI at 45.6, a neutral zone with room to bounce. Price is well below its 200SMA at $4.06, offering a mean-reversion target. Extreme Fear sentiment creates conditions for oversold biotech names to snap back.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "NVDA",
       "entry_date": "2026-07-14",
       "entry_price": 207.5,
@@ -210,6 +190,16 @@
       "bias": "Bearish",
       "thesis": "RSI at 37 trending toward oversold but price is deeply below both the 50SMA ($9.74) and 200SMA ($11.99), confirming strong downtrend. In an Extreme Fear environment with rising rates, speculative pre-revenue names face continued selling pressure. Short on any bounce toward $8.00-$8.10 resistance.",
       "source": "Technicals"
+    },
+    {
+      "ticker": "RXRX",
+      "entry_date": "2026-07-16",
+      "entry_price": 2.95,
+      "price_target": 3.3,
+      "invalidation_price": 2.7,
+      "bias": "Bullish",
+      "thesis": "RSI at 37.3 is approaching oversold territory, and price is sitting well below both the 50SMA ($3.33) and 200SMA ($4.04). A bounce toward the 50SMA is the base case for a swing trade if broader biotech sentiment stabilizes.",
+      "source": "Technical/RSI + SMA"
     }
   ],
   "closed_trades": [
@@ -257,10 +247,40 @@
       "pnl_pct": -7.62,
       "exit_date": "2026-07-15",
       "reason": "Invalidated"
+    },
+    {
+      "ticker": "SLV",
+      "entry_date": "2026-07-08",
+      "entry_price": 52.16,
+      "price_target": 55.0,
+      "invalidation_price": 50.8,
+      "bias": "Bullish",
+      "thesis": "SLV dropped 2.99% today in a sharp pullback that likely represents profit-taking rather than a trend reversal given the inflationary oil spike and Extreme Fear environment. Precious metals tend to find bids during fear-driven selloffs. A bounce back toward $55 is the near-term target on a mean-reversion play.",
+      "source": "technicals",
+      "outcome": "LOSS",
+      "exit_price": 50.38,
+      "pnl_pct": -3.41,
+      "exit_date": "2026-07-16",
+      "reason": "Invalidated"
+    },
+    {
+      "ticker": "RXRX",
+      "entry_date": "2026-07-14",
+      "entry_price": 3.3,
+      "price_target": 3.85,
+      "invalidation_price": 3.05,
+      "bias": "Bullish",
+      "thesis": "RXRX is sitting exactly on its 50SMA at $3.34 with RSI at 45.6, a neutral zone with room to bounce. Price is well below its 200SMA at $4.06, offering a mean-reversion target. Extreme Fear sentiment creates conditions for oversold biotech names to snap back.",
+      "source": "Technicals",
+      "outcome": "LOSS",
+      "exit_price": 3.02,
+      "pnl_pct": -8.48,
+      "exit_date": "2026-07-16",
+      "reason": "Invalidated"
     }
   ],
-  "total_trades": 3,
+  "total_trades": 5,
   "wins": 1,
-  "losses": 2,
-  "total_pnl_pct": -10.27
+  "losses": 4,
+  "total_pnl_pct": -22.16
 }

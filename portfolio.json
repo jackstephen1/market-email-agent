@@ -2,16 +2,6 @@
   "start_date": "2026-07-03",
   "open_positions": [
     {
-      "ticker": "AEIS",
-      "entry_date": "2026-07-03",
-      "entry_price": 310.0,
-      "price_target": 335.0,
-      "invalidation_price": 295.0,
-      "bias": "Bullish",
-      "thesis": "AEIS is trading well above its 200SMA at $274.40 confirming the longer-term uptrend, but RSI at 41.9 and price 9.7% below the 50SMA at $344.73 suggest a mean-reversion bounce setup. The stock is in a pullback within an uptrend, offering a favorable risk/reward for a swing back toward the 50SMA.",
-      "source": "technicals"
-    },
-    {
       "ticker": "PLUG",
       "entry_date": "2026-07-06",
       "entry_price": 2.62,
@@ -132,16 +122,6 @@
       "source": "Technicals"
     },
     {
-      "ticker": "GOOGL",
-      "entry_date": "2026-07-10",
-      "entry_price": 355.5,
-      "price_target": 375.0,
-      "invalidation_price": 347.0,
-      "bias": "Bullish",
-      "thesis": "GOOGL underperformed peers today dropping 0.84% despite broad market strength, creating a relative-value entry. In Extreme Fear environments, high-quality mega-caps tend to lead recoveries. A catch-up trade toward $375 is realistic if tech sentiment stabilizes.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "DKNG",
       "entry_date": "2026-07-13",
       "entry_price": 26.05,
@@ -200,6 +180,26 @@
       "bias": "Bullish",
       "thesis": "RSI at 37.3 is approaching oversold territory, and price is sitting well below both the 50SMA ($3.33) and 200SMA ($4.04). A bounce toward the 50SMA is the base case for a swing trade if broader biotech sentiment stabilizes.",
       "source": "Technical/RSI + SMA"
+    },
+    {
+      "ticker": "AEIS",
+      "entry_date": "2026-07-17",
+      "entry_price": 281.5,
+      "price_target": 302.0,
+      "invalidation_price": 275.0,
+      "bias": "Bullish",
+      "thesis": "AEIS is sitting right at its 200SMA of $280.92 with RSI at 38.4 approaching oversold territory. The stock is deeply discounted versus its 50SMA of $329.08, creating a potential mean-reversion bounce off the 200-day support. A hold of the 200SMA sets up a relief rally toward $300.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "SLV",
+      "entry_date": "2026-07-17",
+      "entry_price": 50.4,
+      "price_target": 53.5,
+      "invalidation_price": 48.5,
+      "bias": "Bullish",
+      "thesis": "Silver continues to show relative strength gaining 0.77% today while equities sold off. In a fear-driven tape with elevated Treasury yields, precious metals are benefiting from safe-haven flows. The trend favors continuation higher as long as risk-off sentiment persists.",
+      "source": "Technicals"
     }
   ],
   "closed_trades": [
@@ -277,10 +277,40 @@
       "pnl_pct": -8.48,
       "exit_date": "2026-07-16",
       "reason": "Invalidated"
+    },
+    {
+      "ticker": "AEIS",
+      "entry_date": "2026-07-03",
+      "entry_price": 310.0,
+      "price_target": 335.0,
+      "invalidation_price": 295.0,
+      "bias": "Bullish",
+      "thesis": "AEIS is trading well above its 200SMA at $274.40 confirming the longer-term uptrend, but RSI at 41.9 and price 9.7% below the 50SMA at $344.73 suggest a mean-reversion bounce setup. The stock is in a pullback within an uptrend, offering a favorable risk/reward for a swing back toward the 50SMA.",
+      "source": "technicals",
+      "outcome": "LOSS",
+      "exit_price": 284.05,
+      "pnl_pct": -8.37,
+      "exit_date": "2026-07-17",
+      "reason": "Invalidated"
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date": "2026-07-10",
+      "entry_price": 355.5,
+      "price_target": 375.0,
+      "invalidation_price": 347.0,
+      "bias": "Bullish",
+      "thesis": "GOOGL underperformed peers today dropping 0.84% despite broad market strength, creating a relative-value entry. In Extreme Fear environments, high-quality mega-caps tend to lead recoveries. A catch-up trade toward $375 is realistic if tech sentiment stabilizes.",
+      "source": "Technicals",
+      "outcome": "LOSS",
+      "exit_price": 346.77,
+      "pnl_pct": -2.46,
+      "exit_date": "2026-07-17",
+      "reason": "Invalidated"
     }
   ],
-  "total_trades": 5,
+  "total_trades": 7,
   "wins": 1,
-  "losses": 4,
-  "total_pnl_pct": -22.16
+  "losses": 6,
+  "total_pnl_pct": -32.99
 }

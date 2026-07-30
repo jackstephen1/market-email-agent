@@ -42,16 +42,6 @@
       "source": "Technicals"
     },
     {
-      "ticker": "SQQQ",
-      "entry_date": "2026-07-07",
-      "entry_price": 39.75,
-      "price_target": 44.0,
-      "invalidation_price": 37.5,
-      "bias": "Bullish",
-      "thesis": "With QQQ dropping 1.85% today and broad tech selling accelerating, SQQQ offers a tactical hedge or short-term momentum play. Fear sentiment at 27 and Microsoft layoffs signal continued tech weakness in the near term. Momentum is clearly with sellers in the Nasdaq, favoring further upside in this inverse vehicle.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "NVAX",
       "entry_date": "2026-07-08",
       "entry_price": 9.22,
@@ -152,16 +142,6 @@
       "source": "Technicals"
     },
     {
-      "ticker": "RKLB",
-      "entry_date": "2026-07-15",
-      "entry_price": 75.0,
-      "price_target": 88.0,
-      "invalidation_price": 72.5,
-      "bias": "Bullish",
-      "thesis": "RSI at 35.5 is approaching oversold territory and price is sitting right on the 200SMA ($77.21), a critical long-term support level. A bounce from this confluence zone toward the gap fill to the 50SMA area is the play. Extreme Fear sentiment adds contrarian support for a mean-reversion bounce.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "JOBY",
       "entry_date": "2026-07-15",
       "entry_price": 7.9,
@@ -182,24 +162,34 @@
       "source": "Technical/RSI + SMA"
     },
     {
-      "ticker": "AEIS",
-      "entry_date": "2026-07-17",
-      "entry_price": 281.5,
-      "price_target": 302.0,
-      "invalidation_price": 275.0,
+      "ticker": "RKLB",
+      "entry_date": "2026-07-30",
+      "entry_price": 63.5,
+      "price_target": 74.0,
+      "invalidation_price": 58.5,
       "bias": "Bullish",
-      "thesis": "AEIS is sitting right at its 200SMA of $280.92 with RSI at 38.4 approaching oversold territory. The stock is deeply discounted versus its 50SMA of $329.08, creating a potential mean-reversion bounce off the 200-day support. A hold of the 200SMA sets up a relief rally toward $300.",
-      "source": "Technicals"
+      "thesis": "RKLB is deeply oversold with RSI at 37.4 and trading 34% below its 50SMA of $98.01. Price is also below its 200SMA of $77.78, creating a mean-reversion setup toward a partial gap fill. A bounce toward the 200SMA is probable given the extreme deviation from moving averages.",
+      "source": "technicals"
     },
     {
-      "ticker": "SLV",
-      "entry_date": "2026-07-17",
-      "entry_price": 50.4,
-      "price_target": 53.5,
-      "invalidation_price": 48.5,
+      "ticker": "AEIS",
+      "entry_date": "2026-07-30",
+      "entry_price": 272.0,
+      "price_target": 300.0,
+      "invalidation_price": 260.0,
       "bias": "Bullish",
-      "thesis": "Silver continues to show relative strength gaining 0.77% today while equities sold off. In a fear-driven tape with elevated Treasury yields, precious metals are benefiting from safe-haven flows. The trend favors continuation higher as long as risk-off sentiment persists.",
-      "source": "Technicals"
+      "thesis": "AEIS has RSI at 41.3 approaching oversold territory while trading 14% below its 50SMA of $319.74. The pullback into this zone offers a swing opportunity for a reversion toward the 50-day, especially if broader tech momentum from MSFT carries over into industrials and power electronics.",
+      "source": "technicals"
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date": "2026-07-30",
+      "entry_price": 332.5,
+      "price_target": 350.0,
+      "invalidation_price": 322.0,
+      "bias": "Bullish",
+      "thesis": "GOOGL dipped only 0.91% today while MSFT surged 15.51%, suggesting GOOGL may be next in line for a sympathy move if its earnings or AI narrative catches bid. The mild pullback creates an entry for a quick swing targeting a retest of recent highs.",
+      "source": "technicals"
     }
   ],
   "closed_trades": [
@@ -307,10 +297,70 @@
       "pnl_pct": -2.46,
       "exit_date": "2026-07-17",
       "reason": "Invalidated"
+    },
+    {
+      "ticker": "SQQQ",
+      "entry_date": "2026-07-07",
+      "entry_price": 39.75,
+      "price_target": 44.0,
+      "invalidation_price": 37.5,
+      "bias": "Bullish",
+      "thesis": "With QQQ dropping 1.85% today and broad tech selling accelerating, SQQQ offers a tactical hedge or short-term momentum play. Fear sentiment at 27 and Microsoft layoffs signal continued tech weakness in the near term. Momentum is clearly with sellers in the Nasdaq, favoring further upside in this inverse vehicle.",
+      "source": "Technicals",
+      "outcome": "WIN",
+      "exit_price": 44.62,
+      "pnl_pct": 12.25,
+      "exit_date": "2026-07-30",
+      "reason": "Target hit"
+    },
+    {
+      "ticker": "RKLB",
+      "entry_date": "2026-07-15",
+      "entry_price": 75.0,
+      "price_target": 88.0,
+      "invalidation_price": 72.5,
+      "bias": "Bullish",
+      "thesis": "RSI at 35.5 is approaching oversold territory and price is sitting right on the 200SMA ($77.21), a critical long-term support level. A bounce from this confluence zone toward the gap fill to the 50SMA area is the play. Extreme Fear sentiment adds contrarian support for a mean-reversion bounce.",
+      "source": "Technicals",
+      "outcome": "LOSS",
+      "exit_price": 64.68,
+      "pnl_pct": -13.76,
+      "exit_date": "2026-07-30",
+      "reason": "Invalidated"
+    },
+    {
+      "ticker": "AEIS",
+      "entry_date": "2026-07-17",
+      "entry_price": 281.5,
+      "price_target": 302.0,
+      "invalidation_price": 275.0,
+      "bias": "Bullish",
+      "thesis": "AEIS is sitting right at its 200SMA of $280.92 with RSI at 38.4 approaching oversold territory. The stock is deeply discounted versus its 50SMA of $329.08, creating a potential mean-reversion bounce off the 200-day support. A hold of the 200SMA sets up a relief rally toward $300.",
+      "source": "Technicals",
+      "outcome": "LOSS",
+      "exit_price": 274.26,
+      "pnl_pct": -2.57,
+      "exit_date": "2026-07-30",
+      "reason": "Invalidated"
+    },
+    {
+      "ticker": "SLV",
+      "entry_date": "2026-07-17",
+      "entry_price": 50.4,
+      "price_target": 53.5,
+      "invalidation_price": 48.5,
+      "bias": "Bullish",
+      "thesis": "Silver continues to show relative strength gaining 0.77% today while equities sold off. In a fear-driven tape with elevated Treasury yields, precious metals are benefiting from safe-haven flows. The trend favors continuation higher as long as risk-off sentiment persists.",
+      "source": "Technicals",
+      "outcome": "WIN",
+      "exit_price": 53.5,
+      "pnl_pct": 6.15,
+      "exit_date": "2026-07-30",
+      "reason": "Target hit"
     }
   ],
-  "total_trades": 7,
-  "wins": 1,
-  "losses": 6,
-  "total_pnl_pct": -32.99
+  "total_trades": 11,
+  "wins": 3,
+  "losses": 8,
+  "total_pnl_pct": -30.92
 }

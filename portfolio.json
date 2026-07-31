@@ -72,16 +72,6 @@
       "source": "technicals"
     },
     {
-      "ticker": "FSLR",
-      "entry_date": "2026-07-09",
-      "entry_price": 225.0,
-      "price_target": 238.0,
-      "invalidation_price": 215.0,
-      "bias": "Bullish",
-      "thesis": "FSLR is trading below both its 50SMA ($247.75) and 200SMA ($235.39) with RSI at 40.8, approaching oversold territory. Price is finding support near the $220 level and a mean-reversion bounce toward the 200SMA at $235 is likely in a relief rally. Extreme Fear sentiment creates contrarian bounce potential in beaten-down names.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "AVAV",
       "entry_date": "2026-07-09",
       "entry_price": 146.0,
@@ -182,14 +172,44 @@
       "source": "technicals"
     },
     {
-      "ticker": "GOOGL",
-      "entry_date": "2026-07-30",
-      "entry_price": 332.5,
-      "price_target": 350.0,
-      "invalidation_price": 322.0,
+      "ticker": "AAPL",
+      "entry_date": "2026-07-31",
+      "entry_price": 302.5,
+      "price_target": 328.0,
+      "invalidation_price": 290.0,
       "bias": "Bullish",
-      "thesis": "GOOGL dipped only 0.91% today while MSFT surged 15.51%, suggesting GOOGL may be next in line for a sympathy move if its earnings or AI narrative catches bid. The mild pullback creates an entry for a quick swing targeting a retest of recent highs.",
-      "source": "technicals"
+      "thesis": "AAPL dropped 7.35% today in a sharp single-day selloff that appears overdone relative to the broader market rally. A mean-reversion bounce toward the prior support-turned-resistance zone near $330 is likely, especially if the broader tech rally continues. Extreme Fear at 25 supports a contrarian long entry.",
+      "source": "Technicals + Sentiment"
+    },
+    {
+      "ticker": "SOUN",
+      "entry_date": "2026-07-31",
+      "entry_price": 6.03,
+      "price_target": 7.0,
+      "invalidation_price": 5.5,
+      "bias": "Bullish",
+      "thesis": "SOUN is trading well below its 50SMA of $7.01 and 200SMA of $9.53 with RSI at 43.2, showing it is washed out but not yet oversold. The AI capex theme from MSFT and AMZN earnings could lift AI-adjacent names. A reversion toward the 50SMA at $7.01 offers a clean 14% upside target.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "FSLR",
+      "entry_date": "2026-07-31",
+      "entry_price": 209.0,
+      "price_target": 230.0,
+      "invalidation_price": 200.0,
+      "bias": "Bullish",
+      "thesis": "FSLR sits 14% below its 50SMA of $245.17 with RSI at 43.0, suggesting the stock is compressed and undervalued relative to recent trading range. Solar names have been beaten down and any positive policy or earnings catalyst could trigger a sharp reversion. Targeting a move back toward $230.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "CHWY",
+      "entry_date": "2026-07-31",
+      "entry_price": 23.0,
+      "price_target": 20.5,
+      "invalidation_price": 24.0,
+      "bias": "Bearish",
+      "thesis": "CHWY is trading 17% below its 200SMA of $27.27 and while RSI at 59.1 suggests no extreme, the stock is caught between moving averages with the 200SMA acting as heavy overhead resistance. In a market where capital is rotating into mega-cap AI names, consumer discretionary laggards like CHWY face continued selling pressure.",
+      "source": "Technicals"
     }
   ],
   "closed_trades": [
@@ -357,10 +377,40 @@
       "pnl_pct": 6.15,
       "exit_date": "2026-07-30",
       "reason": "Target hit"
+    },
+    {
+      "ticker": "FSLR",
+      "entry_date": "2026-07-09",
+      "entry_price": 225.0,
+      "price_target": 238.0,
+      "invalidation_price": 215.0,
+      "bias": "Bullish",
+      "thesis": "FSLR is trading below both its 50SMA ($247.75) and 200SMA ($235.39) with RSI at 40.8, approaching oversold territory. Price is finding support near the $220 level and a mean-reversion bounce toward the 200SMA at $235 is likely in a relief rally. Extreme Fear sentiment creates contrarian bounce potential in beaten-down names.",
+      "source": "Technicals",
+      "outcome": "LOSS",
+      "exit_price": 211.03,
+      "pnl_pct": -6.21,
+      "exit_date": "2026-07-31",
+      "reason": "Invalidated"
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date": "2026-07-30",
+      "entry_price": 332.5,
+      "price_target": 350.0,
+      "invalidation_price": 322.0,
+      "bias": "Bullish",
+      "thesis": "GOOGL dipped only 0.91% today while MSFT surged 15.51%, suggesting GOOGL may be next in line for a sympathy move if its earnings or AI narrative catches bid. The mild pullback creates an entry for a quick swing targeting a retest of recent highs.",
+      "source": "technicals",
+      "outcome": "WIN",
+      "exit_price": 356.13,
+      "pnl_pct": 7.11,
+      "exit_date": "2026-07-31",
+      "reason": "Target hit"
     }
   ],
-  "total_trades": 11,
-  "wins": 3,
-  "losses": 8,
-  "total_pnl_pct": -30.92
+  "total_trades": 13,
+  "wins": 4,
+  "losses": 9,
+  "total_pnl_pct": -30.02
 }

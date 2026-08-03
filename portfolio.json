@@ -192,16 +192,6 @@
       "source": "Technicals"
     },
     {
-      "ticker": "FSLR",
-      "entry_date": "2026-07-31",
-      "entry_price": 209.0,
-      "price_target": 230.0,
-      "invalidation_price": 200.0,
-      "bias": "Bullish",
-      "thesis": "FSLR sits 14% below its 50SMA of $245.17 with RSI at 43.0, suggesting the stock is compressed and undervalued relative to recent trading range. Solar names have been beaten down and any positive policy or earnings catalyst could trigger a sharp reversion. Targeting a move back toward $230.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "CHWY",
       "entry_date": "2026-07-31",
       "entry_price": 23.0,
@@ -209,6 +199,26 @@
       "invalidation_price": 24.0,
       "bias": "Bearish",
       "thesis": "CHWY is trading 17% below its 200SMA of $27.27 and while RSI at 59.1 suggests no extreme, the stock is caught between moving averages with the 200SMA acting as heavy overhead resistance. In a market where capital is rotating into mega-cap AI names, consumer discretionary laggards like CHWY face continued selling pressure.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "UPST",
+      "entry_date": "2026-08-03",
+      "entry_price": 29.15,
+      "price_target": 31.1,
+      "invalidation_price": 27.2,
+      "bias": "Bullish",
+      "thesis": "RSI at 48.6 is neutral with price trading below both the 50SMA ($31.12) and near a potential base. A move back toward the 50SMA represents a clean 5.7% upside trade. Fear-driven sentiment at 28 creates opportunity in beaten-down fintech names.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "CHRD",
+      "entry_date": "2026-08-03",
+      "entry_price": 140.5,
+      "price_target": 131.0,
+      "invalidation_price": 145.5,
+      "bias": "Bearish",
+      "thesis": "RSI at 61.9 is approaching overbought territory with price extended 7.8% above the 50SMA at $129.18. After a strong run, a reversion toward the 50SMA is likely, especially if broader market relief fades. Short entry near current levels targeting a pullback.",
       "source": "Technicals"
     }
   ],
@@ -407,10 +417,25 @@
       "pnl_pct": 7.11,
       "exit_date": "2026-07-31",
       "reason": "Target hit"
+    },
+    {
+      "ticker": "FSLR",
+      "entry_date": "2026-07-31",
+      "entry_price": 209.0,
+      "price_target": 230.0,
+      "invalidation_price": 200.0,
+      "bias": "Bullish",
+      "thesis": "FSLR sits 14% below its 50SMA of $245.17 with RSI at 43.0, suggesting the stock is compressed and undervalued relative to recent trading range. Solar names have been beaten down and any positive policy or earnings catalyst could trigger a sharp reversion. Targeting a move back toward $230.",
+      "source": "Technicals",
+      "outcome": "WIN",
+      "exit_price": 232.73,
+      "pnl_pct": 11.35,
+      "exit_date": "2026-08-03",
+      "reason": "Target hit"
     }
   ],
-  "total_trades": 13,
-  "wins": 4,
+  "total_trades": 14,
+  "wins": 5,
   "losses": 9,
-  "total_pnl_pct": -30.02
+  "total_pnl_pct": -18.67
 }

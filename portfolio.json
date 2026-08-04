@@ -42,16 +42,6 @@
       "source": "Technicals"
     },
     {
-      "ticker": "NVAX",
-      "entry_date": "2026-07-08",
-      "entry_price": 9.22,
-      "price_target": 10.5,
-      "invalidation_price": 8.5,
-      "bias": "Bullish",
-      "thesis": "NVAX is sitting right at its 50SMA ($9.23) with a neutral RSI of 51, well above its 200SMA ($8.54). In an Extreme Fear environment, biotech names with stable technicals and no earnings imminent can see mean-reversion bounces. The setup targets a push toward the $10.50 level as a measured move off the 200SMA support base.",
-      "source": "technicals"
-    },
-    {
       "ticker": "CRSP",
       "entry_date": "2026-07-08",
       "entry_price": 58.35,
@@ -192,16 +182,6 @@
       "source": "Technicals"
     },
     {
-      "ticker": "CHWY",
-      "entry_date": "2026-07-31",
-      "entry_price": 23.0,
-      "price_target": 20.5,
-      "invalidation_price": 24.0,
-      "bias": "Bearish",
-      "thesis": "CHWY is trading 17% below its 200SMA of $27.27 and while RSI at 59.1 suggests no extreme, the stock is caught between moving averages with the 200SMA acting as heavy overhead resistance. In a market where capital is rotating into mega-cap AI names, consumer discretionary laggards like CHWY face continued selling pressure.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "UPST",
       "entry_date": "2026-08-03",
       "entry_price": 29.15,
@@ -220,6 +200,46 @@
       "bias": "Bearish",
       "thesis": "RSI at 61.9 is approaching overbought territory with price extended 7.8% above the 50SMA at $129.18. After a strong run, a reversion toward the 50SMA is likely, especially if broader market relief fades. Short entry near current levels targeting a pullback.",
       "source": "Technicals"
+    },
+    {
+      "ticker": "NVAX",
+      "entry_date": "2026-08-04",
+      "entry_price": 7.55,
+      "price_target": 0,
+      "invalidation_price": 0,
+      "bias": "Bullish",
+      "thesis": "NVAX is trading below both its 50SMA ($8.92) and 200SMA ($8.46) with RSI at 39.2 approaching oversold territory. A mean reversion bounce toward the 200SMA at $8.46 offers a 10%+ move from current levels. The stock is deeply compressed and sentiment washout in biotech could trigger a snap-back.",
+      "source": "technicals"
+    },
+    {
+      "ticker": "BEAM",
+      "entry_date": "2026-08-04",
+      "entry_price": 28.1,
+      "price_target": 0,
+      "invalidation_price": 0,
+      "bias": "Bullish",
+      "thesis": "BEAM is sitting right at its 200SMA ($28.11) which is acting as support, with RSI at a neutral 48.6 offering room to run. A bounce off this key moving average toward the 50SMA at $30.72 represents an 8% move. The stock is consolidating and a broad market rally could provide the catalyst for a breakout.",
+      "source": "technicals"
+    },
+    {
+      "ticker": "CHWY",
+      "entry_date": "2026-08-04",
+      "entry_price": 24.25,
+      "price_target": 0,
+      "invalidation_price": 0,
+      "bias": "Bearish",
+      "thesis": "CHWY has extended well above its 50SMA ($20.66) with RSI at 66.6 approaching overbought territory. The stock is trading nearly 17% above its 50-day moving average, making it vulnerable to a mean reversion pullback. A fade toward $22.50 is likely as momentum exhausts.",
+      "source": "technicals"
+    },
+    {
+      "ticker": "SLV",
+      "entry_date": "2026-08-04",
+      "entry_price": 53.2,
+      "price_target": 0,
+      "invalidation_price": 0,
+      "bias": "Bullish",
+      "thesis": "SLV surged 2.63% today and precious metals are benefiting from macro uncertainty, falling oil, and stagflation fears. Momentum is strong and a continuation toward $56 is plausible as safe-haven flows persist in an Extreme Fear environment.",
+      "source": "technicals"
     }
   ],
   "closed_trades": [
@@ -432,10 +452,40 @@
       "pnl_pct": 11.35,
       "exit_date": "2026-08-03",
       "reason": "Target hit"
+    },
+    {
+      "ticker": "NVAX",
+      "entry_date": "2026-07-08",
+      "entry_price": 9.22,
+      "price_target": 10.5,
+      "invalidation_price": 8.5,
+      "bias": "Bullish",
+      "thesis": "NVAX is sitting right at its 50SMA ($9.23) with a neutral RSI of 51, well above its 200SMA ($8.54). In an Extreme Fear environment, biotech names with stable technicals and no earnings imminent can see mean-reversion bounces. The setup targets a push toward the $10.50 level as a measured move off the 200SMA support base.",
+      "source": "technicals",
+      "outcome": "LOSS",
+      "exit_price": 7.66,
+      "pnl_pct": -16.92,
+      "exit_date": "2026-08-04",
+      "reason": "Invalidated"
+    },
+    {
+      "ticker": "CHWY",
+      "entry_date": "2026-07-31",
+      "entry_price": 23.0,
+      "price_target": 20.5,
+      "invalidation_price": 24.0,
+      "bias": "Bearish",
+      "thesis": "CHWY is trading 17% below its 200SMA of $27.27 and while RSI at 59.1 suggests no extreme, the stock is caught between moving averages with the 200SMA acting as heavy overhead resistance. In a market where capital is rotating into mega-cap AI names, consumer discretionary laggards like CHWY face continued selling pressure.",
+      "source": "Technicals",
+      "outcome": "LOSS",
+      "exit_price": 24.1,
+      "pnl_pct": -4.78,
+      "exit_date": "2026-08-04",
+      "reason": "Invalidated"
     }
   ],
-  "total_trades": 14,
+  "total_trades": 16,
   "wins": 5,
-  "losses": 9,
-  "total_pnl_pct": -18.67
+  "losses": 11,
+  "total_pnl_pct": -40.37
 }

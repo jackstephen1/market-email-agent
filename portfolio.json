@@ -102,16 +102,6 @@
       "source": "Technicals"
     },
     {
-      "ticker": "NVDA",
-      "entry_date": "2026-07-14",
-      "entry_price": 207.5,
-      "price_target": 192.0,
-      "invalidation_price": 213.0,
-      "bias": "Bearish",
-      "thesis": "NVDA dropped 3.52% today on heavy semiconductor selling pressure, and the news cycle highlights sector-wide weakness in memory and chip names. Momentum is clearly negative and a fade of any relief bounce toward $205-210 offers a short-side swing with downside continuation likely.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "AFRM",
       "entry_date": "2026-07-14",
       "entry_price": 83.5,
@@ -140,16 +130,6 @@
       "bias": "Bullish",
       "thesis": "RSI at 37.3 is approaching oversold territory, and price is sitting well below both the 50SMA ($3.33) and 200SMA ($4.04). A bounce toward the 50SMA is the base case for a swing trade if broader biotech sentiment stabilizes.",
       "source": "Technical/RSI + SMA"
-    },
-    {
-      "ticker": "RKLB",
-      "entry_date": "2026-07-30",
-      "entry_price": 63.5,
-      "price_target": 74.0,
-      "invalidation_price": 58.5,
-      "bias": "Bullish",
-      "thesis": "RKLB is deeply oversold with RSI at 37.4 and trading 34% below its 50SMA of $98.01. Price is also below its 200SMA of $77.78, creating a mean-reversion setup toward a partial gap fill. A bounce toward the 200SMA is probable given the extreme deviation from moving averages.",
-      "source": "technicals"
     },
     {
       "ticker": "AEIS",
@@ -192,16 +172,6 @@
       "source": "Technicals"
     },
     {
-      "ticker": "CHRD",
-      "entry_date": "2026-08-03",
-      "entry_price": 140.5,
-      "price_target": 131.0,
-      "invalidation_price": 145.5,
-      "bias": "Bearish",
-      "thesis": "RSI at 61.9 is approaching overbought territory with price extended 7.8% above the 50SMA at $129.18. After a strong run, a reversion toward the 50SMA is likely, especially if broader market relief fades. Short entry near current levels targeting a pullback.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "NVAX",
       "entry_date": "2026-08-04",
       "entry_price": 7.55,
@@ -240,6 +210,26 @@
       "bias": "Bullish",
       "thesis": "SLV surged 2.63% today and precious metals are benefiting from macro uncertainty, falling oil, and stagflation fears. Momentum is strong and a continuation toward $56 is plausible as safe-haven flows persist in an Extreme Fear environment.",
       "source": "technicals"
+    },
+    {
+      "ticker": "RKLB",
+      "entry_date": "2026-08-05",
+      "entry_price": 73.75,
+      "price_target": 82.0,
+      "invalidation_price": 69.5,
+      "bias": "Bullish",
+      "thesis": "RKLB is trading below its 200SMA at $77.86 with RSI at a neutral 48.4, offering a mean-reversion setup back toward the 200SMA. SpaceX earnings and AI cost concerns could drive interest toward alternative space/defense names as a relative value play.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "CHRD",
+      "entry_date": "2026-08-05",
+      "entry_price": 128.5,
+      "price_target": 139.0,
+      "invalidation_price": 124.5,
+      "bias": "Bullish",
+      "thesis": "CHRD is sitting right at its 50SMA of $128.78 with RSI at 48.7, a neutral setup that favors continuation above this moving average. Well above its 200SMA at $113.83 showing strong trend, and energy names benefit from the risk-off rotation away from tech.",
+      "source": "Technicals"
     }
   ],
   "closed_trades": [
@@ -482,10 +472,55 @@
       "pnl_pct": -4.78,
       "exit_date": "2026-08-04",
       "reason": "Invalidated"
+    },
+    {
+      "ticker": "NVDA",
+      "entry_date": "2026-07-14",
+      "entry_price": 207.5,
+      "price_target": 192.0,
+      "invalidation_price": 213.0,
+      "bias": "Bearish",
+      "thesis": "NVDA dropped 3.52% today on heavy semiconductor selling pressure, and the news cycle highlights sector-wide weakness in memory and chip names. Momentum is clearly negative and a fade of any relief bounce toward $205-210 offers a short-side swing with downside continuation likely.",
+      "source": "Technicals",
+      "outcome": "LOSS",
+      "exit_price": 219.22,
+      "pnl_pct": -5.65,
+      "exit_date": "2026-08-05",
+      "reason": "Invalidated"
+    },
+    {
+      "ticker": "RKLB",
+      "entry_date": "2026-07-30",
+      "entry_price": 63.5,
+      "price_target": 74.0,
+      "invalidation_price": 58.5,
+      "bias": "Bullish",
+      "thesis": "RKLB is deeply oversold with RSI at 37.4 and trading 34% below its 50SMA of $98.01. Price is also below its 200SMA of $77.78, creating a mean-reversion setup toward a partial gap fill. A bounce toward the 200SMA is probable given the extreme deviation from moving averages.",
+      "source": "technicals",
+      "outcome": "WIN",
+      "exit_price": 74.82,
+      "pnl_pct": 17.83,
+      "exit_date": "2026-08-05",
+      "reason": "Target hit"
+    },
+    {
+      "ticker": "CHRD",
+      "entry_date": "2026-08-03",
+      "entry_price": 140.5,
+      "price_target": 131.0,
+      "invalidation_price": 145.5,
+      "bias": "Bearish",
+      "thesis": "RSI at 61.9 is approaching overbought territory with price extended 7.8% above the 50SMA at $129.18. After a strong run, a reversion toward the 50SMA is likely, especially if broader market relief fades. Short entry near current levels targeting a pullback.",
+      "source": "Technicals",
+      "outcome": "WIN",
+      "exit_price": 129.95,
+      "pnl_pct": 7.51,
+      "exit_date": "2026-08-05",
+      "reason": "Target hit"
     }
   ],
-  "total_trades": 16,
-  "wins": 5,
-  "losses": 11,
-  "total_pnl_pct": -40.37
+  "total_trades": 19,
+  "wins": 7,
+  "losses": 12,
+  "total_pnl_pct": -20.68
 }

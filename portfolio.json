@@ -230,6 +230,26 @@
       "bias": "Bullish",
       "thesis": "CHRD is sitting right at its 50SMA of $128.78 with RSI at 48.7, a neutral setup that favors continuation above this moving average. Well above its 200SMA at $113.83 showing strong trend, and energy names benefit from the risk-off rotation away from tech.",
       "source": "Technicals"
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date": "2026-08-07",
+      "entry_price": 359.5,
+      "price_target": 345.0,
+      "invalidation_price": 368.0,
+      "bias": "Bearish",
+      "thesis": "GOOGL dropped 1.29% today underperforming the broader market, showing relative weakness among mega-caps. In a fear-driven market with QQQ trending lower, GOOGL's breakdown could accelerate toward $345 support as DOJ oversight headlines add regulatory overhang to the AI/tech sector.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "FSLR",
+      "entry_date": "2026-08-07",
+      "entry_price": 242.25,
+      "price_target": 262.0,
+      "invalidation_price": 235.0,
+      "bias": "Bullish",
+      "thesis": "FSLR is sitting right at its 50SMA ($244.03) with RSI at 61.5 showing moderate bullish momentum without being overbought. This confluence of price and moving average support creates a clean bounce setup, especially as solar/clean energy names benefit from fiscal spending narratives.",
+      "source": "Technicals"
     }
   ],
   "closed_trades": [

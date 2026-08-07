@@ -32,16 +32,6 @@
       "source": "Technicals"
     },
     {
-      "ticker": "MRVL",
-      "entry_date": "2026-07-07",
-      "entry_price": 228.0,
-      "price_target": 245.0,
-      "invalidation_price": 222.0,
-      "bias": "Bullish",
-      "thesis": "MRVL is holding above its 50SMA at $226.77 with RSI at 43.5, suggesting neutral-to-mildly-oversold conditions with room to run. Price is well above the 200SMA at $124.27, confirming a strong long-term uptrend. A pullback to the 50SMA area offers a high-probability swing entry targeting recent momentum resumption.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "CRSP",
       "entry_date": "2026-07-08",
       "entry_price": 58.35,
@@ -69,16 +59,6 @@
       "invalidation_price": 138.0,
       "bias": "Bullish",
       "thesis": "AVAV has RSI at 42.2 and is deeply discounted versus its 50SMA ($172.51) and 200SMA ($252.06), trading nearly 41% below the 200SMA. With geopolitical tensions escalating (Iran situation), defense names could see renewed flows. A tactical bounce toward the $160-165 zone is plausible as oversold conditions and defense catalysts align.",
-      "source": "Technicals"
-    },
-    {
-      "ticker": "HOOD",
-      "entry_date": "2026-07-09",
-      "entry_price": 116.5,
-      "price_target": 106.0,
-      "invalidation_price": 122.0,
-      "bias": "Bearish",
-      "thesis": "HOOD is extended with RSI at 65.6, approaching overbought, and trading 29% above its 50SMA ($88.95) and 12.5% above its 200SMA ($102.26). In an Extreme Fear environment, extended momentum names are vulnerable to mean-reversion pullbacks. A fade toward the $105-108 zone aligns with reversion to the 200SMA area.",
       "source": "Technicals"
     },
     {
@@ -150,16 +130,6 @@
       "bias": "Bullish",
       "thesis": "AAPL dropped 7.35% today in a sharp single-day selloff that appears overdone relative to the broader market rally. A mean-reversion bounce toward the prior support-turned-resistance zone near $330 is likely, especially if the broader tech rally continues. Extreme Fear at 25 supports a contrarian long entry.",
       "source": "Technicals + Sentiment"
-    },
-    {
-      "ticker": "SOUN",
-      "entry_date": "2026-07-31",
-      "entry_price": 6.03,
-      "price_target": 7.0,
-      "invalidation_price": 5.5,
-      "bias": "Bullish",
-      "thesis": "SOUN is trading well below its 50SMA of $7.01 and 200SMA of $9.53 with RSI at 43.2, showing it is washed out but not yet oversold. The AI capex theme from MSFT and AMZN earnings could lift AI-adjacent names. A reversion toward the 50SMA at $7.01 offers a clean 14% upside target.",
-      "source": "Technicals"
     },
     {
       "ticker": "UPST",
@@ -249,6 +219,26 @@
       "invalidation_price": 235.0,
       "bias": "Bullish",
       "thesis": "FSLR is sitting right at its 50SMA ($244.03) with RSI at 61.5 showing moderate bullish momentum without being overbought. This confluence of price and moving average support creates a clean bounce setup, especially as solar/clean energy names benefit from fiscal spending narratives.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "SOUN",
+      "entry_date": "2026-08-07",
+      "entry_price": 8.15,
+      "price_target": 7.15,
+      "invalidation_price": 8.75,
+      "bias": "Bearish",
+      "thesis": "RSI at 69 is approaching overbought territory and price is well above its 50SMA of $6.87 but still well below the 200SMA at $9.20, suggesting a resistance zone ahead. A fade from current levels toward the 50SMA is likely as momentum exhausts near overbought readings.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "MRVL",
+      "entry_date": "2026-08-07",
+      "entry_price": 217.5,
+      "price_target": 238.0,
+      "invalidation_price": 207.0,
+      "bias": "Bullish",
+      "thesis": "RSI at 52.4 is neutral and price sits well above its 200SMA ($138.07), confirming the longer-term uptrend. However, trading below the 50SMA ($240.85) presents a mean-reversion opportunity back toward that level as the AI semiconductor theme continues to drive flows.",
       "source": "Technicals"
     }
   ],
@@ -537,10 +527,55 @@
       "pnl_pct": 7.51,
       "exit_date": "2026-08-05",
       "reason": "Target hit"
+    },
+    {
+      "ticker": "MRVL",
+      "entry_date": "2026-07-07",
+      "entry_price": 228.0,
+      "price_target": 245.0,
+      "invalidation_price": 222.0,
+      "bias": "Bullish",
+      "thesis": "MRVL is holding above its 50SMA at $226.77 with RSI at 43.5, suggesting neutral-to-mildly-oversold conditions with room to run. Price is well above the 200SMA at $124.27, confirming a strong long-term uptrend. A pullback to the 50SMA area offers a high-probability swing entry targeting recent momentum resumption.",
+      "source": "Technicals",
+      "outcome": "LOSS",
+      "exit_price": 218.72,
+      "pnl_pct": -4.07,
+      "exit_date": "2026-08-07",
+      "reason": "Invalidated"
+    },
+    {
+      "ticker": "HOOD",
+      "entry_date": "2026-07-09",
+      "entry_price": 116.5,
+      "price_target": 106.0,
+      "invalidation_price": 122.0,
+      "bias": "Bearish",
+      "thesis": "HOOD is extended with RSI at 65.6, approaching overbought, and trading 29% above its 50SMA ($88.95) and 12.5% above its 200SMA ($102.26). In an Extreme Fear environment, extended momentum names are vulnerable to mean-reversion pullbacks. A fade toward the $105-108 zone aligns with reversion to the 200SMA area.",
+      "source": "Technicals",
+      "outcome": "WIN",
+      "exit_price": 93.29,
+      "pnl_pct": 19.92,
+      "exit_date": "2026-08-07",
+      "reason": "Target hit"
+    },
+    {
+      "ticker": "SOUN",
+      "entry_date": "2026-07-31",
+      "entry_price": 6.03,
+      "price_target": 7.0,
+      "invalidation_price": 5.5,
+      "bias": "Bullish",
+      "thesis": "SOUN is trading well below its 50SMA of $7.01 and 200SMA of $9.53 with RSI at 43.2, showing it is washed out but not yet oversold. The AI capex theme from MSFT and AMZN earnings could lift AI-adjacent names. A reversion toward the 50SMA at $7.01 offers a clean 14% upside target.",
+      "source": "Technicals",
+      "outcome": "WIN",
+      "exit_price": 8.02,
+      "pnl_pct": 33.0,
+      "exit_date": "2026-08-07",
+      "reason": "Target hit"
     }
   ],
-  "total_trades": 19,
-  "wins": 7,
-  "losses": 12,
-  "total_pnl_pct": -20.68
+  "total_trades": 22,
+  "wins": 9,
+  "losses": 13,
+  "total_pnl_pct": 28.17
 }

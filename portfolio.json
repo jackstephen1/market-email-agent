@@ -112,16 +112,6 @@
       "source": "Technical/RSI + SMA"
     },
     {
-      "ticker": "AEIS",
-      "entry_date": "2026-07-30",
-      "entry_price": 272.0,
-      "price_target": 300.0,
-      "invalidation_price": 260.0,
-      "bias": "Bullish",
-      "thesis": "AEIS has RSI at 41.3 approaching oversold territory while trading 14% below its 50SMA of $319.74. The pullback into this zone offers a swing opportunity for a reversion toward the 50-day, especially if broader tech momentum from MSFT carries over into industrials and power electronics.",
-      "source": "technicals"
-    },
-    {
       "ticker": "AAPL",
       "entry_date": "2026-07-31",
       "entry_price": 302.5,
@@ -240,6 +230,26 @@
       "bias": "Bullish",
       "thesis": "RSI at 52.4 is neutral and price sits well above its 200SMA ($138.07), confirming the longer-term uptrend. However, trading below the 50SMA ($240.85) presents a mean-reversion opportunity back toward that level as the AI semiconductor theme continues to drive flows.",
       "source": "Technicals"
+    },
+    {
+      "ticker": "HOOD",
+      "entry_date": "2026-08-10",
+      "entry_price": 93.0,
+      "price_target": 98.5,
+      "invalidation_price": 88.5,
+      "bias": "Bullish",
+      "thesis": "HOOD is trading below its 50SMA of $98.53 with RSI at 47.3, a neutral reading that has room to expand. Price is consolidating below a key moving average and a push back toward the 50SMA at $98.53 represents a clean 4% swing opportunity.",
+      "source": "technicals"
+    },
+    {
+      "ticker": "NVDA",
+      "entry_date": "2026-08-10",
+      "entry_price": 219.5,
+      "price_target": 208.0,
+      "invalidation_price": 226.0,
+      "bias": "Bearish",
+      "thesis": "NVDA dropped -2.86% on heavy selling pressure with the China AI competition headline adding uncertainty. In a fearful market with tech distribution, a short-term fade toward lower support is likely before any bounce materializes.",
+      "source": "technicals"
     }
   ],
   "closed_trades": [
@@ -572,10 +582,25 @@
       "pnl_pct": 33.0,
       "exit_date": "2026-08-07",
       "reason": "Target hit"
+    },
+    {
+      "ticker": "AEIS",
+      "entry_date": "2026-07-30",
+      "entry_price": 272.0,
+      "price_target": 300.0,
+      "invalidation_price": 260.0,
+      "bias": "Bullish",
+      "thesis": "AEIS has RSI at 41.3 approaching oversold territory while trading 14% below its 50SMA of $319.74. The pullback into this zone offers a swing opportunity for a reversion toward the 50-day, especially if broader tech momentum from MSFT carries over into industrials and power electronics.",
+      "source": "technicals",
+      "outcome": "WIN",
+      "exit_price": 314.49,
+      "pnl_pct": 15.62,
+      "exit_date": "2026-08-10",
+      "reason": "Target hit"
     }
   ],
-  "total_trades": 22,
-  "wins": 9,
+  "total_trades": 23,
+  "wins": 10,
   "losses": 13,
-  "total_pnl_pct": 28.17
+  "total_pnl_pct": 43.79
 }

@@ -12,16 +12,6 @@
       "source": "technicals"
     },
     {
-      "ticker": "CELH",
-      "entry_date": "2026-07-06",
-      "entry_price": 32.5,
-      "price_target": 36.5,
-      "invalidation_price": 30.0,
-      "bias": "Bullish",
-      "thesis": "CELH has been trending above its 50SMA ($30.66) with RSI at 62.2 showing momentum without being overbought. The stock has room to run toward the $36-37 zone before hitting resistance, and consumer staples names tend to outperform in fearful markets. Clean trend structure above the 50-day moving average.",
-      "source": "technicals"
-    },
-    {
       "ticker": "CAVA",
       "entry_date": "2026-07-07",
       "entry_price": 68.75,
@@ -69,16 +59,6 @@
       "invalidation_price": 24.8,
       "bias": "Bullish",
       "thesis": "DKNG is consolidating near its 50SMA ($25.63) with RSI at a neutral 52.5, sitting below the 200SMA at $28.53. Price is coiling in a range that could resolve upward toward the 200SMA. The risk/reward is favorable with a defined floor at the 50SMA.",
-      "source": "Technicals"
-    },
-    {
-      "ticker": "AFRM",
-      "entry_date": "2026-07-14",
-      "entry_price": 83.5,
-      "price_target": 93.0,
-      "invalidation_price": 79.0,
-      "bias": "Bullish",
-      "thesis": "AFRM is trading well above its 50SMA ($71.93) and 200SMA ($66.19) with RSI at 63.1, showing strong trend momentum without overbought conditions. BNPL sector benefits from consumer spending resilience and fintech rotation in a fearful market looking for growth.",
       "source": "Technicals"
     },
     {
@@ -240,6 +220,36 @@
       "bias": "Bullish",
       "thesis": "RSI at 58.9 with price well above both 50SMA ($128.86) and 200SMA ($114.81) shows strong trend. Oil prices surging 5% today is a direct tailwind for this energy name. Momentum continuation trade with established uptrend support.",
       "source": "Technicals"
+    },
+    {
+      "ticker": "MSFT",
+      "entry_date": "2026-08-12",
+      "entry_price": 489.0,
+      "price_target": 508.0,
+      "invalidation_price": 478.0,
+      "bias": "Bullish",
+      "thesis": "MSFT dropped 2.26% today and is likely oversold near-term. A bounce toward the $505-510 area is probable as the selloff appears technical rather than fundamental. Entry near current levels offers favorable risk-reward for a mean reversion trade.",
+      "source": "technicals"
+    },
+    {
+      "ticker": "CELH",
+      "entry_date": "2026-08-12",
+      "entry_price": 28.25,
+      "price_target": 25.0,
+      "invalidation_price": 30.5,
+      "bias": "Bearish",
+      "thesis": "CELH is trading deeply below its 200SMA at $39.49 and just below the 50SMA at $29.19 with RSI at 46.6, showing persistent weakness. Failed rallies toward the 50SMA offer short entries targeting $25.00 support.",
+      "source": "technicals"
+    },
+    {
+      "ticker": "AFRM",
+      "entry_date": "2026-08-12",
+      "entry_price": 72.5,
+      "price_target": 79.0,
+      "invalidation_price": 68.5,
+      "bias": "Bullish",
+      "thesis": "AFRM is sitting just below its 50SMA at $75.08 with RSI at 45.8, not yet oversold but approaching support. A bounce from this zone toward and through the 50SMA at $75 is a high-probability swing if buyers step in. Fear-driven dip offers entry.",
+      "source": "technicals"
     }
   ],
   "closed_trades": [
@@ -632,10 +642,40 @@
       "pnl_pct": 4.37,
       "exit_date": "2026-08-11",
       "reason": "Target hit"
+    },
+    {
+      "ticker": "CELH",
+      "entry_date": "2026-07-06",
+      "entry_price": 32.5,
+      "price_target": 36.5,
+      "invalidation_price": 30.0,
+      "bias": "Bullish",
+      "thesis": "CELH has been trending above its 50SMA ($30.66) with RSI at 62.2 showing momentum without being overbought. The stock has room to run toward the $36-37 zone before hitting resistance, and consumer staples names tend to outperform in fearful markets. Clean trend structure above the 50-day moving average.",
+      "source": "technicals",
+      "outcome": "LOSS",
+      "exit_price": 27.62,
+      "pnl_pct": -15.02,
+      "exit_date": "2026-08-12",
+      "reason": "Invalidated"
+    },
+    {
+      "ticker": "AFRM",
+      "entry_date": "2026-07-14",
+      "entry_price": 83.5,
+      "price_target": 93.0,
+      "invalidation_price": 79.0,
+      "bias": "Bullish",
+      "thesis": "AFRM is trading well above its 50SMA ($71.93) and 200SMA ($66.19) with RSI at 63.1, showing strong trend momentum without overbought conditions. BNPL sector benefits from consumer spending resilience and fintech rotation in a fearful market looking for growth.",
+      "source": "Technicals",
+      "outcome": "LOSS",
+      "exit_price": 73.4,
+      "pnl_pct": -12.1,
+      "exit_date": "2026-08-12",
+      "reason": "Invalidated"
     }
   ],
-  "total_trades": 26,
+  "total_trades": 28,
   "wins": 12,
-  "losses": 14,
-  "total_pnl_pct": 49.17
+  "losses": 16,
+  "total_pnl_pct": 22.05
 }

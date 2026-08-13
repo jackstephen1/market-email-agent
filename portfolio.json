@@ -42,16 +42,6 @@
       "source": "Technicals"
     },
     {
-      "ticker": "RUN",
-      "entry_date": "2026-07-10",
-      "entry_price": 12.9,
-      "price_target": 11.5,
-      "invalidation_price": 13.7,
-      "bias": "Bearish",
-      "thesis": "RUN is trading well below both its 50SMA ($13.60) and 200SMA ($16.35) with RSI at 44.1, showing persistent weakness. High interest rates at 4.54% on the 10-year continue to pressure solar financing economics. A fade toward the $11.50 area on any relief bounce to the $12.80-$13.00 zone is the play.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "DKNG",
       "entry_date": "2026-07-13",
       "entry_price": 26.05,
@@ -249,6 +239,26 @@
       "invalidation_price": 68.5,
       "bias": "Bullish",
       "thesis": "AFRM is sitting just below its 50SMA at $75.08 with RSI at 45.8, not yet oversold but approaching support. A bounce from this zone toward and through the 50SMA at $75 is a high-probability swing if buyers step in. Fear-driven dip offers entry.",
+      "source": "technicals"
+    },
+    {
+      "ticker": "IONQ",
+      "entry_date": "2026-08-13",
+      "entry_price": 44.95,
+      "price_target": 48.5,
+      "invalidation_price": 43.0,
+      "bias": "Bullish",
+      "thesis": "IONQ is trading just below its 200SMA ($45.34) and 50SMA ($46.54) with RSI at 57.1 showing room to run. A breakout above the 200SMA could trigger momentum buying toward the 50SMA and beyond. The AI theme tailwind from Nebius earnings beat and SpaceX AI revenue targets could provide sector-wide catalyst.",
+      "source": "technicals"
+    },
+    {
+      "ticker": "RUN",
+      "entry_date": "2026-08-13",
+      "entry_price": 10.05,
+      "price_target": 8.8,
+      "invalidation_price": 10.5,
+      "bias": "Bearish",
+      "thesis": "RUN has an RSI of 40.7 trending toward oversold territory with no visible moving average support structure. Price action is weak and the stock is under $10, a psychological level that often accelerates selling. Rising Treasury yields at 4.68% are a headwind for capital-intensive solar companies with high debt loads.",
       "source": "technicals"
     }
   ],
@@ -672,10 +682,25 @@
       "pnl_pct": -12.1,
       "exit_date": "2026-08-12",
       "reason": "Invalidated"
+    },
+    {
+      "ticker": "RUN",
+      "entry_date": "2026-07-10",
+      "entry_price": 12.9,
+      "price_target": 11.5,
+      "invalidation_price": 13.7,
+      "bias": "Bearish",
+      "thesis": "RUN is trading well below both its 50SMA ($13.60) and 200SMA ($16.35) with RSI at 44.1, showing persistent weakness. High interest rates at 4.54% on the 10-year continue to pressure solar financing economics. A fade toward the $11.50 area on any relief bounce to the $12.80-$13.00 zone is the play.",
+      "source": "Technicals",
+      "outcome": "WIN",
+      "exit_price": 9.86,
+      "pnl_pct": 23.57,
+      "exit_date": "2026-08-13",
+      "reason": "Target hit"
     }
   ],
-  "total_trades": 28,
-  "wins": 12,
+  "total_trades": 29,
+  "wins": 13,
   "losses": 16,
-  "total_pnl_pct": 22.05
+  "total_pnl_pct": 45.62
 }

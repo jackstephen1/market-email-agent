@@ -260,6 +260,16 @@
       "bias": "Bearish",
       "thesis": "RUN has an RSI of 40.7 trending toward oversold territory with no visible moving average support structure. Price action is weak and the stock is under $10, a psychological level that often accelerates selling. Rising Treasury yields at 4.68% are a headwind for capital-intensive solar companies with high debt loads.",
       "source": "technicals"
+    },
+    {
+      "ticker": "KTOS",
+      "entry_date": "2026-08-14",
+      "entry_price": 65.0,
+      "price_target": 58.0,
+      "invalidation_price": 67.5,
+      "bias": "Bearish",
+      "thesis": "KTOS has RSI at 70.3, right at overbought territory, while trading well above its 50SMA ($52.73) but significantly below its 200SMA ($73.65). This creates a potential mean-reversion short setup as price may struggle at overhead resistance near the 200SMA. The extended gap between price and 50SMA suggests a pullback is overdue.",
+      "source": "Technicals"
     }
   ],
   "closed_trades": [

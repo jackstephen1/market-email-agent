@@ -270,6 +270,16 @@
       "bias": "Bearish",
       "thesis": "KTOS has RSI at 70.3, right at overbought territory, while trading well above its 50SMA ($52.73) but significantly below its 200SMA ($73.65). This creates a potential mean-reversion short setup as price may struggle at overhead resistance near the 200SMA. The extended gap between price and 50SMA suggests a pullback is overdue.",
       "source": "Technicals"
+    },
+    {
+      "ticker": "SM",
+      "entry_date": "2026-08-17",
+      "entry_price": 33.15,
+      "price_target": 36.5,
+      "invalidation_price": 31.4,
+      "bias": "Bullish",
+      "thesis": "SM is trading well above both its 50SMA ($29.95) and 200SMA ($25.21) with RSI at 62.1, showing strong momentum without being overbought. Volume at 1.1x average confirms participation. A pullback toward the $32.50 area would offer a better risk/reward entry for continuation toward recent highs.",
+      "source": "Technicals"
     }
   ],
   "closed_trades": [

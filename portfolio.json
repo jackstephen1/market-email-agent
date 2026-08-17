@@ -32,16 +32,6 @@
       "source": "technicals"
     },
     {
-      "ticker": "AVAV",
-      "entry_date": "2026-07-09",
-      "entry_price": 146.0,
-      "price_target": 163.0,
-      "invalidation_price": 138.0,
-      "bias": "Bullish",
-      "thesis": "AVAV has RSI at 42.2 and is deeply discounted versus its 50SMA ($172.51) and 200SMA ($252.06), trading nearly 41% below the 200SMA. With geopolitical tensions escalating (Iran situation), defense names could see renewed flows. A tactical bounce toward the $160-165 zone is plausible as oversold conditions and defense catalysts align.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "DKNG",
       "entry_date": "2026-07-13",
       "entry_price": 26.05,
@@ -279,6 +269,26 @@
       "invalidation_price": 31.4,
       "bias": "Bullish",
       "thesis": "SM is trading well above both its 50SMA ($29.95) and 200SMA ($25.21) with RSI at 62.1, showing strong momentum without being overbought. Volume at 1.1x average confirms participation. A pullback toward the $32.50 area would offer a better risk/reward entry for continuation toward recent highs.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "NU",
+      "entry_date": "2026-08-17",
+      "entry_price": 14.6,
+      "price_target": 15.5,
+      "invalidation_price": 14.1,
+      "bias": "Bullish",
+      "thesis": "NU is trading above its 50SMA ($13.52) with RSI at 58.1, showing steady momentum without being overbought. Price is approaching the 200SMA at $15.05 which acts as a near-term magnet and breakout level. A push through $15.05 could trigger momentum toward $15.50.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "AVAV",
+      "entry_date": "2026-08-17",
+      "entry_price": 179.5,
+      "price_target": 192.0,
+      "invalidation_price": 173.0,
+      "bias": "Bullish",
+      "thesis": "AVAV has an RSI of 56.5 indicating healthy upward momentum without overextension. Defense names tend to outperform in risk-off, Fear-driven markets. With no SMA data to cap the upside, the technical path of least resistance is higher toward the $190-$192 area.",
       "source": "Technicals"
     }
   ],
@@ -717,10 +727,25 @@
       "pnl_pct": 23.57,
       "exit_date": "2026-08-13",
       "reason": "Target hit"
+    },
+    {
+      "ticker": "AVAV",
+      "entry_date": "2026-07-09",
+      "entry_price": 146.0,
+      "price_target": 163.0,
+      "invalidation_price": 138.0,
+      "bias": "Bullish",
+      "thesis": "AVAV has RSI at 42.2 and is deeply discounted versus its 50SMA ($172.51) and 200SMA ($252.06), trading nearly 41% below the 200SMA. With geopolitical tensions escalating (Iran situation), defense names could see renewed flows. A tactical bounce toward the $160-165 zone is plausible as oversold conditions and defense catalysts align.",
+      "source": "Technicals",
+      "outcome": "WIN",
+      "exit_price": 181.13,
+      "pnl_pct": 24.06,
+      "exit_date": "2026-08-17",
+      "reason": "Target hit"
     }
   ],
-  "total_trades": 29,
-  "wins": 13,
+  "total_trades": 30,
+  "wins": 14,
   "losses": 16,
-  "total_pnl_pct": 45.62
+  "total_pnl_pct": 69.68
 }

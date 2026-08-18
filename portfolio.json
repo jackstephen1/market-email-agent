@@ -290,6 +290,16 @@
       "bias": "Bullish",
       "thesis": "AVAV has an RSI of 56.5 indicating healthy upward momentum without overextension. Defense names tend to outperform in risk-off, Fear-driven markets. With no SMA data to cap the upside, the technical path of least resistance is higher toward the $190-$192 area.",
       "source": "Technicals"
+    },
+    {
+      "ticker": "AEIS",
+      "entry_date": "2026-08-18",
+      "entry_price": 305.0,
+      "price_target": 322.0,
+      "invalidation_price": 294.0,
+      "bias": "Bullish",
+      "thesis": "AEIS sits between its 200SMA at $294.47 and 50SMA at $321.96 with RSI at 49.1, perfectly neutral. A pullback to the $300-$310 zone provides support near the 200SMA and offers a mean-reversion trade back toward the 50SMA at $322. The power semiconductor space benefits from long-term AI infrastructure buildout.",
+      "source": "Technical setup: 200SMA support, mean reversion"
     }
   ],
   "closed_trades": [

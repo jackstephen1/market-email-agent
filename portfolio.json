@@ -282,16 +282,6 @@
       "source": "Technicals"
     },
     {
-      "ticker": "AVAV",
-      "entry_date": "2026-08-17",
-      "entry_price": 179.5,
-      "price_target": 192.0,
-      "invalidation_price": 173.0,
-      "bias": "Bullish",
-      "thesis": "AVAV has an RSI of 56.5 indicating healthy upward momentum without overextension. Defense names tend to outperform in risk-off, Fear-driven markets. With no SMA data to cap the upside, the technical path of least resistance is higher toward the $190-$192 area.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "AEIS",
       "entry_date": "2026-08-18",
       "entry_price": 305.0,
@@ -300,6 +290,16 @@
       "bias": "Bullish",
       "thesis": "AEIS sits between its 200SMA at $294.47 and 50SMA at $321.96 with RSI at 49.1, perfectly neutral. A pullback to the $300-$310 zone provides support near the 200SMA and offers a mean-reversion trade back toward the 50SMA at $322. The power semiconductor space benefits from long-term AI infrastructure buildout.",
       "source": "Technical setup: 200SMA support, mean reversion"
+    },
+    {
+      "ticker": "AVAV",
+      "entry_date": "2026-08-19",
+      "entry_price": 171.0,
+      "price_target": 185.0,
+      "invalidation_price": 163.0,
+      "bias": "Bullish",
+      "thesis": "AVAV is a defense drone play sitting above its 50SMA ($162.28) with a neutral RSI of 51.2. Iran tensions rattling markets are a direct catalyst for defense names. The stock is well below its 200SMA ($223.34), leaving significant upside room. Geopolitical escalation could drive a rotation into defense as a safe haven trade.",
+      "source": "Geopolitical catalyst + technical support"
     }
   ],
   "closed_trades": [
@@ -752,10 +752,25 @@
       "pnl_pct": 24.06,
       "exit_date": "2026-08-17",
       "reason": "Target hit"
+    },
+    {
+      "ticker": "AVAV",
+      "entry_date": "2026-08-17",
+      "entry_price": 179.5,
+      "price_target": 192.0,
+      "invalidation_price": 173.0,
+      "bias": "Bullish",
+      "thesis": "AVAV has an RSI of 56.5 indicating healthy upward momentum without overextension. Defense names tend to outperform in risk-off, Fear-driven markets. With no SMA data to cap the upside, the technical path of least resistance is higher toward the $190-$192 area.",
+      "source": "Technicals",
+      "outcome": "LOSS",
+      "exit_price": 172.74,
+      "pnl_pct": -3.77,
+      "exit_date": "2026-08-19",
+      "reason": "Invalidated"
     }
   ],
-  "total_trades": 30,
+  "total_trades": 31,
   "wins": 14,
-  "losses": 16,
-  "total_pnl_pct": 69.68
+  "losses": 17,
+  "total_pnl_pct": 65.91
 }

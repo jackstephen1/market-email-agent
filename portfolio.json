@@ -132,16 +132,6 @@
       "source": "Technicals"
     },
     {
-      "ticker": "FSLR",
-      "entry_date": "2026-08-07",
-      "entry_price": 242.25,
-      "price_target": 262.0,
-      "invalidation_price": 235.0,
-      "bias": "Bullish",
-      "thesis": "FSLR is sitting right at its 50SMA ($244.03) with RSI at 61.5 showing moderate bullish momentum without being overbought. This confluence of price and moving average support creates a clean bounce setup, especially as solar/clean energy names benefit from fiscal spending narratives.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "SOUN",
       "entry_date": "2026-08-07",
       "entry_price": 8.15,
@@ -300,6 +290,16 @@
       "bias": "Bullish",
       "thesis": "AVAV is a defense drone play sitting above its 50SMA ($162.28) with a neutral RSI of 51.2. Iran tensions rattling markets are a direct catalyst for defense names. The stock is well below its 200SMA ($223.34), leaving significant upside room. Geopolitical escalation could drive a rotation into defense as a safe haven trade.",
       "source": "Geopolitical catalyst + technical support"
+    },
+    {
+      "ticker": "FSLR",
+      "entry_date": "2026-08-20",
+      "entry_price": 214.5,
+      "price_target": 203.0,
+      "invalidation_price": 220.0,
+      "bias": "Bearish",
+      "thesis": "FSLR is trading well below both its 50SMA ($230.69) and 200SMA ($233.83), confirming a bearish trend structure. RSI at 42.7 is declining but not yet oversold, leaving room for further downside. Hawkish Fed minutes and elevated Treasury yields at 4.65% pressure capital-intensive solar plays, while low volume suggests lack of buyer interest.",
+      "source": "Technicals + Fed hawkish minutes"
     }
   ],
   "closed_trades": [
@@ -767,10 +767,25 @@
       "pnl_pct": -3.77,
       "exit_date": "2026-08-19",
       "reason": "Invalidated"
+    },
+    {
+      "ticker": "FSLR",
+      "entry_date": "2026-08-07",
+      "entry_price": 242.25,
+      "price_target": 262.0,
+      "invalidation_price": 235.0,
+      "bias": "Bullish",
+      "thesis": "FSLR is sitting right at its 50SMA ($244.03) with RSI at 61.5 showing moderate bullish momentum without being overbought. This confluence of price and moving average support creates a clean bounce setup, especially as solar/clean energy names benefit from fiscal spending narratives.",
+      "source": "Technicals",
+      "outcome": "LOSS",
+      "exit_price": 214.06,
+      "pnl_pct": -11.64,
+      "exit_date": "2026-08-20",
+      "reason": "Invalidated"
     }
   ],
-  "total_trades": 31,
+  "total_trades": 32,
   "wins": 14,
-  "losses": 17,
-  "total_pnl_pct": 65.91
+  "losses": 18,
+  "total_pnl_pct": 54.27
 }

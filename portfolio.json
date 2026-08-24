@@ -152,16 +152,6 @@
       "source": "Technicals"
     },
     {
-      "ticker": "HOOD",
-      "entry_date": "2026-08-10",
-      "entry_price": 93.0,
-      "price_target": 98.5,
-      "invalidation_price": 88.5,
-      "bias": "Bullish",
-      "thesis": "HOOD is trading below its 50SMA of $98.53 with RSI at 47.3, a neutral reading that has room to expand. Price is consolidating below a key moving average and a push back toward the 50SMA at $98.53 represents a clean 4% swing opportunity.",
-      "source": "technicals"
-    },
-    {
       "ticker": "NVDA",
       "entry_date": "2026-08-10",
       "entry_price": 219.5,
@@ -242,16 +232,6 @@
       "source": "technicals"
     },
     {
-      "ticker": "KTOS",
-      "entry_date": "2026-08-14",
-      "entry_price": 65.0,
-      "price_target": 58.0,
-      "invalidation_price": 67.5,
-      "bias": "Bearish",
-      "thesis": "KTOS has RSI at 70.3, right at overbought territory, while trading well above its 50SMA ($52.73) but significantly below its 200SMA ($73.65). This creates a potential mean-reversion short setup as price may struggle at overhead resistance near the 200SMA. The extended gap between price and 50SMA suggests a pullback is overdue.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "SM",
       "entry_date": "2026-08-17",
       "entry_price": 33.15,
@@ -300,6 +280,26 @@
       "bias": "Bearish",
       "thesis": "FSLR is trading well below both its 50SMA ($230.69) and 200SMA ($233.83), confirming a bearish trend structure. RSI at 42.7 is declining but not yet oversold, leaving room for further downside. Hawkish Fed minutes and elevated Treasury yields at 4.65% pressure capital-intensive solar plays, while low volume suggests lack of buyer interest.",
       "source": "Technicals + Fed hawkish minutes"
+    },
+    {
+      "ticker": "HOOD",
+      "entry_date": "2026-08-24",
+      "entry_price": 101.75,
+      "price_target": 110.0,
+      "invalidation_price": 98.5,
+      "bias": "Bullish",
+      "thesis": "HOOD is holding above both its 50SMA ($100.54) and 200SMA ($95.92) with RSI at a neutral 56.8. Price is consolidating near the 50SMA support, and a bounce from this zone targets a move to $110 as crypto strength (BTC +1.62% today) supports retail brokerage sentiment.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "KTOS",
+      "entry_date": "2026-08-24",
+      "entry_price": 54.0,
+      "price_target": 49.0,
+      "invalidation_price": 56.5,
+      "bias": "Bearish",
+      "thesis": "KTOS is trading far below its 200SMA ($72.71) with RSI at 44.1 and declining momentum. The stock is barely holding the 50SMA ($52.78) and volume is below average at 0.9x. A breakdown below $52.78 targets $49 as sellers remain in control of the intermediate trend.",
+      "source": "Technicals"
     }
   ],
   "closed_trades": [
@@ -782,10 +782,40 @@
       "pnl_pct": -11.64,
       "exit_date": "2026-08-20",
       "reason": "Invalidated"
+    },
+    {
+      "ticker": "HOOD",
+      "entry_date": "2026-08-10",
+      "entry_price": 93.0,
+      "price_target": 98.5,
+      "invalidation_price": 88.5,
+      "bias": "Bullish",
+      "thesis": "HOOD is trading below its 50SMA of $98.53 with RSI at 47.3, a neutral reading that has room to expand. Price is consolidating below a key moving average and a push back toward the 50SMA at $98.53 represents a clean 4% swing opportunity.",
+      "source": "technicals",
+      "outcome": "WIN",
+      "exit_price": 103.62,
+      "pnl_pct": 11.42,
+      "exit_date": "2026-08-24",
+      "reason": "Target hit"
+    },
+    {
+      "ticker": "KTOS",
+      "entry_date": "2026-08-14",
+      "entry_price": 65.0,
+      "price_target": 58.0,
+      "invalidation_price": 67.5,
+      "bias": "Bearish",
+      "thesis": "KTOS has RSI at 70.3, right at overbought territory, while trading well above its 50SMA ($52.73) but significantly below its 200SMA ($73.65). This creates a potential mean-reversion short setup as price may struggle at overhead resistance near the 200SMA. The extended gap between price and 50SMA suggests a pullback is overdue.",
+      "source": "Technicals",
+      "outcome": "WIN",
+      "exit_price": 53.07,
+      "pnl_pct": 18.35,
+      "exit_date": "2026-08-24",
+      "reason": "Target hit"
     }
   ],
-  "total_trades": 32,
-  "wins": 14,
+  "total_trades": 34,
+  "wins": 16,
   "losses": 18,
-  "total_pnl_pct": 54.27
+  "total_pnl_pct": 84.04
 }

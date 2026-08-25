@@ -22,16 +22,6 @@
       "source": "Technicals"
     },
     {
-      "ticker": "SOFI",
-      "entry_date": "2026-07-08",
-      "entry_price": 17.9,
-      "price_target": 16.5,
-      "invalidation_price": 18.75,
-      "bias": "Bearish",
-      "thesis": "SOFI is trading well below its 200SMA ($22.19) which acts as heavy overhead resistance, while the RSI at 52.5 shows no oversold bounce catalyst. In an Extreme Fear environment with financials under pressure from rising rates, a fade toward the 50SMA at $16.84 is the higher probability move. Short entry near current levels with a target of $16.50.",
-      "source": "technicals"
-    },
-    {
       "ticker": "DKNG",
       "entry_date": "2026-07-13",
       "entry_price": 26.05,
@@ -139,16 +129,6 @@
       "invalidation_price": 8.75,
       "bias": "Bearish",
       "thesis": "RSI at 69 is approaching overbought territory and price is well above its 50SMA of $6.87 but still well below the 200SMA at $9.20, suggesting a resistance zone ahead. A fade from current levels toward the 50SMA is likely as momentum exhausts near overbought readings.",
-      "source": "Technicals"
-    },
-    {
-      "ticker": "MRVL",
-      "entry_date": "2026-08-07",
-      "entry_price": 217.5,
-      "price_target": 238.0,
-      "invalidation_price": 207.0,
-      "bias": "Bullish",
-      "thesis": "RSI at 52.4 is neutral and price sits well above its 200SMA ($138.07), confirming the longer-term uptrend. However, trading below the 50SMA ($240.85) presents a mean-reversion opportunity back toward that level as the AI semiconductor theme continues to drive flows.",
       "source": "Technicals"
     },
     {
@@ -299,6 +279,26 @@
       "invalidation_price": 56.5,
       "bias": "Bearish",
       "thesis": "KTOS is trading far below its 200SMA ($72.71) with RSI at 44.1 and declining momentum. The stock is barely holding the 50SMA ($52.78) and volume is below average at 0.9x. A breakdown below $52.78 targets $49 as sellers remain in control of the intermediate trend.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "SOFI",
+      "entry_date": "2026-08-25",
+      "entry_price": 18.8,
+      "price_target": 20.3,
+      "invalidation_price": 17.7,
+      "bias": "Bullish",
+      "thesis": "SOFI is trading above its 50SMA ($17.75) with RSI at 57.6, showing healthy momentum without being overbought. Price is pulling back toward a support zone near $18.50 with the 200SMA at $20.40 acting as a near-term magnet and realistic target. Fintech sector benefits from stable rates environment.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "MRVL",
+      "entry_date": "2026-08-25",
+      "entry_price": 236.5,
+      "price_target": 258.0,
+      "invalidation_price": 228.0,
+      "bias": "Bullish",
+      "thesis": "MRVL sits just above its 50SMA ($232.01) with RSI at 56.4 and is well above its 200SMA ($146.45), indicating strong long-term trend. The stock has consolidated near the 50SMA and a bounce from this support zone targets the $258 prior resistance area. AI/data infrastructure demand provides a fundamental tailwind.",
       "source": "Technicals"
     }
   ],
@@ -812,10 +812,40 @@
       "pnl_pct": 18.35,
       "exit_date": "2026-08-24",
       "reason": "Target hit"
+    },
+    {
+      "ticker": "SOFI",
+      "entry_date": "2026-07-08",
+      "entry_price": 17.9,
+      "price_target": 16.5,
+      "invalidation_price": 18.75,
+      "bias": "Bearish",
+      "thesis": "SOFI is trading well below its 200SMA ($22.19) which acts as heavy overhead resistance, while the RSI at 52.5 shows no oversold bounce catalyst. In an Extreme Fear environment with financials under pressure from rising rates, a fade toward the 50SMA at $16.84 is the higher probability move. Short entry near current levels with a target of $16.50.",
+      "source": "technicals",
+      "outcome": "LOSS",
+      "exit_price": 19.0,
+      "pnl_pct": -6.15,
+      "exit_date": "2026-08-25",
+      "reason": "Invalidated"
+    },
+    {
+      "ticker": "MRVL",
+      "entry_date": "2026-08-07",
+      "entry_price": 217.5,
+      "price_target": 238.0,
+      "invalidation_price": 207.0,
+      "bias": "Bullish",
+      "thesis": "RSI at 52.4 is neutral and price sits well above its 200SMA ($138.07), confirming the longer-term uptrend. However, trading below the 50SMA ($240.85) presents a mean-reversion opportunity back toward that level as the AI semiconductor theme continues to drive flows.",
+      "source": "Technicals",
+      "outcome": "WIN",
+      "exit_price": 240.38,
+      "pnl_pct": 10.52,
+      "exit_date": "2026-08-25",
+      "reason": "Target hit"
     }
   ],
-  "total_trades": 34,
-  "wins": 16,
-  "losses": 18,
-  "total_pnl_pct": 84.04
+  "total_trades": 36,
+  "wins": 17,
+  "losses": 19,
+  "total_pnl_pct": 88.41
 }

@@ -112,16 +112,6 @@
       "source": "technicals"
     },
     {
-      "ticker": "RKLB",
-      "entry_date": "2026-08-05",
-      "entry_price": 73.75,
-      "price_target": 82.0,
-      "invalidation_price": 69.5,
-      "bias": "Bullish",
-      "thesis": "RKLB is trading below its 200SMA at $77.86 with RSI at a neutral 48.4, offering a mean-reversion setup back toward the 200SMA. SpaceX earnings and AI cost concerns could drive interest toward alternative space/defense names as a relative value play.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "SOUN",
       "entry_date": "2026-08-07",
       "entry_price": 8.15,
@@ -842,10 +832,25 @@
       "pnl_pct": 10.52,
       "exit_date": "2026-08-25",
       "reason": "Target hit"
+    },
+    {
+      "ticker": "RKLB",
+      "entry_date": "2026-08-05",
+      "entry_price": 73.75,
+      "price_target": 82.0,
+      "invalidation_price": 69.5,
+      "bias": "Bullish",
+      "thesis": "RKLB is trading below its 200SMA at $77.86 with RSI at a neutral 48.4, offering a mean-reversion setup back toward the 200SMA. SpaceX earnings and AI cost concerns could drive interest toward alternative space/defense names as a relative value play.",
+      "source": "Technicals",
+      "outcome": "LOSS",
+      "exit_price": 66.91,
+      "pnl_pct": -9.27,
+      "exit_date": "2026-08-26",
+      "reason": "Invalidated"
     }
   ],
-  "total_trades": 36,
+  "total_trades": 37,
   "wins": 17,
-  "losses": 19,
-  "total_pnl_pct": 88.41
+  "losses": 20,
+  "total_pnl_pct": 79.14
 }

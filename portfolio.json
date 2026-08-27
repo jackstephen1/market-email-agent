@@ -2,16 +2,6 @@
   "start_date": "2026-07-03",
   "open_positions": [
     {
-      "ticker": "PLUG",
-      "entry_date": "2026-07-06",
-      "entry_price": 2.62,
-      "price_target": 3.1,
-      "invalidation_price": 2.45,
-      "bias": "Bullish",
-      "thesis": "PLUG is sitting right on its 200SMA at $2.63 which is acting as support, with RSI at 38.7 approaching oversold territory. Price is deeply discounted from the 50SMA at $3.22, creating a mean-reversion setup toward $3.00+ if support holds. Extreme Fear sentiment adds contrarian tailwind.",
-      "source": "technicals"
-    },
-    {
       "ticker": "CAVA",
       "entry_date": "2026-07-07",
       "entry_price": 68.75,
@@ -179,16 +169,6 @@
       "invalidation_price": 68.5,
       "bias": "Bullish",
       "thesis": "AFRM is sitting just below its 50SMA at $75.08 with RSI at 45.8, not yet oversold but approaching support. A bounce from this zone toward and through the 50SMA at $75 is a high-probability swing if buyers step in. Fear-driven dip offers entry.",
-      "source": "technicals"
-    },
-    {
-      "ticker": "IONQ",
-      "entry_date": "2026-08-13",
-      "entry_price": 44.95,
-      "price_target": 48.5,
-      "invalidation_price": 43.0,
-      "bias": "Bullish",
-      "thesis": "IONQ is trading just below its 200SMA ($45.34) and 50SMA ($46.54) with RSI at 57.1 showing room to run. A breakout above the 200SMA could trigger momentum buying toward the 50SMA and beyond. The AI theme tailwind from Nebius earnings beat and SpaceX AI revenue targets could provide sector-wide catalyst.",
       "source": "technicals"
     },
     {
@@ -847,10 +827,40 @@
       "pnl_pct": -9.27,
       "exit_date": "2026-08-26",
       "reason": "Invalidated"
+    },
+    {
+      "ticker": "PLUG",
+      "entry_date": "2026-07-06",
+      "entry_price": 2.62,
+      "price_target": 3.1,
+      "invalidation_price": 2.45,
+      "bias": "Bullish",
+      "thesis": "PLUG is sitting right on its 200SMA at $2.63 which is acting as support, with RSI at 38.7 approaching oversold territory. Price is deeply discounted from the 50SMA at $3.22, creating a mean-reversion setup toward $3.00+ if support holds. Extreme Fear sentiment adds contrarian tailwind.",
+      "source": "technicals",
+      "outcome": "LOSS",
+      "exit_price": 2.17,
+      "pnl_pct": -17.18,
+      "exit_date": "2026-08-27",
+      "reason": "Invalidated"
+    },
+    {
+      "ticker": "IONQ",
+      "entry_date": "2026-08-13",
+      "entry_price": 44.95,
+      "price_target": 48.5,
+      "invalidation_price": 43.0,
+      "bias": "Bullish",
+      "thesis": "IONQ is trading just below its 200SMA ($45.34) and 50SMA ($46.54) with RSI at 57.1 showing room to run. A breakout above the 200SMA could trigger momentum buying toward the 50SMA and beyond. The AI theme tailwind from Nebius earnings beat and SpaceX AI revenue targets could provide sector-wide catalyst.",
+      "source": "technicals",
+      "outcome": "LOSS",
+      "exit_price": 40.03,
+      "pnl_pct": -10.95,
+      "exit_date": "2026-08-27",
+      "reason": "Invalidated"
     }
   ],
-  "total_trades": 37,
+  "total_trades": 39,
   "wins": 17,
-  "losses": 20,
-  "total_pnl_pct": 79.14
+  "losses": 22,
+  "total_pnl_pct": 51.01
 }

@@ -92,16 +92,6 @@
       "source": "technicals"
     },
     {
-      "ticker": "SOUN",
-      "entry_date": "2026-08-07",
-      "entry_price": 8.15,
-      "price_target": 7.15,
-      "invalidation_price": 8.75,
-      "bias": "Bearish",
-      "thesis": "RSI at 69 is approaching overbought territory and price is well above its 50SMA of $6.87 but still well below the 200SMA at $9.20, suggesting a resistance zone ahead. A fade from current levels toward the 50SMA is likely as momentum exhausts near overbought readings.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "GOOGL",
       "entry_date": "2026-08-11",
       "entry_price": 336.5,
@@ -120,26 +110,6 @@
       "bias": "Bullish",
       "thesis": "RSI at 58.9 with price well above both 50SMA ($128.86) and 200SMA ($114.81) shows strong trend. Oil prices surging 5% today is a direct tailwind for this energy name. Momentum continuation trade with established uptrend support.",
       "source": "Technicals"
-    },
-    {
-      "ticker": "MSFT",
-      "entry_date": "2026-08-12",
-      "entry_price": 489.0,
-      "price_target": 508.0,
-      "invalidation_price": 478.0,
-      "bias": "Bullish",
-      "thesis": "MSFT dropped 2.26% today and is likely oversold near-term. A bounce toward the $505-510 area is probable as the selloff appears technical rather than fundamental. Entry near current levels offers favorable risk-reward for a mean reversion trade.",
-      "source": "technicals"
-    },
-    {
-      "ticker": "CELH",
-      "entry_date": "2026-08-12",
-      "entry_price": 28.25,
-      "price_target": 25.0,
-      "invalidation_price": 30.5,
-      "bias": "Bearish",
-      "thesis": "CELH is trading deeply below its 200SMA at $39.49 and just below the 50SMA at $29.19 with RSI at 46.6, showing persistent weakness. Failed rallies toward the 50SMA offer short entries targeting $25.00 support.",
-      "source": "technicals"
     },
     {
       "ticker": "AFRM",
@@ -867,10 +837,55 @@
       "pnl_pct": -3.86,
       "exit_date": "2026-08-28",
       "reason": "Invalidated"
+    },
+    {
+      "ticker": "SOUN",
+      "entry_date": "2026-08-07",
+      "entry_price": 8.15,
+      "price_target": 7.15,
+      "invalidation_price": 8.75,
+      "bias": "Bearish",
+      "thesis": "RSI at 69 is approaching overbought territory and price is well above its 50SMA of $6.87 but still well below the 200SMA at $9.20, suggesting a resistance zone ahead. A fade from current levels toward the 50SMA is likely as momentum exhausts near overbought readings.",
+      "source": "Technicals",
+      "outcome": "WIN",
+      "exit_price": 7.11,
+      "pnl_pct": 12.76,
+      "exit_date": "2026-08-29",
+      "reason": "Target hit"
+    },
+    {
+      "ticker": "MSFT",
+      "entry_date": "2026-08-12",
+      "entry_price": 489.0,
+      "price_target": 508.0,
+      "invalidation_price": 478.0,
+      "bias": "Bullish",
+      "thesis": "MSFT dropped 2.26% today and is likely oversold near-term. A bounce toward the $505-510 area is probable as the selloff appears technical rather than fundamental. Entry near current levels offers favorable risk-reward for a mean reversion trade.",
+      "source": "technicals",
+      "outcome": "WIN",
+      "exit_price": 513.53,
+      "pnl_pct": 5.02,
+      "exit_date": "2026-08-29",
+      "reason": "Target hit"
+    },
+    {
+      "ticker": "CELH",
+      "entry_date": "2026-08-12",
+      "entry_price": 28.25,
+      "price_target": 25.0,
+      "invalidation_price": 30.5,
+      "bias": "Bearish",
+      "thesis": "CELH is trading deeply below its 200SMA at $39.49 and just below the 50SMA at $29.19 with RSI at 46.6, showing persistent weakness. Failed rallies toward the 50SMA offer short entries targeting $25.00 support.",
+      "source": "technicals",
+      "outcome": "LOSS",
+      "exit_price": 32.98,
+      "pnl_pct": -16.74,
+      "exit_date": "2026-08-29",
+      "reason": "Invalidated"
     }
   ],
-  "total_trades": 41,
-  "wins": 18,
-  "losses": 23,
-  "total_pnl_pct": 63.76
+  "total_trades": 44,
+  "wins": 20,
+  "losses": 24,
+  "total_pnl_pct": 64.8
 }

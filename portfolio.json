@@ -2,16 +2,6 @@
   "start_date": "2026-07-03",
   "open_positions": [
     {
-      "ticker": "CAVA",
-      "entry_date": "2026-07-07",
-      "entry_price": 68.75,
-      "price_target": 77.5,
-      "invalidation_price": 66.5,
-      "bias": "Bullish",
-      "thesis": "CAVA is approaching oversold territory with RSI at 34.9 and price sitting right at its 200SMA of $70.40, a critical long-term support level. A bounce from this confluence zone toward the 50SMA at $81.68 offers strong risk/reward. The stock has been compressed 14.6% below its 50SMA, creating mean-reversion potential.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "DKNG",
       "entry_date": "2026-07-13",
       "entry_price": 26.05,
@@ -887,10 +877,25 @@
       "pnl_pct": -9.23,
       "exit_date": "2026-09-01",
       "reason": "Invalidated"
+    },
+    {
+      "ticker": "CAVA",
+      "entry_date": "2026-07-07",
+      "entry_price": 68.75,
+      "price_target": 77.5,
+      "invalidation_price": 66.5,
+      "bias": "Bullish",
+      "thesis": "CAVA is approaching oversold territory with RSI at 34.9 and price sitting right at its 200SMA of $70.40, a critical long-term support level. A bounce from this confluence zone toward the 50SMA at $81.68 offers strong risk/reward. The stock has been compressed 14.6% below its 50SMA, creating mean-reversion potential.",
+      "source": "Technicals",
+      "outcome": "LOSS",
+      "exit_price": 61.08,
+      "pnl_pct": -11.16,
+      "exit_date": "2026-09-01",
+      "reason": "Invalidated"
     }
   ],
-  "total_trades": 45,
+  "total_trades": 46,
   "wins": 20,
-  "losses": 25,
-  "total_pnl_pct": 55.57
+  "losses": 26,
+  "total_pnl_pct": 44.41
 }

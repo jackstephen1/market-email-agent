@@ -152,16 +152,6 @@
       "source": "Technicals"
     },
     {
-      "ticker": "AEIS",
-      "entry_date": "2026-08-18",
-      "entry_price": 305.0,
-      "price_target": 322.0,
-      "invalidation_price": 294.0,
-      "bias": "Bullish",
-      "thesis": "AEIS sits between its 200SMA at $294.47 and 50SMA at $321.96 with RSI at 49.1, perfectly neutral. A pullback to the $300-$310 zone provides support near the 200SMA and offers a mean-reversion trade back toward the 50SMA at $322. The power semiconductor space benefits from long-term AI infrastructure buildout.",
-      "source": "Technical setup: 200SMA support, mean reversion"
-    },
-    {
       "ticker": "AVAV",
       "entry_date": "2026-08-19",
       "entry_price": 171.0,
@@ -882,10 +872,25 @@
       "pnl_pct": -16.74,
       "exit_date": "2026-08-29",
       "reason": "Invalidated"
+    },
+    {
+      "ticker": "AEIS",
+      "entry_date": "2026-08-18",
+      "entry_price": 305.0,
+      "price_target": 322.0,
+      "invalidation_price": 294.0,
+      "bias": "Bullish",
+      "thesis": "AEIS sits between its 200SMA at $294.47 and 50SMA at $321.96 with RSI at 49.1, perfectly neutral. A pullback to the $300-$310 zone provides support near the 200SMA and offers a mean-reversion trade back toward the 50SMA at $322. The power semiconductor space benefits from long-term AI infrastructure buildout.",
+      "source": "Technical setup: 200SMA support, mean reversion",
+      "outcome": "LOSS",
+      "exit_price": 276.86,
+      "pnl_pct": -9.23,
+      "exit_date": "2026-09-01",
+      "reason": "Invalidated"
     }
   ],
-  "total_trades": 44,
+  "total_trades": 45,
   "wins": 20,
-  "losses": 24,
-  "total_pnl_pct": 64.8
+  "losses": 25,
+  "total_pnl_pct": 55.57
 }

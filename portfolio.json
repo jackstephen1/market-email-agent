@@ -20,6 +20,26 @@
       "bias": "Bullish",
       "thesis": "CHWY is holding above its 50SMA of $22.25 with a neutral RSI of 54.2, showing relative stability amid broader market weakness. The stock has room to revert toward its 200SMA at $25.83, providing a clear technical target for a mean-reversion swing trade.",
       "source": "Technicals \u2014 mean reversion to 200SMA"
+    },
+    {
+      "ticker": "CRSP",
+      "entry_date": "2026-09-07",
+      "entry_price": 54.25,
+      "price_target": 59.5,
+      "invalidation_price": 52.5,
+      "bias": "Bullish",
+      "thesis": "CRSP is trading above both its 50SMA ($53.76) and 200SMA ($53.24) with a neutral RSI of 50.7, suggesting consolidation rather than distribution. A pullback to the $53.50-$55.00 zone near the 50SMA would offer a high-probability entry with support confluence from both moving averages. Gene editing sector has potential for catalyst-driven moves.",
+      "source": "Technical setup"
+    },
+    {
+      "ticker": "AFRM",
+      "entry_date": "2026-09-07",
+      "entry_price": 70.5,
+      "price_target": 77.0,
+      "invalidation_price": 66.5,
+      "bias": "Bullish",
+      "thesis": "AFRM sits well above its 200SMA ($66.51) but is trading below its 50SMA ($77.09) with RSI at 44.5 indicating room for a mean-reversion bounce back toward the 50-day. An entry near the $69-$72 zone targets a reversion to the 50SMA at $77. Low volume at 0.7x average suggests selling pressure is drying up.",
+      "source": "Technical setup"
     }
   ],
   "closed_trades": [],

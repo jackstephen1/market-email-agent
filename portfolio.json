@@ -22,16 +22,6 @@
       "source": "Technicals \u2014 mean reversion to 200SMA"
     },
     {
-      "ticker": "CRSP",
-      "entry_date": "2026-09-07",
-      "entry_price": 54.25,
-      "price_target": 59.5,
-      "invalidation_price": 52.5,
-      "bias": "Bullish",
-      "thesis": "CRSP is trading above both its 50SMA ($53.76) and 200SMA ($53.24) with a neutral RSI of 50.7, suggesting consolidation rather than distribution. A pullback to the $53.50-$55.00 zone near the 50SMA would offer a high-probability entry with support confluence from both moving averages. Gene editing sector has potential for catalyst-driven moves.",
-      "source": "Technical setup"
-    },
-    {
       "ticker": "AFRM",
       "entry_date": "2026-09-07",
       "entry_price": 70.5,
@@ -42,9 +32,26 @@
       "source": "Technical setup"
     }
   ],
-  "closed_trades": [],
-  "total_trades": 0,
+  "closed_trades": [
+    {
+      "ticker": "CRSP",
+      "entry_date": "2026-09-07",
+      "entry_price": 54.25,
+      "price_target": 59.5,
+      "invalidation_price": 52.5,
+      "bias": "Bullish",
+      "thesis": "CRSP is trading above both its 50SMA ($53.76) and 200SMA ($53.24) with a neutral RSI of 50.7, suggesting consolidation rather than distribution. A pullback to the $53.50-$55.00 zone near the 50SMA would offer a high-probability entry with support confluence from both moving averages. Gene editing sector has potential for catalyst-driven moves.",
+      "source": "Technical setup",
+      "outcome": "LOSS",
+      "exit_price": 52.26,
+      "pnl_pct": -3.67,
+      "exit_date": "2026-09-10",
+      "reason": "Stop hit",
+      "days_held": 3
+    }
+  ],
+  "total_trades": 1,
   "wins": 0,
-  "losses": 0,
-  "total_pnl_pct": 0.0
+  "losses": 1,
+  "total_pnl_pct": -3.67
 }

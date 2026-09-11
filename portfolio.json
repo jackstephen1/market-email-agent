@@ -30,6 +30,26 @@
       "bias": "Bullish",
       "thesis": "AFRM sits well above its 200SMA ($66.51) but is trading below its 50SMA ($77.09) with RSI at 44.5 indicating room for a mean-reversion bounce back toward the 50-day. An entry near the $69-$72 zone targets a reversion to the 50SMA at $77. Low volume at 0.7x average suggests selling pressure is drying up.",
       "source": "Technical setup"
+    },
+    {
+      "ticker": "CAVA",
+      "entry_date": "2026-09-11",
+      "entry_price": 55.5,
+      "price_target": 61.0,
+      "invalidation_price": 53.0,
+      "bias": "Bullish",
+      "thesis": "CAVA is approaching oversold territory with RSI at 33, trading 15.6% below its 50SMA and 22.6% below its 200SMA. This level of dislocation in a high-growth restaurant chain suggests a mean-reversion bounce toward the 50SMA ($66.22) is likely, with $61 as a conservative first target. Oversold RSI near 33 historically marks short-term bottoms.",
+      "source": "Technical setup \u2014 RSI oversold near 33, extreme discount to moving averages"
+    },
+    {
+      "ticker": "SOFI",
+      "entry_date": "2026-09-11",
+      "entry_price": 17.3,
+      "price_target": 15.8,
+      "invalidation_price": 18.1,
+      "bias": "Bearish",
+      "thesis": "SOFI is trading below both its 50SMA ($17.83) and 200SMA ($19.80) with weak volume at 0.6x average, showing lack of buyer conviction. With Treasury yields surging toward 5% and CPI data pending, fintech names with rate-sensitive business models face headwinds. A rejection at the 50SMA overhead sets up a move toward $15.80 support.",
+      "source": "Technical setup \u2014 below key moving averages, low volume, macro headwind from rising yields"
     }
   ],
   "closed_trades": [

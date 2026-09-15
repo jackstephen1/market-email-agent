@@ -50,6 +50,16 @@
       "bias": "Bearish",
       "thesis": "SOFI is trading below both its 50SMA ($17.83) and 200SMA ($19.80) with weak volume at 0.6x average, showing lack of buyer conviction. With Treasury yields surging toward 5% and CPI data pending, fintech names with rate-sensitive business models face headwinds. A rejection at the 50SMA overhead sets up a move toward $15.80 support.",
       "source": "Technical setup \u2014 below key moving averages, low volume, macro headwind from rising yields"
+    },
+    {
+      "ticker": "FSLR",
+      "entry_date": "2026-09-15",
+      "entry_price": 205.5,
+      "price_target": 216.0,
+      "invalidation_price": 199.5,
+      "bias": "Bullish",
+      "thesis": "FSLR sits at a neutral RSI of 45.6 with price consolidating below the 50SMA ($216.56), a natural magnet for a reversion move. Volume is light at 0.7x average, suggesting a coiling pattern before a directional move. A push toward the 50SMA at $216.56 is the primary target, with entry on any dip toward the $203-$205 area improving risk/reward.",
+      "source": "Technical 50SMA magnet + low-volume consolidation"
     }
   ],
   "closed_trades": [

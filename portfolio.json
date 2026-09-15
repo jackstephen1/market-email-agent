@@ -60,6 +60,26 @@
       "bias": "Bullish",
       "thesis": "FSLR sits at a neutral RSI of 45.6 with price consolidating below the 50SMA ($216.56), a natural magnet for a reversion move. Volume is light at 0.7x average, suggesting a coiling pattern before a directional move. A push toward the 50SMA at $216.56 is the primary target, with entry on any dip toward the $203-$205 area improving risk/reward.",
       "source": "Technical 50SMA magnet + low-volume consolidation"
+    },
+    {
+      "ticker": "BEAM",
+      "entry_date": "2026-09-15",
+      "entry_price": 23.0,
+      "price_target": 26.5,
+      "invalidation_price": 21.5,
+      "bias": "Bullish",
+      "thesis": "BEAM is trading with RSI at 31.4, approaching oversold territory, and sitting well below both its 50SMA ($28.15) and 200SMA ($28.60). Volume at 1.3x average suggests accumulation may be starting at these depressed levels. A mean-reversion bounce toward the $26-27 zone is likely given the extreme discount to moving averages.",
+      "source": "Technicals"
+    },
+    {
+      "ticker": "CHRD",
+      "entry_date": "2026-09-15",
+      "entry_price": 157.0,
+      "price_target": 148.0,
+      "invalidation_price": 162.0,
+      "bias": "Bearish",
+      "thesis": "CHRD has RSI at 69.5, nearly overbought after a strong run above its 50SMA ($137.36). Oil prices gave back early gains today per AP News, and energy names are vulnerable to profit-taking. Volume at 0.8x average on this elevated RSI suggests fading momentum. A reversion toward the $148 level (midway between price and 50SMA) is the target.",
+      "source": "Technicals"
     }
   ],
   "closed_trades": [

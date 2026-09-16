@@ -80,6 +80,46 @@
       "bias": "Bearish",
       "thesis": "CHRD has RSI at 69.5, nearly overbought after a strong run above its 50SMA ($137.36). Oil prices gave back early gains today per AP News, and energy names are vulnerable to profit-taking. Volume at 0.8x average on this elevated RSI suggests fading momentum. A reversion toward the $148 level (midway between price and 50SMA) is the target.",
       "source": "Technicals"
+    },
+    {
+      "ticker": "NVDA",
+      "entry_date": "2026-09-16",
+      "entry_price": 212.5,
+      "price_target": 225.0,
+      "invalidation_price": 206.0,
+      "bias": "Bullish",
+      "thesis": "NVDA showing relative strength vs SPY today (+0.82% vs -0.44%), leading tech rotation. AI theme remains dominant with Bessent pushing open-source AI to compete with China and Trump advisers meeting with Anthropic. Semiconductors are the strongest sub-sector within the leading XLK sector.",
+      "source": "Technicals + Sector Rotation"
+    },
+    {
+      "ticker": "MSFT",
+      "entry_date": "2026-09-16",
+      "entry_price": 491.5,
+      "price_target": 472.0,
+      "invalidation_price": 500.0,
+      "bias": "Bearish",
+      "thesis": "MSFT underperforming significantly at -1.37% today versus XLK at +0.1%, showing clear relative weakness. With 10-Year at 5%, high-multiple mega-caps face valuation compression. MSFT's weak momentum could accelerate if SPY continues lower in this September seasonality window.",
+      "source": "Technicals + Relative Weakness"
+    },
+    {
+      "ticker": "SPY",
+      "entry_date": "2026-09-16",
+      "entry_price": 754.0,
+      "price_target": 735.0,
+      "invalidation_price": 765.0,
+      "bias": "Bearish",
+      "thesis": "Worst September start since 2008, broad sector weakness with Energy -2.88% and Financials -1.62% today. Bond market stress with 10Y at 5% and shorts betting on rate hikes creates sustained headwind. Seasonality plus macro deterioration supports further downside.",
+      "source": "Macro + Seasonality"
+    },
+    {
+      "ticker": "AAPL",
+      "entry_date": "2026-09-16",
+      "entry_price": 329.5,
+      "price_target": 345.0,
+      "invalidation_price": 322.0,
+      "bias": "Bullish",
+      "thesis": "AAPL showing resilience at +0.32% today in a down tape, outperforming SPY by 76bps. As the leading defensive mega-cap within the strongest sector (XLK +0.1%), AAPL could benefit from flight-to-quality within tech if rotation continues away from cyclicals.",
+      "source": "Technicals + Relative Strength"
     }
   ],
   "closed_trades": [

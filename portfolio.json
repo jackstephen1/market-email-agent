@@ -100,6 +100,16 @@
       "bias": "Bullish",
       "thesis": "DKNG is trading near RSI 37.8, approaching oversold territory, with volume at 1.8x the 20-day average signaling institutional interest at these levels. Price is ~8% below its 50SMA ($24.46), creating a mean-reversion setup toward that level. In a risk-on tape where Consumer Discretionary (XLY +1.1% today) is among leading sectors, a beaten-down discretionary name with elevated volume has strong bounce potential.",
       "source": "Technical scan"
+    },
+    {
+      "ticker": "SOUN",
+      "entry_date": "2026-09-18",
+      "entry_price": 5.83,
+      "price_target": 6.55,
+      "invalidation_price": 5.5,
+      "bias": "Bullish",
+      "thesis": "SOUN is trading near oversold territory with RSI at 34.5, sitting well below both its 50SMA ($6.68) and 200SMA ($8.10). With tech leading today (XLK +0.82%) and the AI narrative strengthening from the Trump-Xi dinner and broader AI policy headlines, SOUN could see a mean-reversion bounce toward the 50SMA. The stock is showing relative weakness vs SPY which means any sector rotation into AI/tech small caps could trigger a sharp snapback.",
+      "source": "Technicals scan"
     }
   ],
   "closed_trades": [

@@ -2,36 +2,6 @@
   "start_date": "2026-09-05",
   "open_positions": [
     {
-      "ticker": "AVAV",
-      "entry_date": "2026-09-05",
-      "entry_price": 142.5,
-      "price_target": 155.0,
-      "invalidation_price": 136.0,
-      "bias": "Bullish",
-      "thesis": "AVAV is approaching oversold territory with RSI at 38.9, trading well below its 50SMA of $158.96. Geopolitical escalation with Iran creates a direct catalyst for defense/drone stocks, and AVAV is a pure-play defense drone manufacturer that should benefit from increased military spending.",
-      "source": "Technicals + Iran conflict news catalyst"
-    },
-    {
-      "ticker": "CHWY",
-      "entry_date": "2026-09-05",
-      "entry_price": 23.25,
-      "price_target": 25.5,
-      "invalidation_price": 21.8,
-      "bias": "Bullish",
-      "thesis": "CHWY is holding above its 50SMA of $22.25 with a neutral RSI of 54.2, showing relative stability amid broader market weakness. The stock has room to revert toward its 200SMA at $25.83, providing a clear technical target for a mean-reversion swing trade.",
-      "source": "Technicals \u2014 mean reversion to 200SMA"
-    },
-    {
-      "ticker": "AFRM",
-      "entry_date": "2026-09-07",
-      "entry_price": 70.5,
-      "price_target": 77.0,
-      "invalidation_price": 66.5,
-      "bias": "Bullish",
-      "thesis": "AFRM sits well above its 200SMA ($66.51) but is trading below its 50SMA ($77.09) with RSI at 44.5 indicating room for a mean-reversion bounce back toward the 50-day. An entry near the $69-$72 zone targets a reversion to the 50SMA at $77. Low volume at 0.7x average suggests selling pressure is drying up.",
-      "source": "Technical setup"
-    },
-    {
       "ticker": "CAVA",
       "entry_date": "2026-09-11",
       "entry_price": 55.5,
@@ -120,6 +90,16 @@
       "bias": "Bullish",
       "thesis": "AAPL showing resilience at +0.32% today in a down tape, outperforming SPY by 76bps. As the leading defensive mega-cap within the strongest sector (XLK +0.1%), AAPL could benefit from flight-to-quality within tech if rotation continues away from cyclicals.",
       "source": "Technicals + Relative Strength"
+    },
+    {
+      "ticker": "DKNG",
+      "entry_date": "2026-09-18",
+      "entry_price": 22.2,
+      "price_target": 24.4,
+      "invalidation_price": 21.2,
+      "bias": "Bullish",
+      "thesis": "DKNG is trading near RSI 37.8, approaching oversold territory, with volume at 1.8x the 20-day average signaling institutional interest at these levels. Price is ~8% below its 50SMA ($24.46), creating a mean-reversion setup toward that level. In a risk-on tape where Consumer Discretionary (XLY +1.1% today) is among leading sectors, a beaten-down discretionary name with elevated volume has strong bounce potential.",
+      "source": "Technical scan"
     }
   ],
   "closed_trades": [
@@ -138,9 +118,57 @@
       "exit_date": "2026-09-10",
       "reason": "Stop hit",
       "days_held": 3
+    },
+    {
+      "ticker": "AVAV",
+      "entry_date": "2026-09-05",
+      "entry_price": 142.5,
+      "price_target": 155.0,
+      "invalidation_price": 136.0,
+      "bias": "Bullish",
+      "thesis": "AVAV is approaching oversold territory with RSI at 38.9, trading well below its 50SMA of $158.96. Geopolitical escalation with Iran creates a direct catalyst for defense/drone stocks, and AVAV is a pure-play defense drone manufacturer that should benefit from increased military spending.",
+      "source": "Technicals + Iran conflict news catalyst",
+      "outcome": "NEUTRAL",
+      "exit_price": 142.5,
+      "pnl_pct": 0,
+      "exit_date": "2026-09-18",
+      "reason": "10-day expiry",
+      "days_held": 13
+    },
+    {
+      "ticker": "CHWY",
+      "entry_date": "2026-09-05",
+      "entry_price": 23.25,
+      "price_target": 25.5,
+      "invalidation_price": 21.8,
+      "bias": "Bullish",
+      "thesis": "CHWY is holding above its 50SMA of $22.25 with a neutral RSI of 54.2, showing relative stability amid broader market weakness. The stock has room to revert toward its 200SMA at $25.83, providing a clear technical target for a mean-reversion swing trade.",
+      "source": "Technicals \u2014 mean reversion to 200SMA",
+      "outcome": "NEUTRAL",
+      "exit_price": 23.25,
+      "pnl_pct": 0,
+      "exit_date": "2026-09-18",
+      "reason": "10-day expiry",
+      "days_held": 13
+    },
+    {
+      "ticker": "AFRM",
+      "entry_date": "2026-09-07",
+      "entry_price": 70.5,
+      "price_target": 77.0,
+      "invalidation_price": 66.5,
+      "bias": "Bullish",
+      "thesis": "AFRM sits well above its 200SMA ($66.51) but is trading below its 50SMA ($77.09) with RSI at 44.5 indicating room for a mean-reversion bounce back toward the 50-day. An entry near the $69-$72 zone targets a reversion to the 50SMA at $77. Low volume at 0.7x average suggests selling pressure is drying up.",
+      "source": "Technical setup",
+      "outcome": "NEUTRAL",
+      "exit_price": 70.5,
+      "pnl_pct": 0,
+      "exit_date": "2026-09-18",
+      "reason": "10-day expiry",
+      "days_held": 11
     }
   ],
-  "total_trades": 1,
+  "total_trades": 4,
   "wins": 0,
   "losses": 1,
   "total_pnl_pct": -3.67

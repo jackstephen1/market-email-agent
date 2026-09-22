@@ -50,6 +50,16 @@
       "bias": "Bullish",
       "thesis": "SOUN is trading near oversold territory with RSI at 34.5, sitting well below both its 50SMA ($6.68) and 200SMA ($8.10). With tech leading today (XLK +0.82%) and the AI narrative strengthening from the Trump-Xi dinner and broader AI policy headlines, SOUN could see a mean-reversion bounce toward the 50SMA. The stock is showing relative weakness vs SPY which means any sector rotation into AI/tech small caps could trigger a sharp snapback.",
       "source": "Technicals scan"
+    },
+    {
+      "ticker": "RXRX",
+      "entry_date": "2026-09-22",
+      "entry_price": 4.0,
+      "price_target": 4.55,
+      "invalidation_price": 3.72,
+      "bias": "Bullish",
+      "thesis": "RXRX is trading at $4.05 with 2.3x average volume, well above both its 50SMA ($3.28) and 200SMA ($3.60), confirming a bullish trend. RSI at 66.2 shows momentum without being overbought. The high volume breakout above the 200SMA suggests institutional accumulation. Healthcare sector (XLV +0.52% today) is providing a supportive backdrop as a leading sector.",
+      "source": "Technical scan: unusual volume + dual SMA breakout"
     }
   ],
   "closed_trades": [

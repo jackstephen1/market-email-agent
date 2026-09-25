@@ -2,26 +2,6 @@
   "start_date": "2026-09-05",
   "open_positions": [
     {
-      "ticker": "FSLR",
-      "entry_date": "2026-09-15",
-      "entry_price": 205.5,
-      "price_target": 216.0,
-      "invalidation_price": 199.5,
-      "bias": "Bullish",
-      "thesis": "FSLR sits at a neutral RSI of 45.6 with price consolidating below the 50SMA ($216.56), a natural magnet for a reversion move. Volume is light at 0.7x average, suggesting a coiling pattern before a directional move. A push toward the 50SMA at $216.56 is the primary target, with entry on any dip toward the $203-$205 area improving risk/reward.",
-      "source": "Technical 50SMA magnet + low-volume consolidation"
-    },
-    {
-      "ticker": "BEAM",
-      "entry_date": "2026-09-15",
-      "entry_price": 23.0,
-      "price_target": 26.5,
-      "invalidation_price": 21.5,
-      "bias": "Bullish",
-      "thesis": "BEAM is trading with RSI at 31.4, approaching oversold territory, and sitting well below both its 50SMA ($28.15) and 200SMA ($28.60). Volume at 1.3x average suggests accumulation may be starting at these depressed levels. A mean-reversion bounce toward the $26-27 zone is likely given the extreme discount to moving averages.",
-      "source": "Technicals"
-    },
-    {
       "ticker": "AAPL",
       "entry_date": "2026-09-16",
       "entry_price": 329.5,
@@ -80,6 +60,26 @@
       "bias": "Bullish",
       "thesis": "CVNA is trading at RSI 38.4, approaching oversold territory, and sits 8% below its 50SMA at $69.12. Volume at 1.3x average shows increasing interest without panic. Price is near a potential support zone where a mean reversion bounce toward the 50SMA is a high-probability swing setup. Targeting a partial gap-fill toward $69.",
       "source": "RSI near oversold + 50SMA mean reversion setup"
+    },
+    {
+      "ticker": "UPST",
+      "entry_date": "2026-09-25",
+      "entry_price": 24.6,
+      "price_target": 21.5,
+      "invalidation_price": 26.5,
+      "bias": "Bearish",
+      "thesis": "UPST is trading well below both its 50SMA ($28.19) and 200SMA ($32.99) with RSI at 37.3 approaching but not yet oversold. Rising Treasury yields at 5.11% directly pressure fintech lending models. The stock has no technical support nearby and the macro headwind of surging rates creates a strong fundamental catalyst for further downside toward the $21.50 level.",
+      "source": "Technicals + Macro"
+    },
+    {
+      "ticker": "UVIX",
+      "entry_date": "2026-09-25",
+      "entry_price": 36.25,
+      "price_target": 42.0,
+      "invalidation_price": 34.0,
+      "bias": "Bullish",
+      "thesis": "UVIX rose +1.18% today as volatility demand builds beneath a complacent F&G reading of 71. With Treasury yields at 19-year highs, narrowing breadth at dot-com levels, and a potential equity repricing ahead, a volatility spike setup offers asymmetric upside. This is a tactical hedge trade.",
+      "source": "Sentiment Divergence + Macro Risk"
     }
   ],
   "closed_trades": [
@@ -242,9 +242,41 @@
       "exit_date": "2026-09-22",
       "reason": "Stop hit",
       "days_held": 6
+    },
+    {
+      "ticker": "FSLR",
+      "entry_date": "2026-09-15",
+      "entry_price": 205.5,
+      "price_target": 216.0,
+      "invalidation_price": 199.5,
+      "bias": "Bullish",
+      "thesis": "FSLR sits at a neutral RSI of 45.6 with price consolidating below the 50SMA ($216.56), a natural magnet for a reversion move. Volume is light at 0.7x average, suggesting a coiling pattern before a directional move. A push toward the 50SMA at $216.56 is the primary target, with entry on any dip toward the $203-$205 area improving risk/reward.",
+      "source": "Technical 50SMA magnet + low-volume consolidation",
+      "outcome": "NEUTRAL",
+      "exit_price": 205.5,
+      "pnl_pct": 0,
+      "exit_date": "2026-09-25",
+      "reason": "10-day expiry",
+      "days_held": 10
+    },
+    {
+      "ticker": "BEAM",
+      "entry_date": "2026-09-15",
+      "entry_price": 23.0,
+      "price_target": 26.5,
+      "invalidation_price": 21.5,
+      "bias": "Bullish",
+      "thesis": "BEAM is trading with RSI at 31.4, approaching oversold territory, and sitting well below both its 50SMA ($28.15) and 200SMA ($28.60). Volume at 1.3x average suggests accumulation may be starting at these depressed levels. A mean-reversion bounce toward the $26-27 zone is likely given the extreme discount to moving averages.",
+      "source": "Technicals",
+      "outcome": "NEUTRAL",
+      "exit_price": 23.0,
+      "pnl_pct": 0,
+      "exit_date": "2026-09-25",
+      "reason": "10-day expiry",
+      "days_held": 10
     }
   ],
-  "total_trades": 10,
+  "total_trades": 12,
   "wins": 2,
   "losses": 3,
   "total_pnl_pct": 9.87

@@ -2,16 +2,6 @@
   "start_date": "2026-09-05",
   "open_positions": [
     {
-      "ticker": "AAPL",
-      "entry_date": "2026-09-16",
-      "entry_price": 329.5,
-      "price_target": 345.0,
-      "invalidation_price": 322.0,
-      "bias": "Bullish",
-      "thesis": "AAPL showing resilience at +0.32% today in a down tape, outperforming SPY by 76bps. As the leading defensive mega-cap within the strongest sector (XLK +0.1%), AAPL could benefit from flight-to-quality within tech if rotation continues away from cyclicals.",
-      "source": "Technicals + Relative Strength"
-    },
-    {
       "ticker": "DKNG",
       "entry_date": "2026-09-18",
       "entry_price": 22.2,
@@ -80,6 +70,36 @@
       "bias": "Bullish",
       "thesis": "UVIX rose +1.18% today as volatility demand builds beneath a complacent F&G reading of 71. With Treasury yields at 19-year highs, narrowing breadth at dot-com levels, and a potential equity repricing ahead, a volatility spike setup offers asymmetric upside. This is a tactical hedge trade.",
       "source": "Sentiment Divergence + Macro Risk"
+    },
+    {
+      "ticker": "MSFT",
+      "entry_date": "2026-09-26",
+      "entry_price": 513.0,
+      "price_target": 540.0,
+      "invalidation_price": 500.0,
+      "bias": "Bullish",
+      "thesis": "MSFT showed dominant relative strength today at +3.66% vs SPY +0.54%, suggesting institutional accumulation. Technology sector is leading rotation (XLK +0.8% today), and the Trump-Xi tech summit could serve as a near-term sentiment catalyst for mega-cap tech. Momentum continuation setup with potential to test new highs.",
+      "source": "Watchlist + Sector Rotation Analysis"
+    },
+    {
+      "ticker": "KTOS",
+      "entry_date": "2026-09-26",
+      "entry_price": 45.25,
+      "price_target": 50.0,
+      "invalidation_price": 43.0,
+      "bias": "Bullish",
+      "thesis": "KTOS RSI at 35.8 is approaching oversold territory with price deeply below both 50SMA ($51.60) and 200SMA ($69.78), creating a mean-reversion bounce setup. Industrials led today at +0.95%, and defense/drone names in the growth universe benefit from elevated geopolitical spending. A bounce toward the 50SMA at $51.60 offers significant upside from current levels, with $50 as a conservative first target.",
+      "source": "Technical Scan + Sector Rotation"
+    },
+    {
+      "ticker": "SLV",
+      "entry_date": "2026-09-26",
+      "entry_price": 57.75,
+      "price_target": 61.5,
+      "invalidation_price": 55.8,
+      "bias": "Bullish",
+      "thesis": "Silver gained +0.9% today, showing strength alongside elevated Treasury yields at 5.18%, which often drives precious metals as an inflation hedge. The DOE $2B grid infrastructure spend is bullish for industrial silver demand. SLV offers a non-correlated swing with favorable macro tailwinds from both inflation hedging and industrial demand narratives.",
+      "source": "Watchlist + Macro News"
     }
   ],
   "closed_trades": [
@@ -274,10 +294,26 @@
       "exit_date": "2026-09-25",
       "reason": "10-day expiry",
       "days_held": 10
+    },
+    {
+      "ticker": "AAPL",
+      "entry_date": "2026-09-16",
+      "entry_price": 329.5,
+      "price_target": 345.0,
+      "invalidation_price": 322.0,
+      "bias": "Bullish",
+      "thesis": "AAPL showing resilience at +0.32% today in a down tape, outperforming SPY by 76bps. As the leading defensive mega-cap within the strongest sector (XLK +0.1%), AAPL could benefit from flight-to-quality within tech if rotation continues away from cyclicals.",
+      "source": "Technicals + Relative Strength",
+      "outcome": "WIN",
+      "exit_price": 341.07,
+      "pnl_pct": 3.51,
+      "exit_date": "2026-09-26",
+      "reason": "10-day expiry",
+      "days_held": 10
     }
   ],
-  "total_trades": 12,
-  "wins": 2,
+  "total_trades": 13,
+  "wins": 3,
   "losses": 3,
-  "total_pnl_pct": 9.87
+  "total_pnl_pct": 13.38
 }

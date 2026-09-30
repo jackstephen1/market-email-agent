@@ -90,6 +90,26 @@
       "bias": "Bullish",
       "thesis": "With Fear & Greed at 73 diverging from deteriorating price action, QQQ down 1.07% today, and macro headwinds from 5.17% Treasury yields weighing on growth, SQQQ offers a tactical hedge for continued Nasdaq weakness. Stock futures are already slipping post-winning-week, and elevated complacency often precedes deeper pullbacks. Diesel export ban rhetoric adds uncertainty.",
       "source": "Macro/sentiment divergence analysis"
+    },
+    {
+      "ticker": "AAPL",
+      "entry_date": "2026-09-30",
+      "entry_price": 330.0,
+      "price_target": 315.0,
+      "invalidation_price": 340.0,
+      "bias": "Bearish",
+      "thesis": "AAPL dropped 2.66% today, showing severe relative weakness vs SPY (-0.18%) and QQQ (+0.19%). Rising Treasury yields at 5.24% directly pressure high-multiple consumer tech. The magnitude of today's move suggests institutional distribution, and continuation toward the $315 area is likely in a rising rate environment over the next 3-7 days.",
+      "source": "Watchlist + Macro"
+    },
+    {
+      "ticker": "SLV",
+      "entry_date": "2026-09-30",
+      "entry_price": 55.15,
+      "price_target": 59.0,
+      "invalidation_price": 53.5,
+      "bias": "Bullish",
+      "thesis": "SLV gained 0.96% today, leading the watchlist and benefiting from inflation fears as the 10-Year hits 5.24% and geopolitical risks from Iran escalate. Silver serves as both an inflation hedge and industrial metal with AI/solar demand tailwinds. Relative strength vs SPY today is a clear sector rotation signal into hard assets over the next 5-10 days.",
+      "source": "Watchlist + Sector Rotation"
     }
   ],
   "closed_trades": [

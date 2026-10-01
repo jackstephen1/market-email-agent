@@ -110,6 +110,16 @@
       "bias": "Bullish",
       "thesis": "SLV gained 0.96% today, leading the watchlist and benefiting from inflation fears as the 10-Year hits 5.24% and geopolitical risks from Iran escalate. Silver serves as both an inflation hedge and industrial metal with AI/solar demand tailwinds. Relative strength vs SPY today is a clear sector rotation signal into hard assets over the next 5-10 days.",
       "source": "Watchlist + Sector Rotation"
+    },
+    {
+      "ticker": "SOUN",
+      "entry_date": "2026-10-01",
+      "entry_price": 5.93,
+      "price_target": 6.55,
+      "invalidation_price": 5.5,
+      "bias": "Bullish",
+      "thesis": "RSI at 41.8 approaching oversold with price well below both the 50SMA ($6.60) and 200SMA ($7.85), creating a mean-reversion setup targeting the 50SMA. AI/tech theme remains strong with OpenAI's $1.4T valuation talks and DevDay catalyzing AI sentiment broadly. Volume at 0.9x average suggests quiet accumulation phase before a move.",
+      "source": "Technicals Scan"
     }
   ],
   "closed_trades": [

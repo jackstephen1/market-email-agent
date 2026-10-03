@@ -90,6 +90,26 @@
       "bias": "Bullish",
       "thesis": "RSI at 41.8 approaching oversold with price well below both the 50SMA ($6.60) and 200SMA ($7.85), creating a mean-reversion setup targeting the 50SMA. AI/tech theme remains strong with OpenAI's $1.4T valuation talks and DevDay catalyzing AI sentiment broadly. Volume at 0.9x average suggests quiet accumulation phase before a move.",
       "source": "Technicals Scan"
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date": "2026-10-03",
+      "entry_price": 341.0,
+      "price_target": 358.0,
+      "invalidation_price": 332.0,
+      "bias": "Bullish",
+      "thesis": "GOOGL is showing the strongest relative strength vs SPY today (+1.56% vs +0.74%), leading mega-cap tech. AI optimism narrative from news flow is supporting Wall Street sentiment. Technology sector is the second-leading sector today at +1.01%. Price momentum favors continuation toward $358 over the next 3-7 days.",
+      "source": "Watchlist + Sector Rotation"
+    },
+    {
+      "ticker": "NU",
+      "entry_date": "2026-10-03",
+      "entry_price": 13.3,
+      "price_target": 14.25,
+      "invalidation_price": 12.75,
+      "bias": "Bullish",
+      "thesis": "NU is trading at a neutral RSI of 45.5 with price below both 50SMA ($14.25) and 200SMA ($14.70), creating a mean-reversion setup toward the 50SMA. Volume is at 1.0x average suggesting accumulation hasn't begun yet \u2014 early entry opportunity. A move back to $14.25 represents a 6% upside swing with defined risk below $12.75.",
+      "source": "Technical Scan - Growth Universe"
     }
   ],
   "closed_trades": [

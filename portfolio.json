@@ -2,26 +2,6 @@
   "start_date": "2026-09-05",
   "open_positions": [
     {
-      "ticker": "GOOGL",
-      "entry_date": "2026-09-23",
-      "entry_price": 338.5,
-      "price_target": 318.0,
-      "invalidation_price": 348.0,
-      "bias": "Bearish",
-      "thesis": "GOOGL dropped 3.8% today, the steepest single-day decline on the watchlist and showing pronounced relative weakness vs SPY (-0.72%). This kind of outsized move often triggers follow-through selling over the next 3-5 sessions as institutional rebalancing and stop-loss cascades continue. Elevated treasury yields at 4.96% pressure high-multiple growth names disproportionately.",
-      "source": "Technical breakdown + relative weakness vs SPY"
-    },
-    {
-      "ticker": "CVNA",
-      "entry_date": "2026-09-23",
-      "entry_price": 63.0,
-      "price_target": 69.0,
-      "invalidation_price": 59.5,
-      "bias": "Bullish",
-      "thesis": "CVNA is trading at RSI 38.4, approaching oversold territory, and sits 8% below its 50SMA at $69.12. Volume at 1.3x average shows increasing interest without panic. Price is near a potential support zone where a mean reversion bounce toward the 50SMA is a high-probability swing setup. Targeting a partial gap-fill toward $69.",
-      "source": "RSI near oversold + 50SMA mean reversion setup"
-    },
-    {
       "ticker": "UPST",
       "entry_date": "2026-09-25",
       "entry_price": 24.6,
@@ -384,10 +364,42 @@
       "exit_date": "2026-10-02",
       "reason": "10-day expiry",
       "days_held": 10
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date": "2026-09-23",
+      "entry_price": 338.5,
+      "price_target": 318.0,
+      "invalidation_price": 348.0,
+      "bias": "Bearish",
+      "thesis": "GOOGL dropped 3.8% today, the steepest single-day decline on the watchlist and showing pronounced relative weakness vs SPY (-0.72%). This kind of outsized move often triggers follow-through selling over the next 3-5 sessions as institutional rebalancing and stop-loss cascades continue. Elevated treasury yields at 4.96% pressure high-multiple growth names disproportionately.",
+      "source": "Technical breakdown + relative weakness vs SPY",
+      "outcome": "LOSS",
+      "exit_price": 343.5,
+      "pnl_pct": -1.48,
+      "exit_date": "2026-10-03",
+      "reason": "10-day expiry",
+      "days_held": 10
+    },
+    {
+      "ticker": "CVNA",
+      "entry_date": "2026-09-23",
+      "entry_price": 63.0,
+      "price_target": 69.0,
+      "invalidation_price": 59.5,
+      "bias": "Bullish",
+      "thesis": "CVNA is trading at RSI 38.4, approaching oversold territory, and sits 8% below its 50SMA at $69.12. Volume at 1.3x average shows increasing interest without panic. Price is near a potential support zone where a mean reversion bounce toward the 50SMA is a high-probability swing setup. Targeting a partial gap-fill toward $69.",
+      "source": "RSI near oversold + 50SMA mean reversion setup",
+      "outcome": "WIN",
+      "exit_price": 63.77,
+      "pnl_pct": 1.22,
+      "exit_date": "2026-10-03",
+      "reason": "10-day expiry",
+      "days_held": 10
     }
   ],
-  "total_trades": 17,
-  "wins": 3,
-  "losses": 4,
-  "total_pnl_pct": 8.53
+  "total_trades": 19,
+  "wins": 4,
+  "losses": 5,
+  "total_pnl_pct": 8.27
 }

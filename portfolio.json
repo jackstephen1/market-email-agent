@@ -2,46 +2,6 @@
   "start_date": "2026-09-05",
   "open_positions": [
     {
-      "ticker": "UPST",
-      "entry_date": "2026-09-25",
-      "entry_price": 24.6,
-      "price_target": 21.5,
-      "invalidation_price": 26.5,
-      "bias": "Bearish",
-      "thesis": "UPST is trading well below both its 50SMA ($28.19) and 200SMA ($32.99) with RSI at 37.3 approaching but not yet oversold. Rising Treasury yields at 5.11% directly pressure fintech lending models. The stock has no technical support nearby and the macro headwind of surging rates creates a strong fundamental catalyst for further downside toward the $21.50 level.",
-      "source": "Technicals + Macro"
-    },
-    {
-      "ticker": "UVIX",
-      "entry_date": "2026-09-25",
-      "entry_price": 36.25,
-      "price_target": 42.0,
-      "invalidation_price": 34.0,
-      "bias": "Bullish",
-      "thesis": "UVIX rose +1.18% today as volatility demand builds beneath a complacent F&G reading of 71. With Treasury yields at 19-year highs, narrowing breadth at dot-com levels, and a potential equity repricing ahead, a volatility spike setup offers asymmetric upside. This is a tactical hedge trade.",
-      "source": "Sentiment Divergence + Macro Risk"
-    },
-    {
-      "ticker": "MSFT",
-      "entry_date": "2026-09-26",
-      "entry_price": 513.0,
-      "price_target": 540.0,
-      "invalidation_price": 500.0,
-      "bias": "Bullish",
-      "thesis": "MSFT showed dominant relative strength today at +3.66% vs SPY +0.54%, suggesting institutional accumulation. Technology sector is leading rotation (XLK +0.8% today), and the Trump-Xi tech summit could serve as a near-term sentiment catalyst for mega-cap tech. Momentum continuation setup with potential to test new highs.",
-      "source": "Watchlist + Sector Rotation Analysis"
-    },
-    {
-      "ticker": "KTOS",
-      "entry_date": "2026-09-26",
-      "entry_price": 45.25,
-      "price_target": 50.0,
-      "invalidation_price": 43.0,
-      "bias": "Bullish",
-      "thesis": "KTOS RSI at 35.8 is approaching oversold territory with price deeply below both 50SMA ($51.60) and 200SMA ($69.78), creating a mean-reversion bounce setup. Industrials led today at +0.95%, and defense/drone names in the growth universe benefit from elevated geopolitical spending. A bounce toward the 50SMA at $51.60 offers significant upside from current levels, with $50 as a conservative first target.",
-      "source": "Technical Scan + Sector Rotation"
-    },
-    {
       "ticker": "NVDA",
       "entry_date": "2026-09-29",
       "entry_price": 226.75,
@@ -50,16 +10,6 @@
       "bias": "Bullish",
       "thesis": "NVDA showed exceptional relative strength today, gaining 1.68% while QQQ fell 1.07% and the broader tech sector (XLK) dropped 0.89%. This 2.5%+ outperformance vs SPY on a down day signals strong institutional demand. AI/semiconductor leadership continues and the OpenAI news regarding model training pauses could actually benefit NVDA as compute demand increases for safety testing. Looking for continuation momentum.",
       "source": "Relative strength analysis vs SPY/QQQ"
-    },
-    {
-      "ticker": "SQQQ",
-      "entry_date": "2026-09-29",
-      "entry_price": 34.5,
-      "price_target": 38.5,
-      "invalidation_price": 32.5,
-      "bias": "Bullish",
-      "thesis": "With Fear & Greed at 73 diverging from deteriorating price action, QQQ down 1.07% today, and macro headwinds from 5.17% Treasury yields weighing on growth, SQQQ offers a tactical hedge for continued Nasdaq weakness. Stock futures are already slipping post-winning-week, and elevated complacency often precedes deeper pullbacks. Diesel export ban rhetoric adds uncertainty.",
-      "source": "Macro/sentiment divergence analysis"
     },
     {
       "ticker": "AAPL",
@@ -110,6 +60,16 @@
       "bias": "Bullish",
       "thesis": "NU is trading at a neutral RSI of 45.5 with price below both 50SMA ($14.25) and 200SMA ($14.70), creating a mean-reversion setup toward the 50SMA. Volume is at 1.0x average suggesting accumulation hasn't begun yet \u2014 early entry opportunity. A move back to $14.25 represents a 6% upside swing with defined risk below $12.75.",
       "source": "Technical Scan - Growth Universe"
+    },
+    {
+      "ticker": "CELH",
+      "entry_date": "2026-10-06",
+      "entry_price": 27.75,
+      "price_target": 24.5,
+      "invalidation_price": 29.5,
+      "bias": "Bearish",
+      "thesis": "CELH trading well below both the 50SMA ($29.39) and 200SMA ($36.35), confirming a strong downtrend. RSI at 43.3 is neutral \u2014 not yet oversold, leaving room for further downside. Below-average volume at 0.9x suggests lack of buying interest. Consumer Discretionary lagging today (+0.35%) adds sector headwind.",
+      "source": "Technical Scan"
     }
   ],
   "closed_trades": [
@@ -416,10 +376,90 @@
       "exit_date": "2026-10-03",
       "reason": "10-day expiry",
       "days_held": 10
+    },
+    {
+      "ticker": "UPST",
+      "entry_date": "2026-09-25",
+      "entry_price": 24.6,
+      "price_target": 21.5,
+      "invalidation_price": 26.5,
+      "bias": "Bearish",
+      "thesis": "UPST is trading well below both its 50SMA ($28.19) and 200SMA ($32.99) with RSI at 37.3 approaching but not yet oversold. Rising Treasury yields at 5.11% directly pressure fintech lending models. The stock has no technical support nearby and the macro headwind of surging rates creates a strong fundamental catalyst for further downside toward the $21.50 level.",
+      "source": "Technicals + Macro",
+      "outcome": "NEUTRAL",
+      "exit_price": 24.6,
+      "pnl_pct": 0,
+      "exit_date": "2026-10-06",
+      "reason": "10-day expiry",
+      "days_held": 11
+    },
+    {
+      "ticker": "UVIX",
+      "entry_date": "2026-09-25",
+      "entry_price": 36.25,
+      "price_target": 42.0,
+      "invalidation_price": 34.0,
+      "bias": "Bullish",
+      "thesis": "UVIX rose +1.18% today as volatility demand builds beneath a complacent F&G reading of 71. With Treasury yields at 19-year highs, narrowing breadth at dot-com levels, and a potential equity repricing ahead, a volatility spike setup offers asymmetric upside. This is a tactical hedge trade.",
+      "source": "Sentiment Divergence + Macro Risk",
+      "outcome": "LOSS",
+      "exit_price": 35.17,
+      "pnl_pct": -2.98,
+      "exit_date": "2026-10-06",
+      "reason": "10-day expiry",
+      "days_held": 11
+    },
+    {
+      "ticker": "MSFT",
+      "entry_date": "2026-09-26",
+      "entry_price": 513.0,
+      "price_target": 540.0,
+      "invalidation_price": 500.0,
+      "bias": "Bullish",
+      "thesis": "MSFT showed dominant relative strength today at +3.66% vs SPY +0.54%, suggesting institutional accumulation. Technology sector is leading rotation (XLK +0.8% today), and the Trump-Xi tech summit could serve as a near-term sentiment catalyst for mega-cap tech. Momentum continuation setup with potential to test new highs.",
+      "source": "Watchlist + Sector Rotation Analysis",
+      "outcome": "WIN",
+      "exit_price": 525.18,
+      "pnl_pct": 2.37,
+      "exit_date": "2026-10-06",
+      "reason": "10-day expiry",
+      "days_held": 10
+    },
+    {
+      "ticker": "KTOS",
+      "entry_date": "2026-09-26",
+      "entry_price": 45.25,
+      "price_target": 50.0,
+      "invalidation_price": 43.0,
+      "bias": "Bullish",
+      "thesis": "KTOS RSI at 35.8 is approaching oversold territory with price deeply below both 50SMA ($51.60) and 200SMA ($69.78), creating a mean-reversion bounce setup. Industrials led today at +0.95%, and defense/drone names in the growth universe benefit from elevated geopolitical spending. A bounce toward the 50SMA at $51.60 offers significant upside from current levels, with $50 as a conservative first target.",
+      "source": "Technical Scan + Sector Rotation",
+      "outcome": "NEUTRAL",
+      "exit_price": 45.25,
+      "pnl_pct": 0,
+      "exit_date": "2026-10-06",
+      "reason": "10-day expiry",
+      "days_held": 10
+    },
+    {
+      "ticker": "SQQQ",
+      "entry_date": "2026-09-29",
+      "entry_price": 34.5,
+      "price_target": 38.5,
+      "invalidation_price": 32.5,
+      "bias": "Bullish",
+      "thesis": "With Fear & Greed at 73 diverging from deteriorating price action, QQQ down 1.07% today, and macro headwinds from 5.17% Treasury yields weighing on growth, SQQQ offers a tactical hedge for continued Nasdaq weakness. Stock futures are already slipping post-winning-week, and elevated complacency often precedes deeper pullbacks. Diesel export ban rhetoric adds uncertainty.",
+      "source": "Macro/sentiment divergence analysis",
+      "outcome": "LOSS",
+      "exit_price": 32.25,
+      "pnl_pct": -6.52,
+      "exit_date": "2026-10-06",
+      "reason": "Stop hit",
+      "days_held": 7
     }
   ],
-  "total_trades": 19,
-  "wins": 4,
-  "losses": 5,
-  "total_pnl_pct": 8.27
+  "total_trades": 24,
+  "wins": 5,
+  "losses": 7,
+  "total_pnl_pct": 1.14
 }

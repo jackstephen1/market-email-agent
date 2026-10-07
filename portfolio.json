@@ -70,6 +70,36 @@
       "bias": "Bearish",
       "thesis": "CELH trading well below both the 50SMA ($29.39) and 200SMA ($36.35), confirming a strong downtrend. RSI at 43.3 is neutral \u2014 not yet oversold, leaving room for further downside. Below-average volume at 0.9x suggests lack of buying interest. Consumer Discretionary lagging today (+0.35%) adds sector headwind.",
       "source": "Technical Scan"
+    },
+    {
+      "ticker": "XLY",
+      "entry_date": "2026-10-07",
+      "entry_price": 243.0,
+      "price_target": 253.0,
+      "invalidation_price": 238.0,
+      "bias": "Bullish",
+      "thesis": "Consumer Discretionary is leading all sectors today at +1.18%, showing clear relative strength vs SPY (+0.55%). Sector rotation into cyclicals with a normalizing yield curve supports continuation. Tariff/trade headline risk has receded, giving discretionary names room to run.",
+      "source": "Sector Rotation Analysis"
+    },
+    {
+      "ticker": "MU",
+      "entry_date": "2026-10-07",
+      "entry_price": 1035.0,
+      "price_target": 1110.0,
+      "invalidation_price": 1000.0,
+      "bias": "Bullish",
+      "thesis": "MU trades well above both its 50SMA ($961.81) and 200SMA ($689.75) confirming strong uptrend. RSI at 53.9 is neutral with room to expand. The $60B Broadcom/Anthropic chip deal news validates continued AI memory demand. Price is consolidating after a large move \u2014 a pullback to the $1020-1050 zone offers a favorable swing entry with the AI spending tailwind.",
+      "source": "Technical Scan + News Catalyst"
+    },
+    {
+      "ticker": "UVIX",
+      "entry_date": "2026-10-07",
+      "entry_price": 33.75,
+      "price_target": 30.5,
+      "invalidation_price": 36.0,
+      "bias": "Bearish",
+      "thesis": "UVIX dropped -5.17% today, the largest move on the watchlist, confirming volatility compression. With SPY grinding higher and sector breadth positive, volatility products face structural decay. Pre-earnings calm before bank reports next week should keep VIX suppressed for the next 3-5 sessions.",
+      "source": "Volatility Analysis"
     }
   ],
   "closed_trades": [

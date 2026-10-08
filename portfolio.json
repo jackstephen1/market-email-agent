@@ -100,6 +100,16 @@
       "bias": "Bearish",
       "thesis": "UVIX dropped -5.17% today, the largest move on the watchlist, confirming volatility compression. With SPY grinding higher and sector breadth positive, volatility products face structural decay. Pre-earnings calm before bank reports next week should keep VIX suppressed for the next 3-5 sessions.",
       "source": "Volatility Analysis"
+    },
+    {
+      "ticker": "CAVA",
+      "entry_date": "2026-10-08",
+      "entry_price": 53.25,
+      "price_target": 47.0,
+      "invalidation_price": 57.0,
+      "bias": "Bearish",
+      "thesis": "CAVA is trading well below both its 50SMA ($60.76) and 200SMA ($72.29), confirming a strong downtrend. RSI at 37 is approaching oversold but not there yet, leaving room for further downside. Volume at only 0.5x average signals lack of buyer interest. The True Food Kitchen bankruptcy headline highlights restaurant sector stress, and Consumer Discretionary (XLY) lagged today at -0.32%.",
+      "source": "Technical Scan + Sector Weakness"
     }
   ],
   "closed_trades": [

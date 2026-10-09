@@ -2,36 +2,6 @@
   "start_date": "2026-09-05",
   "open_positions": [
     {
-      "ticker": "NVDA",
-      "entry_date": "2026-09-29",
-      "entry_price": 226.75,
-      "price_target": 242.0,
-      "invalidation_price": 219.0,
-      "bias": "Bullish",
-      "thesis": "NVDA showed exceptional relative strength today, gaining 1.68% while QQQ fell 1.07% and the broader tech sector (XLK) dropped 0.89%. This 2.5%+ outperformance vs SPY on a down day signals strong institutional demand. AI/semiconductor leadership continues and the OpenAI news regarding model training pauses could actually benefit NVDA as compute demand increases for safety testing. Looking for continuation momentum.",
-      "source": "Relative strength analysis vs SPY/QQQ"
-    },
-    {
-      "ticker": "AAPL",
-      "entry_date": "2026-09-30",
-      "entry_price": 330.0,
-      "price_target": 315.0,
-      "invalidation_price": 340.0,
-      "bias": "Bearish",
-      "thesis": "AAPL dropped 2.66% today, showing severe relative weakness vs SPY (-0.18%) and QQQ (+0.19%). Rising Treasury yields at 5.24% directly pressure high-multiple consumer tech. The magnitude of today's move suggests institutional distribution, and continuation toward the $315 area is likely in a rising rate environment over the next 3-7 days.",
-      "source": "Watchlist + Macro"
-    },
-    {
-      "ticker": "SLV",
-      "entry_date": "2026-09-30",
-      "entry_price": 55.15,
-      "price_target": 59.0,
-      "invalidation_price": 53.5,
-      "bias": "Bullish",
-      "thesis": "SLV gained 0.96% today, leading the watchlist and benefiting from inflation fears as the 10-Year hits 5.24% and geopolitical risks from Iran escalate. Silver serves as both an inflation hedge and industrial metal with AI/solar demand tailwinds. Relative strength vs SPY today is a clear sector rotation signal into hard assets over the next 5-10 days.",
-      "source": "Watchlist + Sector Rotation"
-    },
-    {
       "ticker": "SOUN",
       "entry_date": "2026-10-01",
       "entry_price": 5.93,
@@ -52,16 +22,6 @@
       "source": "Watchlist + Sector Rotation"
     },
     {
-      "ticker": "NU",
-      "entry_date": "2026-10-03",
-      "entry_price": 13.3,
-      "price_target": 14.25,
-      "invalidation_price": 12.75,
-      "bias": "Bullish",
-      "thesis": "NU is trading at a neutral RSI of 45.5 with price below both 50SMA ($14.25) and 200SMA ($14.70), creating a mean-reversion setup toward the 50SMA. Volume is at 1.0x average suggesting accumulation hasn't begun yet \u2014 early entry opportunity. A move back to $14.25 represents a 6% upside swing with defined risk below $12.75.",
-      "source": "Technical Scan - Growth Universe"
-    },
-    {
       "ticker": "CELH",
       "entry_date": "2026-10-06",
       "entry_price": 27.75,
@@ -70,16 +30,6 @@
       "bias": "Bearish",
       "thesis": "CELH trading well below both the 50SMA ($29.39) and 200SMA ($36.35), confirming a strong downtrend. RSI at 43.3 is neutral \u2014 not yet oversold, leaving room for further downside. Below-average volume at 0.9x suggests lack of buying interest. Consumer Discretionary lagging today (+0.35%) adds sector headwind.",
       "source": "Technical Scan"
-    },
-    {
-      "ticker": "XLY",
-      "entry_date": "2026-10-07",
-      "entry_price": 243.0,
-      "price_target": 253.0,
-      "invalidation_price": 238.0,
-      "bias": "Bullish",
-      "thesis": "Consumer Discretionary is leading all sectors today at +1.18%, showing clear relative strength vs SPY (+0.55%). Sector rotation into cyclicals with a normalizing yield curve supports continuation. Tariff/trade headline risk has receded, giving discretionary names room to run.",
-      "source": "Sector Rotation Analysis"
     },
     {
       "ticker": "MU",
@@ -110,6 +60,16 @@
       "bias": "Bearish",
       "thesis": "CAVA is trading well below both its 50SMA ($60.76) and 200SMA ($72.29), confirming a strong downtrend. RSI at 37 is approaching oversold but not there yet, leaving room for further downside. Volume at only 0.5x average signals lack of buyer interest. The True Food Kitchen bankruptcy headline highlights restaurant sector stress, and Consumer Discretionary (XLY) lagged today at -0.32%.",
       "source": "Technical Scan + Sector Weakness"
+    },
+    {
+      "ticker": "XLE",
+      "entry_date": "2026-10-09",
+      "entry_price": 97.25,
+      "price_target": 102.0,
+      "invalidation_price": 95.0,
+      "bias": "Bullish",
+      "thesis": "Energy is today's strongest sector at +2.97%, showing clear relative strength vs SPY (-0.42%). Alberta oil independence news and sector rotation out of tech into commodities support continuation. High yield environment historically favors energy over growth. XLE is leading sector rotation and should benefit from continued flows out of tech.",
+      "source": "Sector rotation analysis, news catalyst"
     }
   ],
   "closed_trades": [
@@ -496,10 +456,90 @@
       "exit_date": "2026-10-06",
       "reason": "Stop hit",
       "days_held": 7
+    },
+    {
+      "ticker": "NVDA",
+      "entry_date": "2026-09-29",
+      "entry_price": 226.75,
+      "price_target": 242.0,
+      "invalidation_price": 219.0,
+      "bias": "Bullish",
+      "thesis": "NVDA showed exceptional relative strength today, gaining 1.68% while QQQ fell 1.07% and the broader tech sector (XLK) dropped 0.89%. This 2.5%+ outperformance vs SPY on a down day signals strong institutional demand. AI/semiconductor leadership continues and the OpenAI news regarding model training pauses could actually benefit NVDA as compute demand increases for safety testing. Looking for continuation momentum.",
+      "source": "Relative strength analysis vs SPY/QQQ",
+      "outcome": "WIN",
+      "exit_price": 230.48,
+      "pnl_pct": 1.64,
+      "exit_date": "2026-10-09",
+      "reason": "10-day expiry",
+      "days_held": 10
+    },
+    {
+      "ticker": "AAPL",
+      "entry_date": "2026-09-30",
+      "entry_price": 330.0,
+      "price_target": 315.0,
+      "invalidation_price": 340.0,
+      "bias": "Bearish",
+      "thesis": "AAPL dropped 2.66% today, showing severe relative weakness vs SPY (-0.18%) and QQQ (+0.19%). Rising Treasury yields at 5.24% directly pressure high-multiple consumer tech. The magnitude of today's move suggests institutional distribution, and continuation toward the $315 area is likely in a rising rate environment over the next 3-7 days.",
+      "source": "Watchlist + Macro",
+      "outcome": "LOSS",
+      "exit_price": 340.42,
+      "pnl_pct": -3.16,
+      "exit_date": "2026-10-09",
+      "reason": "Stop hit",
+      "days_held": 9
+    },
+    {
+      "ticker": "SLV",
+      "entry_date": "2026-09-30",
+      "entry_price": 55.15,
+      "price_target": 59.0,
+      "invalidation_price": 53.5,
+      "bias": "Bullish",
+      "thesis": "SLV gained 0.96% today, leading the watchlist and benefiting from inflation fears as the 10-Year hits 5.24% and geopolitical risks from Iran escalate. Silver serves as both an inflation hedge and industrial metal with AI/solar demand tailwinds. Relative strength vs SPY today is a clear sector rotation signal into hard assets over the next 5-10 days.",
+      "source": "Watchlist + Sector Rotation",
+      "outcome": "LOSS",
+      "exit_price": 53.45,
+      "pnl_pct": -3.08,
+      "exit_date": "2026-10-09",
+      "reason": "Stop hit",
+      "days_held": 9
+    },
+    {
+      "ticker": "NU",
+      "entry_date": "2026-10-03",
+      "entry_price": 13.3,
+      "price_target": 14.25,
+      "invalidation_price": 12.75,
+      "bias": "Bullish",
+      "thesis": "NU is trading at a neutral RSI of 45.5 with price below both 50SMA ($14.25) and 200SMA ($14.70), creating a mean-reversion setup toward the 50SMA. Volume is at 1.0x average suggesting accumulation hasn't begun yet \u2014 early entry opportunity. A move back to $14.25 represents a 6% upside swing with defined risk below $12.75.",
+      "source": "Technical Scan - Growth Universe",
+      "outcome": "WIN",
+      "exit_price": 15.38,
+      "pnl_pct": 15.64,
+      "exit_date": "2026-10-09",
+      "reason": "Target hit",
+      "days_held": 6
+    },
+    {
+      "ticker": "XLY",
+      "entry_date": "2026-10-07",
+      "entry_price": 243.0,
+      "price_target": 253.0,
+      "invalidation_price": 238.0,
+      "bias": "Bullish",
+      "thesis": "Consumer Discretionary is leading all sectors today at +1.18%, showing clear relative strength vs SPY (+0.55%). Sector rotation into cyclicals with a normalizing yield curve supports continuation. Tariff/trade headline risk has receded, giving discretionary names room to run.",
+      "source": "Sector Rotation Analysis",
+      "outcome": "LOSS",
+      "exit_price": 111.71,
+      "pnl_pct": -54.03,
+      "exit_date": "2026-10-09",
+      "reason": "Stop hit",
+      "days_held": 2
     }
   ],
-  "total_trades": 24,
-  "wins": 5,
-  "losses": 7,
-  "total_pnl_pct": 1.14
+  "total_trades": 29,
+  "wins": 7,
+  "losses": 10,
+  "total_pnl_pct": -41.85
 }

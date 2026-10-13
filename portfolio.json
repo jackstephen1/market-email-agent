@@ -2,26 +2,6 @@
   "start_date": "2026-09-05",
   "open_positions": [
     {
-      "ticker": "SOUN",
-      "entry_date": "2026-10-01",
-      "entry_price": 5.93,
-      "price_target": 6.55,
-      "invalidation_price": 5.5,
-      "bias": "Bullish",
-      "thesis": "RSI at 41.8 approaching oversold with price well below both the 50SMA ($6.60) and 200SMA ($7.85), creating a mean-reversion setup targeting the 50SMA. AI/tech theme remains strong with OpenAI's $1.4T valuation talks and DevDay catalyzing AI sentiment broadly. Volume at 0.9x average suggests quiet accumulation phase before a move.",
-      "source": "Technicals Scan"
-    },
-    {
-      "ticker": "GOOGL",
-      "entry_date": "2026-10-03",
-      "entry_price": 341.0,
-      "price_target": 358.0,
-      "invalidation_price": 332.0,
-      "bias": "Bullish",
-      "thesis": "GOOGL is showing the strongest relative strength vs SPY today (+1.56% vs +0.74%), leading mega-cap tech. AI optimism narrative from news flow is supporting Wall Street sentiment. Technology sector is the second-leading sector today at +1.01%. Price momentum favors continuation toward $358 over the next 3-7 days.",
-      "source": "Watchlist + Sector Rotation"
-    },
-    {
       "ticker": "CELH",
       "entry_date": "2026-10-06",
       "entry_price": 27.75,
@@ -100,6 +80,26 @@
       "bias": "Bullish",
       "thesis": "MSFT showed exceptional relative strength today at +2.38% vs SPY's +0.6%, shrugging off negative headlines about the green card program suspension. This resilience suggests institutional buyers are accumulating. Despite Technology sector lagging overall at +0.51%, MSFT outperformed the sector by nearly 5x, indicating stock-specific strength.",
       "source": "Watchlist + Relative Strength"
+    },
+    {
+      "ticker": "CHRD",
+      "entry_date": "2026-10-13",
+      "entry_price": 143.25,
+      "price_target": 153.0,
+      "invalidation_price": 139.5,
+      "bias": "Bullish",
+      "thesis": "CHRD is trading above both its 50SMA ($141.74) and well above its 200SMA ($125.36) with RSI at 56.3 \u2014 neutral momentum with room to run. Energy sector is leading today at +1.43%, and oil is rising on Mideast attacks per Bloomberg. CHRD shows relative strength vs SPY and benefits from the energy rotation theme. Entry near the 50SMA provides a clean risk/reward setup.",
+      "source": "Technicals + Sector Rotation"
+    },
+    {
+      "ticker": "AAPL",
+      "entry_date": "2026-10-13",
+      "entry_price": 338.0,
+      "price_target": 355.0,
+      "invalidation_price": 330.0,
+      "bias": "Bullish",
+      "thesis": "AAPL gained +1.29% today, significantly outperforming QQQ (-0.70%) and showing exceptional relative strength vs SPY in a weak tech tape. This relative strength divergence during sector weakness is a high-conviction bullish signal. AAPL often acts as a safe haven within tech during rotations. A pullback to $335-338 would offer an attractive swing entry.",
+      "source": "Relative Strength + Price Action"
     }
   ],
   "closed_trades": [
@@ -566,10 +566,42 @@
       "exit_date": "2026-10-09",
       "reason": "Stop hit",
       "days_held": 2
+    },
+    {
+      "ticker": "SOUN",
+      "entry_date": "2026-10-01",
+      "entry_price": 5.93,
+      "price_target": 6.55,
+      "invalidation_price": 5.5,
+      "bias": "Bullish",
+      "thesis": "RSI at 41.8 approaching oversold with price well below both the 50SMA ($6.60) and 200SMA ($7.85), creating a mean-reversion setup targeting the 50SMA. AI/tech theme remains strong with OpenAI's $1.4T valuation talks and DevDay catalyzing AI sentiment broadly. Volume at 0.9x average suggests quiet accumulation phase before a move.",
+      "source": "Technicals Scan",
+      "outcome": "NEUTRAL",
+      "exit_price": 5.93,
+      "pnl_pct": 0,
+      "exit_date": "2026-10-13",
+      "reason": "10-day expiry",
+      "days_held": 12
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date": "2026-10-03",
+      "entry_price": 341.0,
+      "price_target": 358.0,
+      "invalidation_price": 332.0,
+      "bias": "Bullish",
+      "thesis": "GOOGL is showing the strongest relative strength vs SPY today (+1.56% vs +0.74%), leading mega-cap tech. AI optimism narrative from news flow is supporting Wall Street sentiment. Technology sector is the second-leading sector today at +1.01%. Price momentum favors continuation toward $358 over the next 3-7 days.",
+      "source": "Watchlist + Sector Rotation",
+      "outcome": "WIN",
+      "exit_price": 352.72,
+      "pnl_pct": 3.44,
+      "exit_date": "2026-10-13",
+      "reason": "10-day expiry",
+      "days_held": 10
     }
   ],
-  "total_trades": 29,
-  "wins": 7,
+  "total_trades": 31,
+  "wins": 8,
   "losses": 10,
-  "total_pnl_pct": -41.85
+  "total_pnl_pct": -38.41
 }

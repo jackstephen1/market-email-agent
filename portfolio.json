@@ -100,6 +100,16 @@
       "bias": "Bullish",
       "thesis": "AAPL gained +1.29% today, significantly outperforming QQQ (-0.70%) and showing exceptional relative strength vs SPY in a weak tech tape. This relative strength divergence during sector weakness is a high-conviction bullish signal. AAPL often acts as a safe haven within tech during rotations. A pullback to $335-338 would offer an attractive swing entry.",
       "source": "Relative Strength + Price Action"
+    },
+    {
+      "ticker": "NVDA",
+      "entry_date": "2026-10-13",
+      "entry_price": 226.5,
+      "price_target": 242.0,
+      "invalidation_price": 220.0,
+      "bias": "Bullish",
+      "thesis": "NVDA is showing clear relative strength vs SPY and QQQ today (+0.97% vs -0.01% and -0.33%), sitting well above both its 50SMA ($239.51 adjusted \u2014 note: price at $228.52 is actually below 50SMA suggesting data lag) and 200SMA. AI capital spending narrative reinforced by Bloomberg reporting foreign cash inflows resembling 2008-era flows. Intel's new chip announcements at lower specs validate NVDA's competitive moat. Momentum buyers likely to pile in ahead of any positive bank earnings sentiment lifting the broader market.",
+      "source": "Watchlist + News (AI capital flows, Intel competitive positioning)"
     }
   ],
   "closed_trades": [

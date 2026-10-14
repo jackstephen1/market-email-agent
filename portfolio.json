@@ -52,16 +52,6 @@
       "source": "Sector rotation analysis, news catalyst"
     },
     {
-      "ticker": "SLV",
-      "entry_date": "2026-10-10",
-      "entry_price": 54.25,
-      "price_target": 58.0,
-      "invalidation_price": 52.5,
-      "bias": "Bullish",
-      "thesis": "Silver is benefiting from safe-haven flows amid rising yields and geopolitical uncertainty. SLV rallied +2.49% today showing strong momentum. With 10-Year yields at 5.22% creating equity headwinds, precious metals provide a natural rotation trade. Relative strength vs SPY is notable \u2014 SLV outperformed SPY by nearly 4x today.",
-      "source": "Watchlist + Macro Analysis"
-    },
-    {
       "ticker": "BROS",
       "entry_date": "2026-10-10",
       "entry_price": 37.5,
@@ -110,6 +100,16 @@
       "bias": "Bullish",
       "thesis": "NVDA is showing clear relative strength vs SPY and QQQ today (+0.97% vs -0.01% and -0.33%), sitting well above both its 50SMA ($239.51 adjusted \u2014 note: price at $228.52 is actually below 50SMA suggesting data lag) and 200SMA. AI capital spending narrative reinforced by Bloomberg reporting foreign cash inflows resembling 2008-era flows. Intel's new chip announcements at lower specs validate NVDA's competitive moat. Momentum buyers likely to pile in ahead of any positive bank earnings sentiment lifting the broader market.",
       "source": "Watchlist + News (AI capital flows, Intel competitive positioning)"
+    },
+    {
+      "ticker": "SQQQ",
+      "entry_date": "2026-10-14",
+      "entry_price": 35.5,
+      "price_target": 40.0,
+      "invalidation_price": 33.0,
+      "bias": "Bullish",
+      "thesis": "SQQQ surged 5.93% today as tech crumbled. With XLK down 2.98% today, 10Y yields at 5.21% pressuring growth valuations, and NVDA/GOOGL/MSFT all selling off hard, the momentum favors continued tech weakness. Unlike our previous SQQQ loss where F&G divergence killed the trade early, this setup has price action confirmation with tech leading the selloff, not just sentiment divergence.",
+      "source": "Watchlist + Sector Rotation"
     }
   ],
   "closed_trades": [
@@ -608,10 +608,26 @@
       "exit_date": "2026-10-13",
       "reason": "10-day expiry",
       "days_held": 10
+    },
+    {
+      "ticker": "SLV",
+      "entry_date": "2026-10-10",
+      "entry_price": 54.25,
+      "price_target": 58.0,
+      "invalidation_price": 52.5,
+      "bias": "Bullish",
+      "thesis": "Silver is benefiting from safe-haven flows amid rising yields and geopolitical uncertainty. SLV rallied +2.49% today showing strong momentum. With 10-Year yields at 5.22% creating equity headwinds, precious metals provide a natural rotation trade. Relative strength vs SPY is notable \u2014 SLV outperformed SPY by nearly 4x today.",
+      "source": "Watchlist + Macro Analysis",
+      "outcome": "LOSS",
+      "exit_price": 50.22,
+      "pnl_pct": -7.43,
+      "exit_date": "2026-10-14",
+      "reason": "Stop hit",
+      "days_held": 4
     }
   ],
-  "total_trades": 31,
+  "total_trades": 32,
   "wins": 8,
-  "losses": 10,
-  "total_pnl_pct": -38.41
+  "losses": 11,
+  "total_pnl_pct": -45.84
 }

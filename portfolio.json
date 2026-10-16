@@ -12,16 +12,6 @@
       "source": "Technical Scan + News Catalyst"
     },
     {
-      "ticker": "UVIX",
-      "entry_date": "2026-10-07",
-      "entry_price": 33.75,
-      "price_target": 30.5,
-      "invalidation_price": 36.0,
-      "bias": "Bearish",
-      "thesis": "UVIX dropped -5.17% today, the largest move on the watchlist, confirming volatility compression. With SPY grinding higher and sector breadth positive, volatility products face structural decay. Pre-earnings calm before bank reports next week should keep VIX suppressed for the next 3-5 sessions.",
-      "source": "Volatility Analysis"
-    },
-    {
       "ticker": "CAVA",
       "entry_date": "2026-10-08",
       "entry_price": 53.25,
@@ -646,10 +636,26 @@
       "exit_date": "2026-10-16",
       "reason": "10-day expiry",
       "days_held": 10
+    },
+    {
+      "ticker": "UVIX",
+      "entry_date": "2026-10-07",
+      "entry_price": 33.75,
+      "price_target": 30.5,
+      "invalidation_price": 36.0,
+      "bias": "Bearish",
+      "thesis": "UVIX dropped -5.17% today, the largest move on the watchlist, confirming volatility compression. With SPY grinding higher and sector breadth positive, volatility products face structural decay. Pre-earnings calm before bank reports next week should keep VIX suppressed for the next 3-5 sessions.",
+      "source": "Volatility Analysis",
+      "outcome": "LOSS",
+      "exit_price": 39.59,
+      "pnl_pct": -17.3,
+      "exit_date": "2026-10-16",
+      "reason": "Stop hit",
+      "days_held": 9
     }
   ],
-  "total_trades": 34,
+  "total_trades": 35,
   "wins": 8,
-  "losses": 12,
-  "total_pnl_pct": -49.93
+  "losses": 13,
+  "total_pnl_pct": -67.23
 }

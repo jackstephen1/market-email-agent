@@ -2,16 +2,6 @@
   "start_date": "2026-09-05",
   "open_positions": [
     {
-      "ticker": "CELH",
-      "entry_date": "2026-10-06",
-      "entry_price": 27.75,
-      "price_target": 24.5,
-      "invalidation_price": 29.5,
-      "bias": "Bearish",
-      "thesis": "CELH trading well below both the 50SMA ($29.39) and 200SMA ($36.35), confirming a strong downtrend. RSI at 43.3 is neutral \u2014 not yet oversold, leaving room for further downside. Below-average volume at 0.9x suggests lack of buying interest. Consumer Discretionary lagging today (+0.35%) adds sector headwind.",
-      "source": "Technical Scan"
-    },
-    {
       "ticker": "MU",
       "entry_date": "2026-10-07",
       "entry_price": 1035.0,
@@ -640,9 +630,25 @@
       "exit_date": "2026-10-15",
       "reason": "Stop hit",
       "days_held": 2
+    },
+    {
+      "ticker": "CELH",
+      "entry_date": "2026-10-06",
+      "entry_price": 27.75,
+      "price_target": 24.5,
+      "invalidation_price": 29.5,
+      "bias": "Bearish",
+      "thesis": "CELH trading well below both the 50SMA ($29.39) and 200SMA ($36.35), confirming a strong downtrend. RSI at 43.3 is neutral \u2014 not yet oversold, leaving room for further downside. Below-average volume at 0.9x suggests lack of buying interest. Consumer Discretionary lagging today (+0.35%) adds sector headwind.",
+      "source": "Technical Scan",
+      "outcome": "NEUTRAL",
+      "exit_price": 27.75,
+      "pnl_pct": null,
+      "exit_date": "2026-10-16",
+      "reason": "10-day expiry",
+      "days_held": 10
     }
   ],
-  "total_trades": 33,
+  "total_trades": 34,
   "wins": 8,
   "losses": 12,
   "total_pnl_pct": -49.93

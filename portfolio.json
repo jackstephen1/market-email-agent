@@ -2,36 +2,6 @@
   "start_date": "2026-09-05",
   "open_positions": [
     {
-      "ticker": "MU",
-      "entry_date": "2026-10-07",
-      "entry_price": 1035.0,
-      "price_target": 1110.0,
-      "invalidation_price": 1000.0,
-      "bias": "Bullish",
-      "thesis": "MU trades well above both its 50SMA ($961.81) and 200SMA ($689.75) confirming strong uptrend. RSI at 53.9 is neutral with room to expand. The $60B Broadcom/Anthropic chip deal news validates continued AI memory demand. Price is consolidating after a large move \u2014 a pullback to the $1020-1050 zone offers a favorable swing entry with the AI spending tailwind.",
-      "source": "Technical Scan + News Catalyst"
-    },
-    {
-      "ticker": "CAVA",
-      "entry_date": "2026-10-08",
-      "entry_price": 53.25,
-      "price_target": 47.0,
-      "invalidation_price": 57.0,
-      "bias": "Bearish",
-      "thesis": "CAVA is trading well below both its 50SMA ($60.76) and 200SMA ($72.29), confirming a strong downtrend. RSI at 37 is approaching oversold but not there yet, leaving room for further downside. Volume at only 0.5x average signals lack of buyer interest. The True Food Kitchen bankruptcy headline highlights restaurant sector stress, and Consumer Discretionary (XLY) lagged today at -0.32%.",
-      "source": "Technical Scan + Sector Weakness"
-    },
-    {
-      "ticker": "XLE",
-      "entry_date": "2026-10-09",
-      "entry_price": 97.25,
-      "price_target": 102.0,
-      "invalidation_price": 95.0,
-      "bias": "Bullish",
-      "thesis": "Energy is today's strongest sector at +2.97%, showing clear relative strength vs SPY (-0.42%). Alberta oil independence news and sector rotation out of tech into commodities support continuation. High yield environment historically favors energy over growth. XLE is leading sector rotation and should benefit from continued flows out of tech.",
-      "source": "Sector rotation analysis, news catalyst"
-    },
-    {
       "ticker": "BROS",
       "entry_date": "2026-10-10",
       "entry_price": 37.5,
@@ -90,6 +60,16 @@
       "bias": "Bullish",
       "thesis": "SLV surged +3.39% today, the strongest watchlist mover, as precious metals benefit from 10-Year yields at 5.19% creating systemic financial uncertainty. Silver has industrial demand tailwinds (solar, AI infrastructure) on top of safe-haven flows. Despite two prior SLV stop-outs, the macro setup is now materially different \u2014 yields are at extremes creating genuine flight-to-hard-assets dynamics. Tight stop placement at $49 limits downside to prior loss patterns.",
       "source": "Watchlist + Macro Analysis"
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date": "2026-10-19",
+      "entry_price": 342.5,
+      "price_target": 358.0,
+      "invalidation_price": 333.0,
+      "bias": "Bullish",
+      "thesis": "GOOGL up 1.05% today showing relative strength vs SPY (+0.63% outperformance), continuing a pattern that previously yielded a +3.44% winning trade. Price is riding the tech sector rotation tailwind with XLK up 1.36% today. Approaching META earnings on 10/21 could provide a sympathetic bid to mega-cap ad/cloud names. Strong momentum above both moving averages with room to run before overbought.",
+      "source": "Watchlist + Sector Rotation + Prior Win Pattern"
     }
   ],
   "closed_trades": [
@@ -652,9 +632,57 @@
       "exit_date": "2026-10-16",
       "reason": "Stop hit",
       "days_held": 9
+    },
+    {
+      "ticker": "MU",
+      "entry_date": "2026-10-07",
+      "entry_price": 1035.0,
+      "price_target": 1110.0,
+      "invalidation_price": 1000.0,
+      "bias": "Bullish",
+      "thesis": "MU trades well above both its 50SMA ($961.81) and 200SMA ($689.75) confirming strong uptrend. RSI at 53.9 is neutral with room to expand. The $60B Broadcom/Anthropic chip deal news validates continued AI memory demand. Price is consolidating after a large move \u2014 a pullback to the $1020-1050 zone offers a favorable swing entry with the AI spending tailwind.",
+      "source": "Technical Scan + News Catalyst",
+      "outcome": "NEUTRAL",
+      "exit_price": 1035.0,
+      "pnl_pct": null,
+      "exit_date": "2026-10-19",
+      "reason": "10-day expiry",
+      "days_held": 12
+    },
+    {
+      "ticker": "CAVA",
+      "entry_date": "2026-10-08",
+      "entry_price": 53.25,
+      "price_target": 47.0,
+      "invalidation_price": 57.0,
+      "bias": "Bearish",
+      "thesis": "CAVA is trading well below both its 50SMA ($60.76) and 200SMA ($72.29), confirming a strong downtrend. RSI at 37 is approaching oversold but not there yet, leaving room for further downside. Volume at only 0.5x average signals lack of buyer interest. The True Food Kitchen bankruptcy headline highlights restaurant sector stress, and Consumer Discretionary (XLY) lagged today at -0.32%.",
+      "source": "Technical Scan + Sector Weakness",
+      "outcome": "NEUTRAL",
+      "exit_price": 53.25,
+      "pnl_pct": null,
+      "exit_date": "2026-10-19",
+      "reason": "10-day expiry",
+      "days_held": 11
+    },
+    {
+      "ticker": "XLE",
+      "entry_date": "2026-10-09",
+      "entry_price": 97.25,
+      "price_target": 102.0,
+      "invalidation_price": 95.0,
+      "bias": "Bullish",
+      "thesis": "Energy is today's strongest sector at +2.97%, showing clear relative strength vs SPY (-0.42%). Alberta oil independence news and sector rotation out of tech into commodities support continuation. High yield environment historically favors energy over growth. XLE is leading sector rotation and should benefit from continued flows out of tech.",
+      "source": "Sector rotation analysis, news catalyst",
+      "outcome": "NEUTRAL",
+      "exit_price": 97.25,
+      "pnl_pct": null,
+      "exit_date": "2026-10-19",
+      "reason": "10-day expiry",
+      "days_held": 10
     }
   ],
-  "total_trades": 35,
+  "total_trades": 38,
   "wins": 8,
   "losses": 13,
   "total_pnl_pct": -67.23

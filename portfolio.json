@@ -2,26 +2,6 @@
   "start_date": "2026-09-05",
   "open_positions": [
     {
-      "ticker": "BROS",
-      "entry_date": "2026-10-10",
-      "entry_price": 37.5,
-      "price_target": 42.0,
-      "invalidation_price": 35.5,
-      "bias": "Bullish",
-      "thesis": "BROS is approaching oversold territory with RSI at 34, trading deeply below both its 50SMA ($46.50) and 200SMA ($54.94). This represents a mean-reversion opportunity for a bounce. The stock is heavily discounted at ~18% below its 50-day moving average, which historically leads to snapback rallies in growth names. Consumer Discretionary sector led today at +1.02%, providing a tailwind.",
-      "source": "Technical Scan"
-    },
-    {
-      "ticker": "MSFT",
-      "entry_date": "2026-10-10",
-      "entry_price": 531.0,
-      "price_target": 555.0,
-      "invalidation_price": 518.0,
-      "bias": "Bullish",
-      "thesis": "MSFT showed exceptional relative strength today at +2.38% vs SPY's +0.6%, shrugging off negative headlines about the green card program suspension. This resilience suggests institutional buyers are accumulating. Despite Technology sector lagging overall at +0.51%, MSFT outperformed the sector by nearly 5x, indicating stock-specific strength.",
-      "source": "Watchlist + Relative Strength"
-    },
-    {
       "ticker": "CHRD",
       "entry_date": "2026-10-13",
       "entry_price": 143.25,
@@ -70,6 +50,16 @@
       "bias": "Bullish",
       "thesis": "GOOGL up 1.05% today showing relative strength vs SPY (+0.63% outperformance), continuing a pattern that previously yielded a +3.44% winning trade. Price is riding the tech sector rotation tailwind with XLK up 1.36% today. Approaching META earnings on 10/21 could provide a sympathetic bid to mega-cap ad/cloud names. Strong momentum above both moving averages with room to run before overbought.",
       "source": "Watchlist + Sector Rotation + Prior Win Pattern"
+    },
+    {
+      "ticker": "XLV",
+      "entry_date": "2026-10-20",
+      "entry_price": 156.5,
+      "price_target": 162.0,
+      "invalidation_price": 153.5,
+      "bias": "Bullish",
+      "thesis": "Healthcare is today's strongest sector at +2.37%, showing clear relative strength vs SPY. GLP-1 recall news creates volatility within the sector but overall rotation into defensive healthcare is the dominant theme as yields spike. Financials also strong but healthcare has more room to run as a classic defensive play in a rising yield environment. Similar setup to our GOOGL winner \u2014 riding sector-level relative strength.",
+      "source": "Sector Rotation + Macro Analysis"
     }
   ],
   "closed_trades": [
@@ -680,10 +670,42 @@
       "exit_date": "2026-10-19",
       "reason": "10-day expiry",
       "days_held": 10
+    },
+    {
+      "ticker": "BROS",
+      "entry_date": "2026-10-10",
+      "entry_price": 37.5,
+      "price_target": 42.0,
+      "invalidation_price": 35.5,
+      "bias": "Bullish",
+      "thesis": "BROS is approaching oversold territory with RSI at 34, trading deeply below both its 50SMA ($46.50) and 200SMA ($54.94). This represents a mean-reversion opportunity for a bounce. The stock is heavily discounted at ~18% below its 50-day moving average, which historically leads to snapback rallies in growth names. Consumer Discretionary sector led today at +1.02%, providing a tailwind.",
+      "source": "Technical Scan",
+      "outcome": "NEUTRAL",
+      "exit_price": 37.5,
+      "pnl_pct": null,
+      "exit_date": "2026-10-20",
+      "reason": "10-day expiry",
+      "days_held": 10
+    },
+    {
+      "ticker": "MSFT",
+      "entry_date": "2026-10-10",
+      "entry_price": 531.0,
+      "price_target": 555.0,
+      "invalidation_price": 518.0,
+      "bias": "Bullish",
+      "thesis": "MSFT showed exceptional relative strength today at +2.38% vs SPY's +0.6%, shrugging off negative headlines about the green card program suspension. This resilience suggests institutional buyers are accumulating. Despite Technology sector lagging overall at +0.51%, MSFT outperformed the sector by nearly 5x, indicating stock-specific strength.",
+      "source": "Watchlist + Relative Strength",
+      "outcome": "WIN",
+      "exit_price": 531.87,
+      "pnl_pct": 0.16,
+      "exit_date": "2026-10-20",
+      "reason": "10-day expiry",
+      "days_held": 10
     }
   ],
-  "total_trades": 38,
-  "wins": 8,
+  "total_trades": 40,
+  "wins": 9,
   "losses": 13,
-  "total_pnl_pct": -67.23
+  "total_pnl_pct": -67.07
 }

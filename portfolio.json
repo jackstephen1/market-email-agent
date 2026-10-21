@@ -60,6 +60,16 @@
       "bias": "Bullish",
       "thesis": "Healthcare is today's strongest sector at +2.37%, showing clear relative strength vs SPY. GLP-1 recall news creates volatility within the sector but overall rotation into defensive healthcare is the dominant theme as yields spike. Financials also strong but healthcare has more room to run as a classic defensive play in a rising yield environment. Similar setup to our GOOGL winner \u2014 riding sector-level relative strength.",
       "source": "Sector Rotation + Macro Analysis"
+    },
+    {
+      "ticker": "NVDA",
+      "entry_date": "2026-10-21",
+      "entry_price": 220.5,
+      "price_target": 235.0,
+      "invalidation_price": 213.0,
+      "bias": "Bullish",
+      "thesis": "NVDA outperformed SPY by +2.01% today on the Supermicro blowout sales catalyst, confirming renewed AI infrastructure demand. Price is trading well above key moving averages with strong relative strength vs SPY. The AI server theme has fresh legs from SpaceX's 161% revenue growth in AI business. Previous NVDA loss was a bearish bet against the trend \u2014 this time we align with momentum.",
+      "source": "Watchlist + News catalyst (Supermicro/SpaceX AI)"
     }
   ],
   "closed_trades": [

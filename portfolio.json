@@ -42,16 +42,6 @@
       "source": "Watchlist + Macro Analysis"
     },
     {
-      "ticker": "GOOGL",
-      "entry_date": "2026-10-19",
-      "entry_price": 342.5,
-      "price_target": 358.0,
-      "invalidation_price": 333.0,
-      "bias": "Bullish",
-      "thesis": "GOOGL up 1.05% today showing relative strength vs SPY (+0.63% outperformance), continuing a pattern that previously yielded a +3.44% winning trade. Price is riding the tech sector rotation tailwind with XLK up 1.36% today. Approaching META earnings on 10/21 could provide a sympathetic bid to mega-cap ad/cloud names. Strong momentum above both moving averages with room to run before overbought.",
-      "source": "Watchlist + Sector Rotation + Prior Win Pattern"
-    },
-    {
       "ticker": "XLV",
       "entry_date": "2026-10-20",
       "entry_price": 156.5,
@@ -62,14 +52,14 @@
       "source": "Sector Rotation + Macro Analysis"
     },
     {
-      "ticker": "NVDA",
-      "entry_date": "2026-10-21",
-      "entry_price": 220.5,
-      "price_target": 235.0,
-      "invalidation_price": 213.0,
+      "ticker": "KRRO",
+      "entry_date": "2026-10-22",
+      "entry_price": 11.85,
+      "price_target": 14.0,
+      "invalidation_price": 10.8,
       "bias": "Bullish",
-      "thesis": "NVDA outperformed SPY by +2.01% today on the Supermicro blowout sales catalyst, confirming renewed AI infrastructure demand. Price is trading well above key moving averages with strong relative strength vs SPY. The AI server theme has fresh legs from SpaceX's 161% revenue growth in AI business. Previous NVDA loss was a bearish bet against the trend \u2014 this time we align with momentum.",
-      "source": "Watchlist + News catalyst (Supermicro/SpaceX AI)"
+      "thesis": "KRRO surged +29.71% today on 2.9x average volume, outperforming SPY by 30.89%. Price is above both the 50SMA ($11.41) and 200SMA ($11.80) confirming bullish trend. RSI at 62.3 has room to run before overbought. High-volume breakouts in healthcare names during sector rotation into XLV (+1.32% today) tend to have follow-through over 3-5 days. Flagging this as highest conviction due to unusual volume signal.",
+      "source": "Top Mover Scan + Technicals"
     }
   ],
   "closed_trades": [
@@ -712,10 +702,42 @@
       "exit_date": "2026-10-20",
       "reason": "10-day expiry",
       "days_held": 10
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date": "2026-10-19",
+      "entry_price": 342.5,
+      "price_target": 358.0,
+      "invalidation_price": 333.0,
+      "bias": "Bullish",
+      "thesis": "GOOGL up 1.05% today showing relative strength vs SPY (+0.63% outperformance), continuing a pattern that previously yielded a +3.44% winning trade. Price is riding the tech sector rotation tailwind with XLK up 1.36% today. Approaching META earnings on 10/21 could provide a sympathetic bid to mega-cap ad/cloud names. Strong momentum above both moving averages with room to run before overbought.",
+      "source": "Watchlist + Sector Rotation + Prior Win Pattern",
+      "outcome": "LOSS",
+      "exit_price": 324.22,
+      "pnl_pct": -5.34,
+      "exit_date": "2026-10-22",
+      "reason": "Stop hit",
+      "days_held": 3
+    },
+    {
+      "ticker": "NVDA",
+      "entry_date": "2026-10-21",
+      "entry_price": 220.5,
+      "price_target": 235.0,
+      "invalidation_price": 213.0,
+      "bias": "Bullish",
+      "thesis": "NVDA outperformed SPY by +2.01% today on the Supermicro blowout sales catalyst, confirming renewed AI infrastructure demand. Price is trading well above key moving averages with strong relative strength vs SPY. The AI server theme has fresh legs from SpaceX's 161% revenue growth in AI business. Previous NVDA loss was a bearish bet against the trend \u2014 this time we align with momentum.",
+      "source": "Watchlist + News catalyst (Supermicro/SpaceX AI)",
+      "outcome": "LOSS",
+      "exit_price": 212.21,
+      "pnl_pct": -3.76,
+      "exit_date": "2026-10-22",
+      "reason": "Stop hit",
+      "days_held": 1
     }
   ],
-  "total_trades": 40,
+  "total_trades": 42,
   "wins": 9,
-  "losses": 13,
-  "total_pnl_pct": -67.07
+  "losses": 15,
+  "total_pnl_pct": -76.17
 }

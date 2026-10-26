@@ -2,16 +2,6 @@
   "start_date": "2026-09-05",
   "open_positions": [
     {
-      "ticker": "SQQQ",
-      "entry_date": "2026-10-14",
-      "entry_price": 35.5,
-      "price_target": 40.0,
-      "invalidation_price": 33.0,
-      "bias": "Bullish",
-      "thesis": "SQQQ surged 5.93% today as tech crumbled. With XLK down 2.98% today, 10Y yields at 5.21% pressuring growth valuations, and NVDA/GOOGL/MSFT all selling off hard, the momentum favors continued tech weakness. Unlike our previous SQQQ loss where F&G divergence killed the trade early, this setup has price action confirmation with tech leading the selloff, not just sentiment divergence.",
-      "source": "Watchlist + Sector Rotation"
-    },
-    {
       "ticker": "XLV",
       "entry_date": "2026-10-20",
       "entry_price": 156.5,
@@ -50,6 +40,16 @@
       "bias": "Bullish",
       "thesis": "MSFT gained 0.66% today, outperforming SPY by 1.18%, and was a previous winning trade (+0.16%) showing consistent relative strength. With earnings on Oct 28, there's a pre-earnings drift setup. MSFT has shown resilience in multiple sessions, sitting well within its trend. Tech (XLK +0.49%) is the second-strongest sector today, supporting the rotation thesis into quality mega-cap tech ahead of catalysts.",
       "source": "Watchlist + Earnings Catalyst"
+    },
+    {
+      "ticker": "NVDA",
+      "entry_date": "2026-10-26",
+      "entry_price": 215.0,
+      "price_target": 230.0,
+      "invalidation_price": 207.0,
+      "bias": "Bullish",
+      "thesis": "NVDA surged +2.39% today, the strongest mega-cap watchlist mover, outperforming SPY by +1.68%. Leading the tech sector recovery with AI infrastructure demand intact. Previous NVDA stop-out was on a 1-day hold with too-tight stop \u2014 this setup uses wider invalidation at $207 to avoid shakeouts while targeting the $230 resistance zone over a proper 3-7 day swing window.",
+      "source": "Watchlist + Top Mover"
     }
   ],
   "closed_trades": [
@@ -772,10 +772,26 @@
       "exit_date": "2026-10-23",
       "reason": "Stop hit",
       "days_held": 8
+    },
+    {
+      "ticker": "SQQQ",
+      "entry_date": "2026-10-14",
+      "entry_price": 35.5,
+      "price_target": 40.0,
+      "invalidation_price": 33.0,
+      "bias": "Bullish",
+      "thesis": "SQQQ surged 5.93% today as tech crumbled. With XLK down 2.98% today, 10Y yields at 5.21% pressuring growth valuations, and NVDA/GOOGL/MSFT all selling off hard, the momentum favors continued tech weakness. Unlike our previous SQQQ loss where F&G divergence killed the trade early, this setup has price action confirmation with tech leading the selloff, not just sentiment divergence.",
+      "source": "Watchlist + Sector Rotation",
+      "outcome": "WIN",
+      "exit_price": 38.38,
+      "pnl_pct": 8.11,
+      "exit_date": "2026-10-26",
+      "reason": "10-day expiry",
+      "days_held": 12
     }
   ],
-  "total_trades": 45,
-  "wins": 10,
+  "total_trades": 46,
+  "wins": 11,
   "losses": 16,
-  "total_pnl_pct": -78.23
+  "total_pnl_pct": -70.12
 }

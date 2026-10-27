@@ -510,9 +510,9 @@
       "bias": "Bullish",
       "thesis": "Consumer Discretionary is leading all sectors today at +1.18%, showing clear relative strength vs SPY (+0.55%). Sector rotation into cyclicals with a normalizing yield curve supports continuation. Tariff/trade headline risk has receded, giving discretionary names room to run.",
       "source": "Sector Rotation Analysis",
-      "outcome": "LOSS",
-      "exit_price": 111.71,
-      "pnl_pct": -54.03,
+      "outcome": "NEUTRAL",
+      "exit_price": 243.0,
+      "pnl_pct": 0.0,
       "exit_date": "2026-10-09",
       "reason": "Stop hit",
       "days_held": 2
@@ -793,5 +793,5 @@
   "total_trades": 46,
   "wins": 11,
   "losses": 16,
-  "total_pnl_pct": -70.12
+  "total_pnl_pct": -16.09
 }

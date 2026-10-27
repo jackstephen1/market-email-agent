@@ -50,6 +50,36 @@
       "bias": "Bullish",
       "thesis": "NVDA surged +2.39% today, the strongest mega-cap watchlist mover, outperforming SPY by +1.68%. Leading the tech sector recovery with AI infrastructure demand intact. Previous NVDA stop-out was on a 1-day hold with too-tight stop \u2014 this setup uses wider invalidation at $207 to avoid shakeouts while targeting the $230 resistance zone over a proper 3-7 day swing window.",
       "source": "Watchlist + Top Mover"
+    },
+    {
+      "ticker": "QQQ",
+      "entry_date": "2026-10-27",
+      "entry_price": 716.0,
+      "price_target": 745.0,
+      "invalidation_price": 700.0,
+      "bias": "Bullish",
+      "thesis": "QQQ is outperforming SPY by +0.71% today, confirming tech sector leadership with XLK up 1.7%. The Anthropic IPO filing and Intel acquisition news are fueling AI/tech momentum. Our best winning trade was SQQQ (inverse QQQ) at +8.11% \u2014 this time we're riding the same QQQ trend from the long side with tech clearly leading. Relative strength vs SPY is the key signal that worked in our AAPL and MSFT winners.",
+      "source": "Sector rotation + price action"
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date": "2026-10-27",
+      "entry_price": 318.5,
+      "price_target": 338.0,
+      "invalidation_price": 308.0,
+      "bias": "Bullish",
+      "thesis": "GOOGL is up 1.19% today, outperforming SPY by 0.63%, with earnings on 10/28 providing a catalyst window. The Anthropic IPO narrative directly benefits Google given its major investment stake. Previous GOOGL loss was a bearish trade that hit stops when the stock showed relative strength \u2014 this time we're aligning with the trend. Tech leadership via XLK +1.7% today supports the setup.",
+      "source": "Earnings catalyst + sector strength"
+    },
+    {
+      "ticker": "SLV",
+      "entry_date": "2026-10-27",
+      "entry_price": 48.75,
+      "price_target": 52.0,
+      "invalidation_price": 46.5,
+      "bias": "Bullish",
+      "thesis": "SLV is up 1.03% today and precious metals continue to benefit from 10-Year yields at 5.0% creating inflation hedge demand. Our previous SLV loss was a stop-hit during a sharp surge \u2014 this time entry is near current price rather than chasing. The Fed decision this week could catalyze further upside if any dovish language emerges. SLV provides portfolio diversification away from the tech-heavy other picks.",
+      "source": "Macro hedge + Fed catalyst"
     }
   ],
   "closed_trades": [

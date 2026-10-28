@@ -3,6 +3,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 import anthropic
+import re
 
 WATCHLIST = ["AAPL","MSFT","GOOGL","NVDA","SPY","QQQ","BTC-USD","ETH-USD","SLV","SQQQ","UVIX"]
 
@@ -1447,6 +1448,51 @@ def build_portfolio_section(portfolio, closed_today):
 
     return body
 
+def save_market_data(stocks, news, macro, analysis, movers, sent, earn, sectors):
+    data = {
+        "sentiment_score":    analysis.get("sentiment_score", 50),
+        "sentiment_label":    analysis.get("sentiment_label", "Neutral"),
+        "market_summary":     analysis.get("market_summary", ""),
+        "key_insight":        analysis.get("key_insight", ""),
+        "sentiment_commentary": analysis.get("sentiment_commentary", ""),
+        "notable_movers":     analysis.get("notable_movers", ""),
+        "macro_context":      analysis.get("macro_context", ""),
+        "fear_greed":         sent.get("fear_greed"),
+        "fear_greed_prev":    sent.get("fear_greed_prev"),
+        "fear_greed_label":   sent.get("fear_greed_label"),
+        "vix":                sent.get("vix"),
+        "spy_change_pct":     sent.get("spy_change_pct"),
+        "watchlist":          [{"ticker": s["ticker"], "price": s["price"], "change_pct": s.get("change_pct")} for s in stocks],
+        "top_gainers":        movers.get("gainers", [])[:5],
+        "top_losers":         movers.get("losers", [])[:5],
+        "sectors":            sectors,
+        "earnings_recent":    earn.get("recent", []),
+        "earnings_upcoming":  earn.get("upcoming", []),
+        "swing_trades":       analysis.get("swing_trades", []),
+        "macro_opportunities":analysis.get("macro_opportunities", []),
+        "news":               [{"headline": n.get("headline",""), "source": n.get("source",""), "url": n.get("url","#")} for n in (news or [])[:12]],
+        "macro":              macro,
+        "as_of":              datetime.now().strftime("%Y-%m-%d %H:%M ET"),
+    }
+    with open("market_data.json", "w") as f:
+        json.dump(data, f)
+    print("market_data.json saved.")
+    return data
+
+
+def update_dashboard(portfolio, market_data):
+    try:
+        with open("dashboard.html", "r") as f:
+            html = f.read()
+        p_json = json.dumps({**portfolio, "_as_of": datetime.now().strftime("%Y-%m-%d")})
+        m_json = json.dumps(market_data)
+        html = re.sub(r'const PORTFOLIO_DATA = \{.*?\};', "const PORTFOLIO_DATA = " + p_json + ";", html, flags=re.DOTALL)
+        html = re.sub(r'const MARKET_DATA = \{.*?\};',    "const MARKET_DATA = "    + m_json + ";", html, flags=re.DOTALL)
+        with open("dashboard.html", "w") as f:
+            f.write(html)
+        print("dashboard.html updated.")
+    except Exception as e:
+        print("Dashboard update failed:", e)
 def main():
     print("Starting...")
     stocks  = get_stock_data(WATCHLIST)
@@ -1489,6 +1535,8 @@ def main():
     save_portfolio(portfolio)
     portfolio_html = build_portfolio_section(portfolio, closed_today)
 
+        market_data = save_market_data(stocks, news, macro, analysis, movers, sent, earn, sectors)
+    update_dashboard(portfolio, market_data)
     html    = build_email(stocks,news,macro,analysis,movers,sent,earn,portfolio_html,sectors)
     send_email(html)
     print("Done!")

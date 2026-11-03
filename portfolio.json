@@ -20,6 +20,16 @@
       "bias": "Bullish",
       "thesis": "AAPL dropped only 1.23% today vs QQQ's 3.47% decline, showing significant relative strength within mega-cap tech. Our prior AAPL swing was a winner at +2.88%, and the same relative strength pattern is repeating. AAPL tends to act as a flight-to-quality within tech during selloffs. Earnings not until Nov 2026 removes near-term event risk. Entry near current levels with tight invalidation offers asymmetric upside on any tech bounce.",
       "source": "Relative strength analysis, prior winning trade pattern, watchlist technicals"
+    },
+    {
+      "ticker": "SLV",
+      "entry_date": "2026-11-03",
+      "entry_price": 45.15,
+      "price_target": 48.5,
+      "invalidation_price": 43.0,
+      "bias": "Bullish",
+      "thesis": "Silver is showing persistent relative strength vs SPY, up 2.17% today while equities sell off. With Fear & Greed at 26 and 10-Year yields at 4.94%, precious metals are attracting safe-haven flows. Despite two prior SLV stop-outs in our portfolio, those were tighter stops \u2014 this setup uses wider invalidation at $43.00 to accommodate volatility while capturing the ongoing precious metals bid.",
+      "source": "Watchlist + Macro Theme"
     }
   ],
   "closed_trades": [

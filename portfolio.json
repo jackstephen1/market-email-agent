@@ -30,6 +30,16 @@
       "bias": "Bullish",
       "thesis": "Silver is showing persistent relative strength vs SPY, up 2.17% today while equities sell off. With Fear & Greed at 26 and 10-Year yields at 4.94%, precious metals are attracting safe-haven flows. Despite two prior SLV stop-outs in our portfolio, those were tighter stops \u2014 this setup uses wider invalidation at $43.00 to accommodate volatility while capturing the ongoing precious metals bid.",
       "source": "Watchlist + Macro Theme"
+    },
+    {
+      "ticker": "MSFT",
+      "entry_date": "2026-11-04",
+      "entry_price": 516.0,
+      "price_target": 545.0,
+      "invalidation_price": 502.0,
+      "bias": "Bullish",
+      "thesis": "MSFT gained 2.74% today, the strongest mega-cap move on the watchlist, showing clear relative strength vs SPY by +2.44%. Technology is the leading sector today with XLK up 1.31%. MSFT is benefiting from AI/cloud spending momentum and Palantir's strong earnings reinforcing the enterprise AI theme. Prior MSFT trade expired near flat \u2014 this setup has stronger momentum entry conditions with sector leadership confirmation.",
+      "source": "Watchlist + Sector Rotation"
     }
   ],
   "closed_trades": [

@@ -32,14 +32,14 @@
       "source": "Watchlist + Macro Theme"
     },
     {
-      "ticker": "MSFT",
-      "entry_date": "2026-11-04",
-      "entry_price": 516.0,
-      "price_target": 545.0,
-      "invalidation_price": 502.0,
+      "ticker": "XLY",
+      "entry_date": "2026-11-05",
+      "entry_price": 236.0,
+      "price_target": 252.0,
+      "invalidation_price": 225.0,
       "bias": "Bullish",
-      "thesis": "MSFT gained 2.74% today, the strongest mega-cap move on the watchlist, showing clear relative strength vs SPY by +2.44%. Technology is the leading sector today with XLK up 1.31%. MSFT is benefiting from AI/cloud spending momentum and Palantir's strong earnings reinforcing the enterprise AI theme. Prior MSFT trade expired near flat \u2014 this setup has stronger momentum entry conditions with sector leadership confirmation.",
-      "source": "Watchlist + Sector Rotation"
+      "thesis": "Consumer Discretionary is today's sector leader at +4.26%, showing clear relative strength vs SPY by +2.61%. Midterm election clarity historically reduces policy uncertainty and benefits consumer-facing sectors. XLY rotation leadership tends to persist for 3-7 sessions when accompanied by falling VIX. Sector ETF approach reduces single-stock risk which has been a problem in our 20% win rate.",
+      "source": "Sector rotation data"
     }
   ],
   "closed_trades": [
@@ -906,10 +906,26 @@
       "exit_date": "2026-11-02",
       "reason": "Stop hit",
       "days_held": 6
+    },
+    {
+      "ticker": "MSFT",
+      "entry_date": "2026-11-04",
+      "entry_price": 516.0,
+      "price_target": 545.0,
+      "invalidation_price": 502.0,
+      "bias": "Bullish",
+      "thesis": "MSFT gained 2.74% today, the strongest mega-cap move on the watchlist, showing clear relative strength vs SPY by +2.44%. Technology is the leading sector today with XLK up 1.31%. MSFT is benefiting from AI/cloud spending momentum and Palantir's strong earnings reinforcing the enterprise AI theme. Prior MSFT trade expired near flat \u2014 this setup has stronger momentum entry conditions with sector leadership confirmation.",
+      "source": "Watchlist + Sector Rotation",
+      "outcome": "WIN",
+      "exit_price": 555.8,
+      "pnl_pct": 7.71,
+      "exit_date": "2026-11-05",
+      "reason": "Target hit",
+      "days_held": 1
     }
   ],
-  "total_trades": 54,
-  "wins": 11,
+  "total_trades": 55,
+  "wins": 12,
   "losses": 21,
-  "total_pnl_pct": -45.23
+  "total_pnl_pct": -37.52
 }

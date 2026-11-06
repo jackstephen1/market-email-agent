@@ -2,16 +2,6 @@
   "start_date": "2026-09-05",
   "open_positions": [
     {
-      "ticker": "SQQQ",
-      "entry_date": "2026-11-02",
-      "entry_price": 41.5,
-      "price_target": 47.0,
-      "invalidation_price": 38.5,
-      "bias": "Bullish",
-      "thesis": "SQQQ is our highest conviction repeat winner (+8.11% last trade). Tech is getting crushed with XLK down 4.89% today and news headlines warning the tech meltdown could worsen. With 10Y yields at 4.98% approaching 5%, mega-cap tech multiples face further compression. SQQQ shows strong momentum and this setup mirrors our most profitable recent trade.",
-      "source": "Sector rotation data, prior winning trade pattern, yield pressure analysis"
-    },
-    {
       "ticker": "AAPL",
       "entry_date": "2026-11-02",
       "entry_price": 341.0,
@@ -40,6 +30,26 @@
       "bias": "Bullish",
       "thesis": "Consumer Discretionary is today's sector leader at +4.26%, showing clear relative strength vs SPY by +2.61%. Midterm election clarity historically reduces policy uncertainty and benefits consumer-facing sectors. XLY rotation leadership tends to persist for 3-7 sessions when accompanied by falling VIX. Sector ETF approach reduces single-stock risk which has been a problem in our 20% win rate.",
       "source": "Sector rotation data"
+    },
+    {
+      "ticker": "XLV",
+      "entry_date": "2026-11-06",
+      "entry_price": 145.5,
+      "price_target": 153.0,
+      "invalidation_price": 141.0,
+      "bias": "Bullish",
+      "thesis": "Healthcare was today's strongest sector at only -2.5% vs SPY -4.41%, showing clear defensive rotation. A Democratic Congress historically benefits healthcare through ACA expansion and drug pricing reform that paradoxically boosts managed care volumes. XLV's relative outperformance during selloffs is a pattern we've seen repeat, and this sector tends to lead during fear-driven rotations.",
+      "source": "Sector Rotation"
+    },
+    {
+      "ticker": "SOXS",
+      "entry_date": "2026-11-06",
+      "entry_price": 79.5,
+      "price_target": 95.0,
+      "invalidation_price": 70.0,
+      "bias": "Bullish",
+      "thesis": "SOXS surged 39.22% today on 1.6x average volume with RSI at 75.1, riding the semiconductor destruction. While overbought short-term, momentum in inverse leveraged ETFs tends to persist for 2-3 sessions after VIX spikes above 25. NVDA -9.26% today suggests semis have further downside as AI capex concerns grow under new political landscape. Prior SQQQ win (+8.11%) validates this pattern.",
+      "source": "Top Mover + Technicals"
     }
   ],
   "closed_trades": [
@@ -922,10 +932,26 @@
       "exit_date": "2026-11-05",
       "reason": "Target hit",
       "days_held": 1
+    },
+    {
+      "ticker": "SQQQ",
+      "entry_date": "2026-11-02",
+      "entry_price": 41.5,
+      "price_target": 47.0,
+      "invalidation_price": 38.5,
+      "bias": "Bullish",
+      "thesis": "SQQQ is our highest conviction repeat winner (+8.11% last trade). Tech is getting crushed with XLK down 4.89% today and news headlines warning the tech meltdown could worsen. With 10Y yields at 4.98% approaching 5%, mega-cap tech multiples face further compression. SQQQ shows strong momentum and this setup mirrors our most profitable recent trade.",
+      "source": "Sector rotation data, prior winning trade pattern, yield pressure analysis",
+      "outcome": "WIN",
+      "exit_price": 49.55,
+      "pnl_pct": 19.4,
+      "exit_date": "2026-11-06",
+      "reason": "Target hit",
+      "days_held": 4
     }
   ],
-  "total_trades": 55,
-  "wins": 12,
+  "total_trades": 56,
+  "wins": 13,
   "losses": 21,
-  "total_pnl_pct": -37.52
+  "total_pnl_pct": -18.12
 }

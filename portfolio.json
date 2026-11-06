@@ -22,26 +22,6 @@
       "source": "Watchlist + Macro Theme"
     },
     {
-      "ticker": "XLY",
-      "entry_date": "2026-11-05",
-      "entry_price": 236.0,
-      "price_target": 252.0,
-      "invalidation_price": 225.0,
-      "bias": "Bullish",
-      "thesis": "Consumer Discretionary is today's sector leader at +4.26%, showing clear relative strength vs SPY by +2.61%. Midterm election clarity historically reduces policy uncertainty and benefits consumer-facing sectors. XLY rotation leadership tends to persist for 3-7 sessions when accompanied by falling VIX. Sector ETF approach reduces single-stock risk which has been a problem in our 20% win rate.",
-      "source": "Sector rotation data"
-    },
-    {
-      "ticker": "XLV",
-      "entry_date": "2026-11-06",
-      "entry_price": 145.5,
-      "price_target": 153.0,
-      "invalidation_price": 141.0,
-      "bias": "Bullish",
-      "thesis": "Healthcare was today's strongest sector at only -2.5% vs SPY -4.41%, showing clear defensive rotation. A Democratic Congress historically benefits healthcare through ACA expansion and drug pricing reform that paradoxically boosts managed care volumes. XLV's relative outperformance during selloffs is a pattern we've seen repeat, and this sector tends to lead during fear-driven rotations.",
-      "source": "Sector Rotation"
-    },
-    {
       "ticker": "SOXS",
       "entry_date": "2026-11-06",
       "entry_price": 79.5,
@@ -50,6 +30,16 @@
       "bias": "Bullish",
       "thesis": "SOXS surged 39.22% today on 1.6x average volume with RSI at 75.1, riding the semiconductor destruction. While overbought short-term, momentum in inverse leveraged ETFs tends to persist for 2-3 sessions after VIX spikes above 25. NVDA -9.26% today suggests semis have further downside as AI capex concerns grow under new political landscape. Prior SQQQ win (+8.11%) validates this pattern.",
       "source": "Top Mover + Technicals"
+    },
+    {
+      "ticker": "SQQQ",
+      "entry_date": "2026-11-06",
+      "entry_price": 48.75,
+      "price_target": 58.0,
+      "invalidation_price": 44.0,
+      "bias": "Bullish",
+      "thesis": "SQQQ is our highest conviction repeat winner (+19.40% and +8.11% on prior closed trades). With XLK down 8% today leading the selloff, tech weakness looks poised to continue into next week as semiconductor concerns (Micron, ARM headlines) and elevated Treasury yields at 4.9% pressure growth multiples. SQQQ benefits directly from QQQ's -6.49% today and momentum selling typically extends 2-3 sessions after moves of this magnitude.",
+      "source": "Watchlist + Performance Feedback (repeat winner pattern)"
     }
   ],
   "closed_trades": [
@@ -948,10 +938,42 @@
       "exit_date": "2026-11-06",
       "reason": "Target hit",
       "days_held": 4
+    },
+    {
+      "ticker": "XLY",
+      "entry_date": "2026-11-05",
+      "entry_price": 236.0,
+      "price_target": 252.0,
+      "invalidation_price": 225.0,
+      "bias": "Bullish",
+      "thesis": "Consumer Discretionary is today's sector leader at +4.26%, showing clear relative strength vs SPY by +2.61%. Midterm election clarity historically reduces policy uncertainty and benefits consumer-facing sectors. XLY rotation leadership tends to persist for 3-7 sessions when accompanied by falling VIX. Sector ETF approach reduces single-stock risk which has been a problem in our 20% win rate.",
+      "source": "Sector rotation data",
+      "outcome": "LOSS",
+      "exit_price": 117.64,
+      "pnl_pct": -50.15,
+      "exit_date": "2026-11-06",
+      "reason": "Stop hit",
+      "days_held": 1
+    },
+    {
+      "ticker": "XLV",
+      "entry_date": "2026-11-06",
+      "entry_price": 145.5,
+      "price_target": 153.0,
+      "invalidation_price": 141.0,
+      "bias": "Bullish",
+      "thesis": "Healthcare was today's strongest sector at only -2.5% vs SPY -4.41%, showing clear defensive rotation. A Democratic Congress historically benefits healthcare through ACA expansion and drug pricing reform that paradoxically boosts managed care volumes. XLV's relative outperformance during selloffs is a pattern we've seen repeat, and this sector tends to lead during fear-driven rotations.",
+      "source": "Sector Rotation",
+      "outcome": "WIN",
+      "exit_price": 184.91,
+      "pnl_pct": 27.09,
+      "exit_date": "2026-11-06",
+      "reason": "Target hit",
+      "days_held": 0
     }
   ],
-  "total_trades": 56,
-  "wins": 13,
-  "losses": 21,
-  "total_pnl_pct": -18.12
+  "total_trades": 58,
+  "wins": 14,
+  "losses": 22,
+  "total_pnl_pct": -41.18
 }

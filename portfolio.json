@@ -40,6 +40,26 @@
       "bias": "Bullish",
       "thesis": "SQQQ is our highest conviction repeat winner (+19.40% and +8.11% on prior closed trades). With XLK down 8% today leading the selloff, tech weakness looks poised to continue into next week as semiconductor concerns (Micron, ARM headlines) and elevated Treasury yields at 4.9% pressure growth multiples. SQQQ benefits directly from QQQ's -6.49% today and momentum selling typically extends 2-3 sessions after moves of this magnitude.",
       "source": "Watchlist + Performance Feedback (repeat winner pattern)"
+    },
+    {
+      "ticker": "SOUN",
+      "entry_date": "2026-11-07",
+      "entry_price": 4.05,
+      "price_target": 4.65,
+      "invalidation_price": 3.75,
+      "bias": "Bullish",
+      "thesis": "SOUN is deeply oversold with RSI at 30.8, trading 41% below its 200SMA at $7.02, and showing 1.9x average volume indicating institutional accumulation at these levels. The AI narrative is under political pressure but voice AI is less exposed to data center moratorium risks. Oversold bounce setup with high volume confirmation is our highest conviction pattern from past winners.",
+      "source": "Technicals scan"
+    },
+    {
+      "ticker": "NVDA",
+      "entry_date": "2026-11-07",
+      "entry_price": 185.25,
+      "price_target": 198.0,
+      "invalidation_price": 178.0,
+      "bias": "Bullish",
+      "thesis": "NVDA rallied +2.78% today while Micron crashed 17% and chip stocks broadly sold off, demonstrating exceptional relative strength vs the semiconductor sector and SPY. Barron's highlighting 'fire-sale prices' in chips creates a contrarian buying opportunity. NVDA's AI leadership insulates it from the commodity chip downturn, and its relative strength today mirrors our past MSFT winning pattern of strongest mega-cap outperformance.",
+      "source": "Watchlist + sector analysis"
     }
   ],
   "closed_trades": [

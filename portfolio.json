@@ -22,26 +22,6 @@
       "source": "Watchlist + Macro Theme"
     },
     {
-      "ticker": "SOXS",
-      "entry_date": "2026-11-06",
-      "entry_price": 79.5,
-      "price_target": 95.0,
-      "invalidation_price": 70.0,
-      "bias": "Bullish",
-      "thesis": "SOXS surged 39.22% today on 1.6x average volume with RSI at 75.1, riding the semiconductor destruction. While overbought short-term, momentum in inverse leveraged ETFs tends to persist for 2-3 sessions after VIX spikes above 25. NVDA -9.26% today suggests semis have further downside as AI capex concerns grow under new political landscape. Prior SQQQ win (+8.11%) validates this pattern.",
-      "source": "Top Mover + Technicals"
-    },
-    {
-      "ticker": "SQQQ",
-      "entry_date": "2026-11-06",
-      "entry_price": 48.75,
-      "price_target": 58.0,
-      "invalidation_price": 44.0,
-      "bias": "Bullish",
-      "thesis": "SQQQ is our highest conviction repeat winner (+19.40% and +8.11% on prior closed trades). With XLK down 8% today leading the selloff, tech weakness looks poised to continue into next week as semiconductor concerns (Micron, ARM headlines) and elevated Treasury yields at 4.9% pressure growth multiples. SQQQ benefits directly from QQQ's -6.49% today and momentum selling typically extends 2-3 sessions after moves of this magnitude.",
-      "source": "Watchlist + Performance Feedback (repeat winner pattern)"
-    },
-    {
       "ticker": "SOUN",
       "entry_date": "2026-11-07",
       "entry_price": 4.05,
@@ -60,6 +40,26 @@
       "bias": "Bullish",
       "thesis": "NVDA rallied +2.78% today while Micron crashed 17% and chip stocks broadly sold off, demonstrating exceptional relative strength vs the semiconductor sector and SPY. Barron's highlighting 'fire-sale prices' in chips creates a contrarian buying opportunity. NVDA's AI leadership insulates it from the commodity chip downturn, and its relative strength today mirrors our past MSFT winning pattern of strongest mega-cap outperformance.",
       "source": "Watchlist + sector analysis"
+    },
+    {
+      "ticker": "MSFT",
+      "entry_date": "2026-11-10",
+      "entry_price": 541.5,
+      "price_target": 572.0,
+      "invalidation_price": 525.0,
+      "bias": "Bullish",
+      "thesis": "MSFT is our highest conviction repeat winner (+7.71% last win, +2.75% today). It's showing clear relative strength vs SPY (+0.38% outperformance today) and sits in the leading Technology sector (+3.73% today). Previous pattern of strong momentum continuation within 3-7 day windows matches our winning trade profile. Fear at 32 with strong price action mirrors conditions of prior MSFT wins.",
+      "source": "Watchlist + Performance Feedback"
+    },
+    {
+      "ticker": "QQQ",
+      "entry_date": "2026-11-10",
+      "entry_price": 673.5,
+      "price_target": 710.0,
+      "invalidation_price": 655.0,
+      "bias": "Bullish",
+      "thesis": "QQQ surged +3.54% today, outperforming SPY by +1.17%, confirming tech leadership. Technology is today's second-strongest sector at +3.73%. With Fear & Greed at 32, short covering and under-positioning should fuel continuation. VIX normalizing to 19.92 and UVIX collapsing -27.24% today signal volatility compression that typically supports multi-day rallies in momentum names.",
+      "source": "Watchlist + Sector Rotation"
     }
   ],
   "closed_trades": [
@@ -990,10 +990,42 @@
       "exit_date": "2026-11-06",
       "reason": "Target hit",
       "days_held": 0
+    },
+    {
+      "ticker": "SOXS",
+      "entry_date": "2026-11-06",
+      "entry_price": 79.5,
+      "price_target": 95.0,
+      "invalidation_price": 70.0,
+      "bias": "Bullish",
+      "thesis": "SOXS surged 39.22% today on 1.6x average volume with RSI at 75.1, riding the semiconductor destruction. While overbought short-term, momentum in inverse leveraged ETFs tends to persist for 2-3 sessions after VIX spikes above 25. NVDA -9.26% today suggests semis have further downside as AI capex concerns grow under new political landscape. Prior SQQQ win (+8.11%) validates this pattern.",
+      "source": "Top Mover + Technicals",
+      "outcome": "LOSS",
+      "exit_price": 55.15,
+      "pnl_pct": -30.63,
+      "exit_date": "2026-11-10",
+      "reason": "Stop hit",
+      "days_held": 4
+    },
+    {
+      "ticker": "SQQQ",
+      "entry_date": "2026-11-06",
+      "entry_price": 48.75,
+      "price_target": 58.0,
+      "invalidation_price": 44.0,
+      "bias": "Bullish",
+      "thesis": "SQQQ is our highest conviction repeat winner (+19.40% and +8.11% on prior closed trades). With XLK down 8% today leading the selloff, tech weakness looks poised to continue into next week as semiconductor concerns (Micron, ARM headlines) and elevated Treasury yields at 4.9% pressure growth multiples. SQQQ benefits directly from QQQ's -6.49% today and momentum selling typically extends 2-3 sessions after moves of this magnitude.",
+      "source": "Watchlist + Performance Feedback (repeat winner pattern)",
+      "outcome": "LOSS",
+      "exit_price": 42.79,
+      "pnl_pct": -12.23,
+      "exit_date": "2026-11-10",
+      "reason": "Stop hit",
+      "days_held": 4
     }
   ],
-  "total_trades": 58,
+  "total_trades": 60,
   "wins": 14,
-  "losses": 22,
-  "total_pnl_pct": -41.18
+  "losses": 24,
+  "total_pnl_pct": -84.04
 }

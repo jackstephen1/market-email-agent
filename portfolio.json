@@ -32,16 +32,6 @@
       "source": "Technicals scan"
     },
     {
-      "ticker": "NVDA",
-      "entry_date": "2026-11-07",
-      "entry_price": 185.25,
-      "price_target": 198.0,
-      "invalidation_price": 178.0,
-      "bias": "Bullish",
-      "thesis": "NVDA rallied +2.78% today while Micron crashed 17% and chip stocks broadly sold off, demonstrating exceptional relative strength vs the semiconductor sector and SPY. Barron's highlighting 'fire-sale prices' in chips creates a contrarian buying opportunity. NVDA's AI leadership insulates it from the commodity chip downturn, and its relative strength today mirrors our past MSFT winning pattern of strongest mega-cap outperformance.",
-      "source": "Watchlist + sector analysis"
-    },
-    {
       "ticker": "MSFT",
       "entry_date": "2026-11-10",
       "entry_price": 541.5,
@@ -60,6 +50,36 @@
       "bias": "Bullish",
       "thesis": "QQQ surged +3.54% today, outperforming SPY by +1.17%, confirming tech leadership. Technology is today's second-strongest sector at +3.73%. With Fear & Greed at 32, short covering and under-positioning should fuel continuation. VIX normalizing to 19.92 and UVIX collapsing -27.24% today signal volatility compression that typically supports multi-day rallies in momentum names.",
       "source": "Watchlist + Sector Rotation"
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date": "2026-11-11",
+      "entry_price": 285.5,
+      "price_target": 298.0,
+      "invalidation_price": 278.0,
+      "bias": "Bullish",
+      "thesis": "GOOGL showed relative strength vs SPY today (-0.27% vs -0.37%) and massively outperformed the XLK sector (-1.15%). With NVDA earnings drawing attention on Nov 17, GOOGL could benefit from rotation within mega-cap tech as a 'safer' large-cap play. The stock is near current levels and defensive positioning in Fear territory often benefits quality names first.",
+      "source": "Sector rotation analysis + relative strength"
+    },
+    {
+      "ticker": "XLF",
+      "entry_date": "2026-11-11",
+      "entry_price": 53.25,
+      "price_target": 56.0,
+      "invalidation_price": 51.5,
+      "bias": "Bullish",
+      "thesis": "Financials led all sectors today at +0.52%, benefiting from the steep yield curve (10-2 spread at 0.32%) and elevated 10-Year at 4.88% which boosts net interest margins. Our portfolio's best wins came from sector-strength plays (XLV +27.09%). XLF shows clear leadership as money rotates out of tech into value/cyclical sectors during this Fear regime.",
+      "source": "Sector rotation leadership"
+    },
+    {
+      "ticker": "SQQQ",
+      "entry_date": "2026-11-11",
+      "entry_price": 43.25,
+      "price_target": 48.0,
+      "invalidation_price": 40.5,
+      "bias": "Bullish",
+      "thesis": "SQQQ is our portfolio's highest conviction repeat winner (+19.40% and +8.11% on prior closed trades). Tech is the weakest sector today (XLK -1.15%) with NVDA -5.47% and MSFT -2.2%. Pre-earnings anxiety ahead of NVDA Nov 17 plus rising 10-Year yields at 4.88% create continued headwinds for QQQ. Tight stop to avoid the -12.23% loss pattern from prior trades.",
+      "source": "Portfolio pattern analysis + tech weakness"
     }
   ],
   "closed_trades": [
@@ -1022,10 +1042,26 @@
       "exit_date": "2026-11-10",
       "reason": "Stop hit",
       "days_held": 4
+    },
+    {
+      "ticker": "NVDA",
+      "entry_date": "2026-11-07",
+      "entry_price": 185.25,
+      "price_target": 198.0,
+      "invalidation_price": 178.0,
+      "bias": "Bullish",
+      "thesis": "NVDA rallied +2.78% today while Micron crashed 17% and chip stocks broadly sold off, demonstrating exceptional relative strength vs the semiconductor sector and SPY. Barron's highlighting 'fire-sale prices' in chips creates a contrarian buying opportunity. NVDA's AI leadership insulates it from the commodity chip downturn, and its relative strength today mirrors our past MSFT winning pattern of strongest mega-cap outperformance.",
+      "source": "Watchlist + sector analysis",
+      "outcome": "LOSS",
+      "exit_price": 168.89,
+      "pnl_pct": -8.83,
+      "exit_date": "2026-11-11",
+      "reason": "Stop hit",
+      "days_held": 4
     }
   ],
-  "total_trades": 60,
+  "total_trades": 61,
   "wins": 14,
-  "losses": 24,
-  "total_pnl_pct": -84.04
+  "losses": 25,
+  "total_pnl_pct": -92.87
 }

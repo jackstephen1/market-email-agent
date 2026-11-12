@@ -60,6 +60,26 @@
       "bias": "Bullish",
       "thesis": "NVDA gained +2.87% today with strong relative strength vs SPY at +1.55%. CoreWeave earnings beat today validates AI infrastructure demand, directly benefiting NVDA as the dominant GPU supplier. Tech sector leading at +3.23% today provides tailwind. Earnings on Nov 17 should build anticipation premium. Prior NVDA loss was a bearish bet that failed \u2014 flipping bullish aligns with the actual trend.",
       "source": "Watchlist + News Catalyst (CoreWeave beat)"
+    },
+    {
+      "ticker": "XLK",
+      "entry_date": "2026-11-12",
+      "entry_price": 258.5,
+      "price_target": 272.0,
+      "invalidation_price": 251.0,
+      "bias": "Bullish",
+      "thesis": "Technology is today's leading sector at +3.23%, and our portfolio data shows sector-aligned trades (XLF +10.10%, XLV +27.09%) have been our strongest winners. Riding sector momentum via XLK captures the AI/tech theme without single-stock earnings risk. CoreWeave beat, Anthropic IPO buzz, and SpaceX data center spending all support tech infrastructure demand narrative over the next week. Relative strength vs SPY is +1.91% today.",
+      "source": "Sector leadership + performance feedback favoring sector ETF trades"
+    },
+    {
+      "ticker": "UVIX",
+      "entry_date": "2026-11-12",
+      "entry_price": 32.5,
+      "price_target": 39.0,
+      "invalidation_price": 29.5,
+      "bias": "Bullish",
+      "thesis": "UVIX dropped -12.72% today on the broad risk-on session, but with Fear & Greed at 28 and credit card debt at record highs, this rally may face resistance. Our portfolio shows inverse/hedge trades can produce outsized wins (SQQQ +19.40%, +8.11%). After a massive single-day drop, UVIX often mean-reverts 15-20% within 3-5 days if the rally stalls. This is a tactical hedge against the long tech positions above.",
+      "source": "Mean-reversion + portfolio hedge against long positions"
     }
   ],
   "closed_trades": [

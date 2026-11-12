@@ -2,16 +2,6 @@
   "start_date": "2026-09-05",
   "open_positions": [
     {
-      "ticker": "AAPL",
-      "entry_date": "2026-11-02",
-      "entry_price": 341.0,
-      "price_target": 360.0,
-      "invalidation_price": 330.0,
-      "bias": "Bullish",
-      "thesis": "AAPL dropped only 1.23% today vs QQQ's 3.47% decline, showing significant relative strength within mega-cap tech. Our prior AAPL swing was a winner at +2.88%, and the same relative strength pattern is repeating. AAPL tends to act as a flight-to-quality within tech during selloffs. Earnings not until Nov 2026 removes near-term event risk. Entry near current levels with tight invalidation offers asymmetric upside on any tech bounce.",
-      "source": "Relative strength analysis, prior winning trade pattern, watchlist technicals"
-    },
-    {
       "ticker": "SLV",
       "entry_date": "2026-11-03",
       "entry_price": 45.15,
@@ -30,16 +20,6 @@
       "bias": "Bullish",
       "thesis": "SOUN is deeply oversold with RSI at 30.8, trading 41% below its 200SMA at $7.02, and showing 1.9x average volume indicating institutional accumulation at these levels. The AI narrative is under political pressure but voice AI is less exposed to data center moratorium risks. Oversold bounce setup with high volume confirmation is our highest conviction pattern from past winners.",
       "source": "Technicals scan"
-    },
-    {
-      "ticker": "MSFT",
-      "entry_date": "2026-11-10",
-      "entry_price": 541.5,
-      "price_target": 572.0,
-      "invalidation_price": 525.0,
-      "bias": "Bullish",
-      "thesis": "MSFT is our highest conviction repeat winner (+7.71% last win, +2.75% today). It's showing clear relative strength vs SPY (+0.38% outperformance today) and sits in the leading Technology sector (+3.73% today). Previous pattern of strong momentum continuation within 3-7 day windows matches our winning trade profile. Fear at 32 with strong price action mirrors conditions of prior MSFT wins.",
-      "source": "Watchlist + Performance Feedback"
     },
     {
       "ticker": "QQQ",
@@ -62,16 +42,6 @@
       "source": "Sector rotation analysis + relative strength"
     },
     {
-      "ticker": "XLF",
-      "entry_date": "2026-11-11",
-      "entry_price": 53.25,
-      "price_target": 56.0,
-      "invalidation_price": 51.5,
-      "bias": "Bullish",
-      "thesis": "Financials led all sectors today at +0.52%, benefiting from the steep yield curve (10-2 spread at 0.32%) and elevated 10-Year at 4.88% which boosts net interest margins. Our portfolio's best wins came from sector-strength plays (XLV +27.09%). XLF shows clear leadership as money rotates out of tech into value/cyclical sectors during this Fear regime.",
-      "source": "Sector rotation leadership"
-    },
-    {
       "ticker": "SQQQ",
       "entry_date": "2026-11-11",
       "entry_price": 43.25,
@@ -80,6 +50,16 @@
       "bias": "Bullish",
       "thesis": "SQQQ is our portfolio's highest conviction repeat winner (+19.40% and +8.11% on prior closed trades). Tech is the weakest sector today (XLK -1.15%) with NVDA -5.47% and MSFT -2.2%. Pre-earnings anxiety ahead of NVDA Nov 17 plus rising 10-Year yields at 4.88% create continued headwinds for QQQ. Tight stop to avoid the -12.23% loss pattern from prior trades.",
       "source": "Portfolio pattern analysis + tech weakness"
+    },
+    {
+      "ticker": "NVDA",
+      "entry_date": "2026-11-12",
+      "entry_price": 172.25,
+      "price_target": 185.0,
+      "invalidation_price": 166.0,
+      "bias": "Bullish",
+      "thesis": "NVDA gained +2.87% today with strong relative strength vs SPY at +1.55%. CoreWeave earnings beat today validates AI infrastructure demand, directly benefiting NVDA as the dominant GPU supplier. Tech sector leading at +3.23% today provides tailwind. Earnings on Nov 17 should build anticipation premium. Prior NVDA loss was a bearish bet that failed \u2014 flipping bullish aligns with the actual trend.",
+      "source": "Watchlist + News Catalyst (CoreWeave beat)"
     }
   ],
   "closed_trades": [
@@ -1058,10 +1038,58 @@
       "exit_date": "2026-11-11",
       "reason": "Stop hit",
       "days_held": 4
+    },
+    {
+      "ticker": "AAPL",
+      "entry_date": "2026-11-02",
+      "entry_price": 341.0,
+      "price_target": 360.0,
+      "invalidation_price": 330.0,
+      "bias": "Bullish",
+      "thesis": "AAPL dropped only 1.23% today vs QQQ's 3.47% decline, showing significant relative strength within mega-cap tech. Our prior AAPL swing was a winner at +2.88%, and the same relative strength pattern is repeating. AAPL tends to act as a flight-to-quality within tech during selloffs. Earnings not until Nov 2026 removes near-term event risk. Entry near current levels with tight invalidation offers asymmetric upside on any tech bounce.",
+      "source": "Relative strength analysis, prior winning trade pattern, watchlist technicals",
+      "outcome": "WIN",
+      "exit_price": 355.63,
+      "pnl_pct": 4.29,
+      "exit_date": "2026-11-12",
+      "reason": "10-day expiry",
+      "days_held": 10
+    },
+    {
+      "ticker": "MSFT",
+      "entry_date": "2026-11-10",
+      "entry_price": 541.5,
+      "price_target": 572.0,
+      "invalidation_price": 525.0,
+      "bias": "Bullish",
+      "thesis": "MSFT is our highest conviction repeat winner (+7.71% last win, +2.75% today). It's showing clear relative strength vs SPY (+0.38% outperformance today) and sits in the leading Technology sector (+3.73% today). Previous pattern of strong momentum continuation within 3-7 day windows matches our winning trade profile. Fear at 32 with strong price action mirrors conditions of prior MSFT wins.",
+      "source": "Watchlist + Performance Feedback",
+      "outcome": "LOSS",
+      "exit_price": 521.12,
+      "pnl_pct": -3.76,
+      "exit_date": "2026-11-12",
+      "reason": "Stop hit",
+      "days_held": 2
+    },
+    {
+      "ticker": "XLF",
+      "entry_date": "2026-11-11",
+      "entry_price": 53.25,
+      "price_target": 56.0,
+      "invalidation_price": 51.5,
+      "bias": "Bullish",
+      "thesis": "Financials led all sectors today at +0.52%, benefiting from the steep yield curve (10-2 spread at 0.32%) and elevated 10-Year at 4.88% which boosts net interest margins. Our portfolio's best wins came from sector-strength plays (XLV +27.09%). XLF shows clear leadership as money rotates out of tech into value/cyclical sectors during this Fear regime.",
+      "source": "Sector rotation leadership",
+      "outcome": "WIN",
+      "exit_price": 58.63,
+      "pnl_pct": 10.1,
+      "exit_date": "2026-11-12",
+      "reason": "Target hit",
+      "days_held": 1
     }
   ],
-  "total_trades": 61,
-  "wins": 14,
-  "losses": 25,
-  "total_pnl_pct": -92.87
+  "total_trades": 64,
+  "wins": 16,
+  "losses": 26,
+  "total_pnl_pct": -82.24
 }

@@ -2,16 +2,6 @@
   "start_date": "2026-09-05",
   "open_positions": [
     {
-      "ticker": "SLV",
-      "entry_date": "2026-11-03",
-      "entry_price": 45.15,
-      "price_target": 48.5,
-      "invalidation_price": 43.0,
-      "bias": "Bullish",
-      "thesis": "Silver is showing persistent relative strength vs SPY, up 2.17% today while equities sell off. With Fear & Greed at 26 and 10-Year yields at 4.94%, precious metals are attracting safe-haven flows. Despite two prior SLV stop-outs in our portfolio, those were tighter stops \u2014 this setup uses wider invalidation at $43.00 to accommodate volatility while capturing the ongoing precious metals bid.",
-      "source": "Watchlist + Macro Theme"
-    },
-    {
       "ticker": "SOUN",
       "entry_date": "2026-11-07",
       "entry_price": 4.05,
@@ -30,16 +20,6 @@
       "bias": "Bullish",
       "thesis": "QQQ surged +3.54% today, outperforming SPY by +1.17%, confirming tech leadership. Technology is today's second-strongest sector at +3.73%. With Fear & Greed at 32, short covering and under-positioning should fuel continuation. VIX normalizing to 19.92 and UVIX collapsing -27.24% today signal volatility compression that typically supports multi-day rallies in momentum names.",
       "source": "Watchlist + Sector Rotation"
-    },
-    {
-      "ticker": "GOOGL",
-      "entry_date": "2026-11-11",
-      "entry_price": 285.5,
-      "price_target": 298.0,
-      "invalidation_price": 278.0,
-      "bias": "Bullish",
-      "thesis": "GOOGL showed relative strength vs SPY today (-0.27% vs -0.37%) and massively outperformed the XLK sector (-1.15%). With NVDA earnings drawing attention on Nov 17, GOOGL could benefit from rotation within mega-cap tech as a 'safer' large-cap play. The stock is near current levels and defensive positioning in Fear territory often benefits quality names first.",
-      "source": "Sector rotation analysis + relative strength"
     },
     {
       "ticker": "SQQQ",
@@ -80,6 +60,16 @@
       "bias": "Bullish",
       "thesis": "UVIX dropped -12.72% today on the broad risk-on session, but with Fear & Greed at 28 and credit card debt at record highs, this rally may face resistance. Our portfolio shows inverse/hedge trades can produce outsized wins (SQQQ +19.40%, +8.11%). After a massive single-day drop, UVIX often mean-reverts 15-20% within 3-5 days if the rally stalls. This is a tactical hedge against the long tech positions above.",
       "source": "Mean-reversion + portfolio hedge against long positions"
+    },
+    {
+      "ticker": "XLE",
+      "entry_date": "2026-11-13",
+      "entry_price": 94.5,
+      "price_target": 98.0,
+      "invalidation_price": 92.5,
+      "bias": "Bullish",
+      "thesis": "Energy is today's leading sector at +1.51%, showing clear relative strength vs SPY (-0.35%). Falling gasoline prices (NPR headline) paradoxically benefit upstream energy producers as lower pump prices stimulate demand while crude remains elevated. This mirrors our XLF winning pattern \u2014 riding the strongest sector with momentum. Energy typically outperforms in rising rate environments with 10Y near 5%.",
+      "source": "Sector rotation data + macro correlation"
     }
   ],
   "closed_trades": [
@@ -1106,10 +1096,42 @@
       "exit_date": "2026-11-12",
       "reason": "Target hit",
       "days_held": 1
+    },
+    {
+      "ticker": "SLV",
+      "entry_date": "2026-11-03",
+      "entry_price": 45.15,
+      "price_target": 48.5,
+      "invalidation_price": 43.0,
+      "bias": "Bullish",
+      "thesis": "Silver is showing persistent relative strength vs SPY, up 2.17% today while equities sell off. With Fear & Greed at 26 and 10-Year yields at 4.94%, precious metals are attracting safe-haven flows. Despite two prior SLV stop-outs in our portfolio, those were tighter stops \u2014 this setup uses wider invalidation at $43.00 to accommodate volatility while capturing the ongoing precious metals bid.",
+      "source": "Watchlist + Macro Theme",
+      "outcome": "LOSS",
+      "exit_price": 45.12,
+      "pnl_pct": -0.07,
+      "exit_date": "2026-11-13",
+      "reason": "10-day expiry",
+      "days_held": 10
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date": "2026-11-11",
+      "entry_price": 285.5,
+      "price_target": 298.0,
+      "invalidation_price": 278.0,
+      "bias": "Bullish",
+      "thesis": "GOOGL showed relative strength vs SPY today (-0.27% vs -0.37%) and massively outperformed the XLK sector (-1.15%). With NVDA earnings drawing attention on Nov 17, GOOGL could benefit from rotation within mega-cap tech as a 'safer' large-cap play. The stock is near current levels and defensive positioning in Fear territory often benefits quality names first.",
+      "source": "Sector rotation analysis + relative strength",
+      "outcome": "WIN",
+      "exit_price": 298.7,
+      "pnl_pct": 4.62,
+      "exit_date": "2026-11-13",
+      "reason": "Target hit",
+      "days_held": 2
     }
   ],
-  "total_trades": 64,
-  "wins": 16,
-  "losses": 26,
-  "total_pnl_pct": -82.24
+  "total_trades": 66,
+  "wins": 17,
+  "losses": 27,
+  "total_pnl_pct": -77.69
 }

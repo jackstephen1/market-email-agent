@@ -2,16 +2,6 @@
   "start_date": "2026-09-05",
   "open_positions": [
     {
-      "ticker": "SOUN",
-      "entry_date": "2026-11-07",
-      "entry_price": 4.05,
-      "price_target": 4.65,
-      "invalidation_price": 3.75,
-      "bias": "Bullish",
-      "thesis": "SOUN is deeply oversold with RSI at 30.8, trading 41% below its 200SMA at $7.02, and showing 1.9x average volume indicating institutional accumulation at these levels. The AI narrative is under political pressure but voice AI is less exposed to data center moratorium risks. Oversold bounce setup with high volume confirmation is our highest conviction pattern from past winners.",
-      "source": "Technicals scan"
-    },
-    {
       "ticker": "QQQ",
       "entry_date": "2026-11-10",
       "entry_price": 673.5,
@@ -32,26 +22,6 @@
       "source": "Portfolio pattern analysis + tech weakness"
     },
     {
-      "ticker": "NVDA",
-      "entry_date": "2026-11-12",
-      "entry_price": 172.25,
-      "price_target": 185.0,
-      "invalidation_price": 166.0,
-      "bias": "Bullish",
-      "thesis": "NVDA gained +2.87% today with strong relative strength vs SPY at +1.55%. CoreWeave earnings beat today validates AI infrastructure demand, directly benefiting NVDA as the dominant GPU supplier. Tech sector leading at +3.23% today provides tailwind. Earnings on Nov 17 should build anticipation premium. Prior NVDA loss was a bearish bet that failed \u2014 flipping bullish aligns with the actual trend.",
-      "source": "Watchlist + News Catalyst (CoreWeave beat)"
-    },
-    {
-      "ticker": "XLK",
-      "entry_date": "2026-11-12",
-      "entry_price": 258.5,
-      "price_target": 272.0,
-      "invalidation_price": 251.0,
-      "bias": "Bullish",
-      "thesis": "Technology is today's leading sector at +3.23%, and our portfolio data shows sector-aligned trades (XLF +10.10%, XLV +27.09%) have been our strongest winners. Riding sector momentum via XLK captures the AI/tech theme without single-stock earnings risk. CoreWeave beat, Anthropic IPO buzz, and SpaceX data center spending all support tech infrastructure demand narrative over the next week. Relative strength vs SPY is +1.91% today.",
-      "source": "Sector leadership + performance feedback favoring sector ETF trades"
-    },
-    {
       "ticker": "UVIX",
       "entry_date": "2026-11-12",
       "entry_price": 32.5,
@@ -62,14 +32,14 @@
       "source": "Mean-reversion + portfolio hedge against long positions"
     },
     {
-      "ticker": "XLE",
-      "entry_date": "2026-11-13",
-      "entry_price": 94.5,
-      "price_target": 98.0,
-      "invalidation_price": 92.5,
+      "ticker": "XLF",
+      "entry_date": "2026-11-14",
+      "entry_price": 55.0,
+      "price_target": 57.5,
+      "invalidation_price": 53.8,
       "bias": "Bullish",
-      "thesis": "Energy is today's leading sector at +1.51%, showing clear relative strength vs SPY (-0.35%). Falling gasoline prices (NPR headline) paradoxically benefit upstream energy producers as lower pump prices stimulate demand while crude remains elevated. This mirrors our XLF winning pattern \u2014 riding the strongest sector with momentum. Energy typically outperforms in rising rate environments with 10Y near 5%.",
-      "source": "Sector rotation data + macro correlation"
+      "thesis": "Financials gained 0.81% today, the second-strongest sector, and our prior XLF trade hit target for +10.10% in just 1 day. The steep yield curve (10Y at 5.1%, 2Y at 4.86%, spread +0.24%) directly benefits bank net interest margins. XLF shows persistent relative strength vs SPY in this rate environment. Our portfolio data shows XLF as a proven winner pattern worth repeating.",
+      "source": "Sector Rotation + Portfolio Winner Pattern"
     }
   ],
   "closed_trades": [
@@ -1128,10 +1098,74 @@
       "exit_date": "2026-11-13",
       "reason": "Target hit",
       "days_held": 2
+    },
+    {
+      "ticker": "SOUN",
+      "entry_date": "2026-11-07",
+      "entry_price": 4.05,
+      "price_target": 4.65,
+      "invalidation_price": 3.75,
+      "bias": "Bullish",
+      "thesis": "SOUN is deeply oversold with RSI at 30.8, trading 41% below its 200SMA at $7.02, and showing 1.9x average volume indicating institutional accumulation at these levels. The AI narrative is under political pressure but voice AI is less exposed to data center moratorium risks. Oversold bounce setup with high volume confirmation is our highest conviction pattern from past winners.",
+      "source": "Technicals scan",
+      "outcome": "LOSS",
+      "exit_price": 3.49,
+      "pnl_pct": -13.83,
+      "exit_date": "2026-11-14",
+      "reason": "Stop hit",
+      "days_held": 7
+    },
+    {
+      "ticker": "NVDA",
+      "entry_date": "2026-11-12",
+      "entry_price": 172.25,
+      "price_target": 185.0,
+      "invalidation_price": 166.0,
+      "bias": "Bullish",
+      "thesis": "NVDA gained +2.87% today with strong relative strength vs SPY at +1.55%. CoreWeave earnings beat today validates AI infrastructure demand, directly benefiting NVDA as the dominant GPU supplier. Tech sector leading at +3.23% today provides tailwind. Earnings on Nov 17 should build anticipation premium. Prior NVDA loss was a bearish bet that failed \u2014 flipping bullish aligns with the actual trend.",
+      "source": "Watchlist + News Catalyst (CoreWeave beat)",
+      "outcome": "LOSS",
+      "exit_price": 162.85,
+      "pnl_pct": -5.46,
+      "exit_date": "2026-11-14",
+      "reason": "Stop hit",
+      "days_held": 2
+    },
+    {
+      "ticker": "XLK",
+      "entry_date": "2026-11-12",
+      "entry_price": 258.5,
+      "price_target": 272.0,
+      "invalidation_price": 251.0,
+      "bias": "Bullish",
+      "thesis": "Technology is today's leading sector at +3.23%, and our portfolio data shows sector-aligned trades (XLF +10.10%, XLV +27.09%) have been our strongest winners. Riding sector momentum via XLK captures the AI/tech theme without single-stock earnings risk. CoreWeave beat, Anthropic IPO buzz, and SpaceX data center spending all support tech infrastructure demand narrative over the next week. Relative strength vs SPY is +1.91% today.",
+      "source": "Sector leadership + performance feedback favoring sector ETF trades",
+      "outcome": "LOSS",
+      "exit_price": 170.28,
+      "pnl_pct": -34.13,
+      "exit_date": "2026-11-14",
+      "reason": "Stop hit",
+      "days_held": 2
+    },
+    {
+      "ticker": "XLE",
+      "entry_date": "2026-11-13",
+      "entry_price": 94.5,
+      "price_target": 98.0,
+      "invalidation_price": 92.5,
+      "bias": "Bullish",
+      "thesis": "Energy is today's leading sector at +1.51%, showing clear relative strength vs SPY (-0.35%). Falling gasoline prices (NPR headline) paradoxically benefit upstream energy producers as lower pump prices stimulate demand while crude remains elevated. This mirrors our XLF winning pattern \u2014 riding the strongest sector with momentum. Energy typically outperforms in rising rate environments with 10Y near 5%.",
+      "source": "Sector rotation data + macro correlation",
+      "outcome": "LOSS",
+      "exit_price": 64.96,
+      "pnl_pct": -31.26,
+      "exit_date": "2026-11-14",
+      "reason": "Stop hit",
+      "days_held": 1
     }
   ],
-  "total_trades": 66,
+  "total_trades": 70,
   "wins": 17,
-  "losses": 27,
-  "total_pnl_pct": -77.69
+  "losses": 31,
+  "total_pnl_pct": -162.37
 }

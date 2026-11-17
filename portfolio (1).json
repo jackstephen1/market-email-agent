@@ -1,0 +1,72 @@
+{
+  "open_positions": [
+    {
+      "ticker": "XLE",
+      "entry_date": "2026-11-08",
+      "entry_price": 82.25,
+      "price_target": 90.48,
+      "invalidation_price": 78.14,
+      "bias": "Bullish",
+      "thesis": "Energy sector breakout above 200-day SMA",
+      "source": "Sector ETF"
+    },
+    {
+      "ticker": "AAPL",
+      "entry_date": "2026-11-17",
+      "entry_price": 348.5,
+      "price_target": 368.0,
+      "invalidation_price": 340.0,
+      "bias": "Bullish",
+      "thesis": "AAPL dropped only 0.98% today versus SPY's 1.91% and QQQ's 2.67%, showing clear relative strength during a broad selloff. Healthcare and Financials leading sector rotation suggests capital is seeking quality defensives, and AAPL fits that profile. With Extreme Fear at 12 and RSI likely pulling back toward oversold, a bounce toward the $368 area is a high-probability mean reversion trade into week-end flows.",
+      "source": "Watchlist + Sector Rotation + Relative Strength Analysis"
+    },
+    {
+      "ticker": "UVIX",
+      "entry_date": "2026-11-17",
+      "entry_price": 41.75,
+      "price_target": 52.0,
+      "invalidation_price": 37.5,
+      "bias": "Bullish",
+      "thesis": "UVIX surged 18.23% today as VIX broke above 22.91 with the market in Extreme Fear. NVDA earnings this week represent a binary event that could spike volatility further, especially with chip smuggling headlines adding uncertainty. With 10Y yields at 5.15% compressing multiples and multiple mega-cap earnings on deck (DIS, HD, NVDA all reporting), volatility has room to expand toward 28-30 VIX levels, pushing UVIX toward $52.",
+      "source": "Watchlist + VIX Analysis + Earnings Calendar"
+    }
+  ],
+  "closed_trades": [
+    {
+      "ticker": "XLV",
+      "entry_price": 156.5,
+      "entry_date": "2026-11-01",
+      "stop_loss": 148.68,
+      "target": 164.33,
+      "shares": 6,
+      "direction": "long",
+      "thesis": "Healthcare sector rotation, defensive positioning",
+      "outcome": "NEUTRAL",
+      "exit_price": 156.5,
+      "pnl_pct": 0.0,
+      "exit_date": "2026-11-17",
+      "reason": "10-day expiry",
+      "days_held": 16
+    },
+    {
+      "ticker": "KRRO",
+      "entry_price": 11.85,
+      "entry_date": "2026-11-05",
+      "stop_loss": 10.07,
+      "target": 14.22,
+      "shares": 80,
+      "direction": "long",
+      "thesis": "Small cap biotech momentum setup",
+      "outcome": "NEUTRAL",
+      "exit_price": 11.85,
+      "pnl_pct": 0.0,
+      "exit_date": "2026-11-17",
+      "reason": "10-day expiry",
+      "days_held": 12
+    }
+  ],
+  "total_trades": 2,
+  "wins": 0,
+  "losses": 0,
+  "total_pnl_pct": 0.0
+}

@@ -1,16 +1,6 @@
 {
   "open_positions": [
     {
-      "ticker": "XLE",
-      "entry_date": "2026-11-08",
-      "entry_price": 82.25,
-      "price_target": 90.48,
-      "invalidation_price": 78.14,
-      "bias": "Bullish",
-      "thesis": "Energy sector breakout above 200-day SMA",
-      "source": "Sector ETF"
-    },
-    {
       "ticker": "AAPL",
       "entry_date": "2026-11-17",
       "entry_price": 348.5,
@@ -29,6 +19,26 @@
       "bias": "Bullish",
       "thesis": "UVIX surged 18.23% today as VIX broke above 22.91 with the market in Extreme Fear. NVDA earnings this week represent a binary event that could spike volatility further, especially with chip smuggling headlines adding uncertainty. With 10Y yields at 5.15% compressing multiples and multiple mega-cap earnings on deck (DIS, HD, NVDA all reporting), volatility has room to expand toward 28-30 VIX levels, pushing UVIX toward $52.",
       "source": "Watchlist + VIX Analysis + Earnings Calendar"
+    },
+    {
+      "ticker": "SLV",
+      "entry_date": "2026-11-18",
+      "entry_price": 42.25,
+      "price_target": 45.0,
+      "invalidation_price": 40.8,
+      "bias": "Bullish",
+      "thesis": "SLV showed relative strength vs SPY today, gaining 0.59% while SPY fell 1.01%. In extreme fear environments with 10Y yields at 5.12%, precious metals act as a safe haven. Silver benefits from both risk-off flows and industrial demand. SLV is one of the only green assets on the watchlist, showing strong relative strength of +1.60% vs SPY today.",
+      "source": "Watchlist + Sector Rotation"
+    },
+    {
+      "ticker": "SQQQ",
+      "entry_date": "2026-11-18",
+      "entry_price": 46.5,
+      "price_target": 52.0,
+      "invalidation_price": 43.5,
+      "bias": "Bullish",
+      "thesis": "Leveraged inverse Nasdaq ETF rallied 2.29% today and momentum favors continuation as tech faces multiple headwinds: Nvidia governance crisis, MSFT system outages, chip export policy tightening. VIX at 25.46 with UVIX up 15.21% today confirms volatility expansion. XLK lagging at -0.91% today and F&G at 11 extreme fear suggest more downside before stabilization. Short-duration hold to manage decay risk.",
+      "source": "Watchlist + Volatility Signal"
     }
   ],
   "closed_trades": [
@@ -63,9 +73,25 @@
       "exit_date": "2026-11-17",
       "reason": "10-day expiry",
       "days_held": 12
+    },
+    {
+      "ticker": "XLE",
+      "entry_date": "2026-11-08",
+      "entry_price": 82.25,
+      "price_target": 90.48,
+      "invalidation_price": 78.14,
+      "bias": "Bullish",
+      "thesis": "Energy sector breakout above 200-day SMA",
+      "source": "Sector ETF",
+      "outcome": "NEUTRAL",
+      "exit_price": 82.25,
+      "pnl_pct": 0.0,
+      "exit_date": "2026-11-18",
+      "reason": "10-day expiry",
+      "days_held": 10
     }
   ],
-  "total_trades": 2,
+  "total_trades": 3,
   "wins": 0,
   "losses": 0,
   "total_pnl_pct": 0.0

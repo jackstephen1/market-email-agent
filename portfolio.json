@@ -21,16 +21,6 @@
       "source": "Watchlist + VIX Analysis + Earnings Calendar"
     },
     {
-      "ticker": "SLV",
-      "entry_date": "2026-11-18",
-      "entry_price": 42.25,
-      "price_target": 45.0,
-      "invalidation_price": 40.8,
-      "bias": "Bullish",
-      "thesis": "SLV showed relative strength vs SPY today, gaining 0.59% while SPY fell 1.01%. In extreme fear environments with 10Y yields at 5.12%, precious metals act as a safe haven. Silver benefits from both risk-off flows and industrial demand. SLV is one of the only green assets on the watchlist, showing strong relative strength of +1.60% vs SPY today.",
-      "source": "Watchlist + Sector Rotation"
-    },
-    {
       "ticker": "SQQQ",
       "entry_date": "2026-11-18",
       "entry_price": 46.5,
@@ -39,6 +29,36 @@
       "bias": "Bullish",
       "thesis": "Leveraged inverse Nasdaq ETF rallied 2.29% today and momentum favors continuation as tech faces multiple headwinds: Nvidia governance crisis, MSFT system outages, chip export policy tightening. VIX at 25.46 with UVIX up 15.21% today confirms volatility expansion. XLK lagging at -0.91% today and F&G at 11 extreme fear suggest more downside before stabilization. Short-duration hold to manage decay risk.",
       "source": "Watchlist + Volatility Signal"
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date": "2026-11-19",
+      "entry_price": 280.5,
+      "price_target": 295.0,
+      "invalidation_price": 273.0,
+      "bias": "Bullish",
+      "thesis": "GOOGL is showing clear relative strength vs SPY today (+0.8% vs -0.31%), outperforming by 1.11%. As NVDA faces structural headwinds from leadership chaos and China export bans, GOOGL stands to benefit as the most vertically-integrated AI player with custom TPU chips and no China exposure risk. Consumer Discretionary and Tech leading sector rotation supports mega-cap tech positioning. Extreme Fear at 10 often produces 3-5% bounces in quality names within a week.",
+      "source": "Watchlist + Sector Rotation + News catalyst"
+    },
+    {
+      "ticker": "XLY",
+      "entry_date": "2026-11-19",
+      "entry_price": 240.0,
+      "price_target": 254.0,
+      "invalidation_price": 231.0,
+      "bias": "Bullish",
+      "thesis": "Consumer Discretionary is today's leading sector at +1.79%, significantly outperforming all other sectors. With WMT earnings on 11/19 as a potential catalyst and holiday travel/spending season approaching (AAA forecasting continued travel demand despite cost concerns), the sector has tailwinds. Extreme Fear readings historically compress quickly in consumer-facing sectors when spending data holds up. Sector leadership often persists for 5-10 sessions during rotation regimes.",
+      "source": "Sector Rotation + Earnings catalyst + News"
+    },
+    {
+      "ticker": "OKTG",
+      "entry_date": "2026-11-19",
+      "entry_price": 44.25,
+      "price_target": 50.5,
+      "invalidation_price": 41.0,
+      "bias": "Bullish",
+      "thesis": "OKTG surged 24.1% today on 1.5x average volume with RSI at 49.4 \u2014 meaning this massive move hasn't even pushed it into overbought territory, suggesting significant room to run. Price is still well below the 50SMA at $50.91, giving a clear technical magnet target. Relative strength vs SPY of +24.41% today is exceptional and flags institutional interest. The combination of high volume breakout + sub-50 RSI + gap to 50SMA is a high-conviction continuation setup.",
+      "source": "Top Mover Scan + Technicals"
     }
   ],
   "closed_trades": [
@@ -89,10 +109,26 @@
       "exit_date": "2026-11-18",
       "reason": "10-day expiry",
       "days_held": 10
+    },
+    {
+      "ticker": "SLV",
+      "entry_date": "2026-11-18",
+      "entry_price": 42.25,
+      "price_target": 45.0,
+      "invalidation_price": 40.8,
+      "bias": "Bullish",
+      "thesis": "SLV showed relative strength vs SPY today, gaining 0.59% while SPY fell 1.01%. In extreme fear environments with 10Y yields at 5.12%, precious metals act as a safe haven. Silver benefits from both risk-off flows and industrial demand. SLV is one of the only green assets on the watchlist, showing strong relative strength of +1.60% vs SPY today.",
+      "source": "Watchlist + Sector Rotation",
+      "outcome": "LOSS",
+      "exit_price": 40.7,
+      "pnl_pct": -3.67,
+      "exit_date": "2026-11-19",
+      "reason": "Stop hit",
+      "days_held": 1
     }
   ],
-  "total_trades": 3,
+  "total_trades": 4,
   "wins": 0,
-  "losses": 0,
-  "total_pnl_pct": 0.0
+  "losses": 1,
+  "total_pnl_pct": -3.67
 }

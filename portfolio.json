@@ -11,16 +11,6 @@
       "source": "Watchlist + Sector Rotation + Relative Strength Analysis"
     },
     {
-      "ticker": "UVIX",
-      "entry_date": "2026-11-17",
-      "entry_price": 41.75,
-      "price_target": 52.0,
-      "invalidation_price": 37.5,
-      "bias": "Bullish",
-      "thesis": "UVIX surged 18.23% today as VIX broke above 22.91 with the market in Extreme Fear. NVDA earnings this week represent a binary event that could spike volatility further, especially with chip smuggling headlines adding uncertainty. With 10Y yields at 5.15% compressing multiples and multiple mega-cap earnings on deck (DIS, HD, NVDA all reporting), volatility has room to expand toward 28-30 VIX levels, pushing UVIX toward $52.",
-      "source": "Watchlist + VIX Analysis + Earnings Calendar"
-    },
-    {
       "ticker": "SQQQ",
       "entry_date": "2026-11-18",
       "entry_price": 46.5,
@@ -29,16 +19,6 @@
       "bias": "Bullish",
       "thesis": "Leveraged inverse Nasdaq ETF rallied 2.29% today and momentum favors continuation as tech faces multiple headwinds: Nvidia governance crisis, MSFT system outages, chip export policy tightening. VIX at 25.46 with UVIX up 15.21% today confirms volatility expansion. XLK lagging at -0.91% today and F&G at 11 extreme fear suggest more downside before stabilization. Short-duration hold to manage decay risk.",
       "source": "Watchlist + Volatility Signal"
-    },
-    {
-      "ticker": "GOOGL",
-      "entry_date": "2026-11-19",
-      "entry_price": 280.5,
-      "price_target": 295.0,
-      "invalidation_price": 273.0,
-      "bias": "Bullish",
-      "thesis": "GOOGL is showing clear relative strength vs SPY today (+0.8% vs -0.31%), outperforming by 1.11%. As NVDA faces structural headwinds from leadership chaos and China export bans, GOOGL stands to benefit as the most vertically-integrated AI player with custom TPU chips and no China exposure risk. Consumer Discretionary and Tech leading sector rotation supports mega-cap tech positioning. Extreme Fear at 10 often produces 3-5% bounces in quality names within a week.",
-      "source": "Watchlist + Sector Rotation + News catalyst"
     },
     {
       "ticker": "XLY",
@@ -59,6 +39,16 @@
       "bias": "Bullish",
       "thesis": "OKTG surged 24.1% today on 1.5x average volume with RSI at 49.4 \u2014 meaning this massive move hasn't even pushed it into overbought territory, suggesting significant room to run. Price is still well below the 50SMA at $50.91, giving a clear technical magnet target. Relative strength vs SPY of +24.41% today is exceptional and flags institutional interest. The combination of high volume breakout + sub-50 RSI + gap to 50SMA is a high-conviction continuation setup.",
       "source": "Top Mover Scan + Technicals"
+    },
+    {
+      "ticker": "XLE",
+      "entry_date": "2026-11-20",
+      "entry_price": 83.25,
+      "price_target": 87.0,
+      "invalidation_price": 81.5,
+      "bias": "Bullish",
+      "thesis": "Energy is the strongest relative sector today, only down 0.65% vs SPY's 1.96% decline \u2014 outperforming SPY by 1.31%. In a rising rate environment with strong GDP, energy tends to hold up as an inflation beneficiary. XLE shows clear relative strength leadership that typically persists for several sessions during risk-off rotations.",
+      "source": "Sector Rotation + Relative Strength"
     }
   ],
   "closed_trades": [
@@ -125,10 +115,42 @@
       "exit_date": "2026-11-19",
       "reason": "Stop hit",
       "days_held": 1
+    },
+    {
+      "ticker": "UVIX",
+      "entry_date": "2026-11-17",
+      "entry_price": 41.75,
+      "price_target": 52.0,
+      "invalidation_price": 37.5,
+      "bias": "Bullish",
+      "thesis": "UVIX surged 18.23% today as VIX broke above 22.91 with the market in Extreme Fear. NVDA earnings this week represent a binary event that could spike volatility further, especially with chip smuggling headlines adding uncertainty. With 10Y yields at 5.15% compressing multiples and multiple mega-cap earnings on deck (DIS, HD, NVDA all reporting), volatility has room to expand toward 28-30 VIX levels, pushing UVIX toward $52.",
+      "source": "Watchlist + VIX Analysis + Earnings Calendar",
+      "outcome": "WIN",
+      "exit_price": 57.04,
+      "pnl_pct": 36.62,
+      "exit_date": "2026-11-20",
+      "reason": "Target hit",
+      "days_held": 3
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date": "2026-11-19",
+      "entry_price": 280.5,
+      "price_target": 295.0,
+      "invalidation_price": 273.0,
+      "bias": "Bullish",
+      "thesis": "GOOGL is showing clear relative strength vs SPY today (+0.8% vs -0.31%), outperforming by 1.11%. As NVDA faces structural headwinds from leadership chaos and China export bans, GOOGL stands to benefit as the most vertically-integrated AI player with custom TPU chips and no China exposure risk. Consumer Discretionary and Tech leading sector rotation supports mega-cap tech positioning. Extreme Fear at 10 often produces 3-5% bounces in quality names within a week.",
+      "source": "Watchlist + Sector Rotation + News catalyst",
+      "outcome": "LOSS",
+      "exit_price": 272.66,
+      "pnl_pct": -2.8,
+      "exit_date": "2026-11-20",
+      "reason": "Stop hit",
+      "days_held": 1
     }
   ],
-  "total_trades": 4,
-  "wins": 0,
-  "losses": 1,
-  "total_pnl_pct": -3.67
+  "total_trades": 6,
+  "wins": 1,
+  "losses": 2,
+  "total_pnl_pct": 30.15
 }

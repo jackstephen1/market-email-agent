@@ -11,16 +11,6 @@
       "source": "Watchlist + Sector Rotation + Relative Strength Analysis"
     },
     {
-      "ticker": "SQQQ",
-      "entry_date": "2026-11-18",
-      "entry_price": 46.5,
-      "price_target": 52.0,
-      "invalidation_price": 43.5,
-      "bias": "Bullish",
-      "thesis": "Leveraged inverse Nasdaq ETF rallied 2.29% today and momentum favors continuation as tech faces multiple headwinds: Nvidia governance crisis, MSFT system outages, chip export policy tightening. VIX at 25.46 with UVIX up 15.21% today confirms volatility expansion. XLK lagging at -0.91% today and F&G at 11 extreme fear suggest more downside before stabilization. Short-duration hold to manage decay risk.",
-      "source": "Watchlist + Volatility Signal"
-    },
-    {
       "ticker": "XLY",
       "entry_date": "2026-11-19",
       "entry_price": 240.0,
@@ -49,6 +39,36 @@
       "bias": "Bullish",
       "thesis": "Energy is the strongest relative sector today, only down 0.65% vs SPY's 1.96% decline \u2014 outperforming SPY by 1.31%. In a rising rate environment with strong GDP, energy tends to hold up as an inflation beneficiary. XLE shows clear relative strength leadership that typically persists for several sessions during risk-off rotations.",
       "source": "Sector Rotation + Relative Strength"
+    },
+    {
+      "ticker": "UVIX",
+      "entry_date": "2026-11-21",
+      "entry_price": 71.5,
+      "price_target": 95.0,
+      "invalidation_price": 62.0,
+      "bias": "Bullish",
+      "thesis": "UVIX is up 27.61% today and was our biggest winner at +36.62% in the paper portfolio. With VIX at 35.89 and the selloff driven by structural macro concerns (5% 10Y yield, Nvidia subpoena, tech de-risking), volatility has room to expand further. The extreme fear regime (F&G=12) with no near-term catalyst for stabilization supports continued VIX elevation. UVIX shows massive relative strength vs SPY at +31.25% today.",
+      "source": "Watchlist + Performance Feedback (prior UVIX win)"
+    },
+    {
+      "ticker": "XLV",
+      "entry_date": "2026-11-21",
+      "entry_price": 154.5,
+      "price_target": 162.0,
+      "invalidation_price": 150.5,
+      "bias": "Bullish",
+      "thesis": "Healthcare (XLV) was the clear relative strength leader today, down only 0.12% while XLK lost 7.27% and SPY fell 3.64%. In sustained selloffs, capital rotates into defensive sectors, and healthcare's resilience today signals institutional accumulation. With extreme fear persisting and no tech recovery catalyst in sight, the sector rotation trade into XLV has strong momentum tailwinds for the next week.",
+      "source": "Sector Rotation Data"
+    },
+    {
+      "ticker": "SOXS",
+      "entry_date": "2026-11-21",
+      "entry_price": 81.5,
+      "price_target": 105.0,
+      "invalidation_price": 72.0,
+      "bias": "Bullish",
+      "thesis": "SOXS (3x inverse semiconductors) surged 31.71% today as the Nvidia subpoena news hammered the entire chip complex. RSI at 67.9 is elevated but not yet overbought, and the stock remains well below its 200SMA of $127.70, leaving significant upside room. With NVDA down 14% and regulatory overhang from the China chip probe, semiconductor weakness likely extends over multiple sessions. Volume at 1.2x average is building.",
+      "source": "Top Mover Scan + Technicals"
     }
   ],
   "closed_trades": [
@@ -147,10 +167,26 @@
       "exit_date": "2026-11-20",
       "reason": "Stop hit",
       "days_held": 1
+    },
+    {
+      "ticker": "SQQQ",
+      "entry_date": "2026-11-18",
+      "entry_price": 46.5,
+      "price_target": 52.0,
+      "invalidation_price": 43.5,
+      "bias": "Bullish",
+      "thesis": "Leveraged inverse Nasdaq ETF rallied 2.29% today and momentum favors continuation as tech faces multiple headwinds: Nvidia governance crisis, MSFT system outages, chip export policy tightening. VIX at 25.46 with UVIX up 15.21% today confirms volatility expansion. XLK lagging at -0.91% today and F&G at 11 extreme fear suggest more downside before stabilization. Short-duration hold to manage decay risk.",
+      "source": "Watchlist + Volatility Signal",
+      "outcome": "WIN",
+      "exit_price": 57.59,
+      "pnl_pct": 23.85,
+      "exit_date": "2026-11-21",
+      "reason": "Target hit",
+      "days_held": 3
     }
   ],
-  "total_trades": 6,
-  "wins": 1,
+  "total_trades": 7,
+  "wins": 2,
   "losses": 2,
-  "total_pnl_pct": 30.15
+  "total_pnl_pct": 54.0
 }

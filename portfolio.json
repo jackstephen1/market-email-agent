@@ -41,16 +41,6 @@
       "source": "Sector Rotation + Relative Strength"
     },
     {
-      "ticker": "UVIX",
-      "entry_date": "2026-11-21",
-      "entry_price": 71.5,
-      "price_target": 95.0,
-      "invalidation_price": 62.0,
-      "bias": "Bullish",
-      "thesis": "UVIX is up 27.61% today and was our biggest winner at +36.62% in the paper portfolio. With VIX at 35.89 and the selloff driven by structural macro concerns (5% 10Y yield, Nvidia subpoena, tech de-risking), volatility has room to expand further. The extreme fear regime (F&G=12) with no near-term catalyst for stabilization supports continued VIX elevation. UVIX shows massive relative strength vs SPY at +31.25% today.",
-      "source": "Watchlist + Performance Feedback (prior UVIX win)"
-    },
-    {
       "ticker": "XLV",
       "entry_date": "2026-11-21",
       "entry_price": 154.5,
@@ -69,6 +59,26 @@
       "bias": "Bullish",
       "thesis": "SOXS (3x inverse semiconductors) surged 31.71% today as the Nvidia subpoena news hammered the entire chip complex. RSI at 67.9 is elevated but not yet overbought, and the stock remains well below its 200SMA of $127.70, leaving significant upside room. With NVDA down 14% and regulatory overhang from the China chip probe, semiconductor weakness likely extends over multiple sessions. Volume at 1.2x average is building.",
       "source": "Top Mover Scan + Technicals"
+    },
+    {
+      "ticker": "NVDA",
+      "entry_date": "2026-11-24",
+      "entry_price": 161.0,
+      "price_target": 185.0,
+      "invalidation_price": 148.0,
+      "bias": "Bullish",
+      "thesis": "NVDA's 31.48% single-day surge creates massive momentum that historically carries for multiple sessions. With AI semiconductor leadership confirmed by this move, relative strength vs SPY is extraordinary at +26.77% today. The stock likely has follow-through buying from institutions that missed the initial move, plus short-covering continuation. Similar to our winning SQQQ and UVIX trades that capitalized on momentum continuation over 3 days.",
+      "source": "Top Mover + Sector Leadership (XLK +8.97%)"
+    },
+    {
+      "ticker": "SLV",
+      "entry_date": "2026-11-24",
+      "entry_price": 38.25,
+      "price_target": 42.0,
+      "invalidation_price": 36.5,
+      "bias": "Bullish",
+      "thesis": "SLV gained +5.25% today, rallying alongside risk assets while maintaining its safe-haven bid from Extreme Fear conditions (F&G: 11). Silver benefits from both the industrial demand narrative (AI infrastructure buildout requires massive silver consumption) and monetary hedge positioning with 10Y yields at 4.92%. Previous SLV trade was stopped out on a short-term pullback, but conditions have improved with today's breakout move.",
+      "source": "Watchlist + Macro Theme"
     }
   ],
   "closed_trades": [
@@ -183,10 +193,26 @@
       "exit_date": "2026-11-21",
       "reason": "Target hit",
       "days_held": 3
+    },
+    {
+      "ticker": "UVIX",
+      "entry_date": "2026-11-21",
+      "entry_price": 71.5,
+      "price_target": 95.0,
+      "invalidation_price": 62.0,
+      "bias": "Bullish",
+      "thesis": "UVIX is up 27.61% today and was our biggest winner at +36.62% in the paper portfolio. With VIX at 35.89 and the selloff driven by structural macro concerns (5% 10Y yield, Nvidia subpoena, tech de-risking), volatility has room to expand further. The extreme fear regime (F&G=12) with no near-term catalyst for stabilization supports continued VIX elevation. UVIX shows massive relative strength vs SPY at +31.25% today.",
+      "source": "Watchlist + Performance Feedback (prior UVIX win)",
+      "outcome": "LOSS",
+      "exit_price": 52.55,
+      "pnl_pct": -26.5,
+      "exit_date": "2026-11-24",
+      "reason": "Stop hit",
+      "days_held": 3
     }
   ],
-  "total_trades": 7,
+  "total_trades": 8,
   "wins": 2,
-  "losses": 2,
-  "total_pnl_pct": 54.0
+  "losses": 3,
+  "total_pnl_pct": 27.5
 }

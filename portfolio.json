@@ -51,16 +51,6 @@
       "source": "Sector Rotation Data"
     },
     {
-      "ticker": "SOXS",
-      "entry_date": "2026-11-21",
-      "entry_price": 81.5,
-      "price_target": 105.0,
-      "invalidation_price": 72.0,
-      "bias": "Bullish",
-      "thesis": "SOXS (3x inverse semiconductors) surged 31.71% today as the Nvidia subpoena news hammered the entire chip complex. RSI at 67.9 is elevated but not yet overbought, and the stock remains well below its 200SMA of $127.70, leaving significant upside room. With NVDA down 14% and regulatory overhang from the China chip probe, semiconductor weakness likely extends over multiple sessions. Volume at 1.2x average is building.",
-      "source": "Top Mover Scan + Technicals"
-    },
-    {
       "ticker": "NVDA",
       "entry_date": "2026-11-24",
       "entry_price": 161.0,
@@ -219,10 +209,26 @@
       "exit_date": "2026-11-24",
       "reason": "Stop hit",
       "days_held": 3
+    },
+    {
+      "ticker": "SOXS",
+      "entry_date": "2026-11-21",
+      "entry_price": 81.5,
+      "price_target": 105.0,
+      "invalidation_price": 72.0,
+      "bias": "Bullish",
+      "thesis": "SOXS (3x inverse semiconductors) surged 31.71% today as the Nvidia subpoena news hammered the entire chip complex. RSI at 67.9 is elevated but not yet overbought, and the stock remains well below its 200SMA of $127.70, leaving significant upside room. With NVDA down 14% and regulatory overhang from the China chip probe, semiconductor weakness likely extends over multiple sessions. Volume at 1.2x average is building.",
+      "source": "Top Mover Scan + Technicals",
+      "outcome": "LOSS",
+      "exit_price": 60.96,
+      "pnl_pct": -25.2,
+      "exit_date": "2026-11-25",
+      "reason": "Stop hit",
+      "days_held": 4
     }
   ],
-  "total_trades": 8,
+  "total_trades": 9,
   "wins": 2,
-  "losses": 3,
-  "total_pnl_pct": 27.5
+  "losses": 4,
+  "total_pnl_pct": 2.3
 }

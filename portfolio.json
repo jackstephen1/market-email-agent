@@ -1,16 +1,6 @@
 {
   "open_positions": [
     {
-      "ticker": "AAPL",
-      "entry_date": "2026-11-17",
-      "entry_price": 348.5,
-      "price_target": 368.0,
-      "invalidation_price": 340.0,
-      "bias": "Bullish",
-      "thesis": "AAPL dropped only 0.98% today versus SPY's 1.91% and QQQ's 2.67%, showing clear relative strength during a broad selloff. Healthcare and Financials leading sector rotation suggests capital is seeking quality defensives, and AAPL fits that profile. With Extreme Fear at 12 and RSI likely pulling back toward oversold, a bounce toward the $368 area is a high-probability mean reversion trade into week-end flows.",
-      "source": "Watchlist + Sector Rotation + Relative Strength Analysis"
-    },
-    {
       "ticker": "XLY",
       "entry_date": "2026-11-19",
       "entry_price": 240.0,
@@ -235,10 +225,26 @@
       "exit_date": "2026-11-25",
       "reason": "Stop hit",
       "days_held": 4
+    },
+    {
+      "ticker": "AAPL",
+      "entry_date": "2026-11-17",
+      "entry_price": 348.5,
+      "price_target": 368.0,
+      "invalidation_price": 340.0,
+      "bias": "Bullish",
+      "thesis": "AAPL dropped only 0.98% today versus SPY's 1.91% and QQQ's 2.67%, showing clear relative strength during a broad selloff. Healthcare and Financials leading sector rotation suggests capital is seeking quality defensives, and AAPL fits that profile. With Extreme Fear at 12 and RSI likely pulling back toward oversold, a bounce toward the $368 area is a high-probability mean reversion trade into week-end flows.",
+      "source": "Watchlist + Sector Rotation + Relative Strength Analysis",
+      "outcome": "WIN",
+      "exit_price": 355.58,
+      "pnl_pct": 2.03,
+      "exit_date": "2026-11-27",
+      "reason": "10-day expiry",
+      "days_held": 10
     }
   ],
-  "total_trades": 9,
-  "wins": 2,
+  "total_trades": 10,
+  "wins": 3,
   "losses": 4,
-  "total_pnl_pct": 2.3
+  "total_pnl_pct": 4.33
 }

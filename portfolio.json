@@ -69,16 +69,6 @@
       "bias": "Bullish",
       "thesis": "SQQQ rallied 5.92% today on heavy volume as QQQ dropped nearly 2%. This mirrors our recent winning SQQQ trade that hit target for +23.85%. With NVDA down 5.86% despite bullish headlines and the 10Y yield approaching 5%, tech faces continued headwinds. SQQQ shows relative strength vs SPY on a beta-adjusted basis. Extreme Fear at 13 supports continued risk-off flows in the near term before any potential washout.",
       "source": "Price action + prior winning trade pattern"
-    },
-    {
-      "ticker": "UVIX",
-      "entry_date": "2026-11-26",
-      "entry_price": 55.75,
-      "price_target": 72.0,
-      "invalidation_price": 49.5,
-      "bias": "Bullish",
-      "thesis": "UVIX up 8.45% today with VIX at 28.29 and Extreme Fear at 11. Our prior UVIX trades hit +36.62% and +23.85% targets in similar setups. Tech governance headlines (NVDA board scrutiny, MSFT cloud outage) plus heavy earnings week (CRM, SNOW, MRVL) provide catalysts for continued vol expansion. UVIX shows strong momentum when fear readings are sub-15 and VIX is trending above 25.",
-      "source": "Watchlist + Sentiment Analysis"
     }
   ],
   "closed_trades": [
@@ -241,10 +231,26 @@
       "exit_date": "2026-11-27",
       "reason": "10-day expiry",
       "days_held": 10
+    },
+    {
+      "ticker": "UVIX",
+      "entry_date": "2026-11-26",
+      "entry_price": 55.75,
+      "price_target": 72.0,
+      "invalidation_price": 49.5,
+      "bias": "Bullish",
+      "thesis": "UVIX up 8.45% today with VIX at 28.29 and Extreme Fear at 11. Our prior UVIX trades hit +36.62% and +23.85% targets in similar setups. Tech governance headlines (NVDA board scrutiny, MSFT cloud outage) plus heavy earnings week (CRM, SNOW, MRVL) provide catalysts for continued vol expansion. UVIX shows strong momentum when fear readings are sub-15 and VIX is trending above 25.",
+      "source": "Watchlist + Sentiment Analysis",
+      "outcome": "LOSS",
+      "exit_price": 48.12,
+      "pnl_pct": -13.69,
+      "exit_date": "2026-11-28",
+      "reason": "Stop hit",
+      "days_held": 2
     }
   ],
-  "total_trades": 10,
+  "total_trades": 11,
   "wins": 3,
-  "losses": 4,
-  "total_pnl_pct": 4.33
+  "losses": 5,
+  "total_pnl_pct": -9.36
 }
